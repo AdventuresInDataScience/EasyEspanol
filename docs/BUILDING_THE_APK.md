@@ -276,7 +276,7 @@ To use your own picture, right-click `app` and choose **New → Image Asset**. I
 | Strange errors after moving the folder | Delete `app/build` and `.gradle`, then run the build command again. |
 | Phone not in the device list | Use a data cable (some only charge), set USB mode to **File transfer**, and accept the prompt on the phone. |
 | "App not installed" or "conflicts with an existing package" | A copy signed with a different key is installed. Uninstall it first; this deletes progress. |
-| **Listen** makes no sound | The app now says why underneath the buttons. The usual cause is that no Spanish voice is installed: tap **Install voice**, add **Spanish (Spain)** or **Spanish (Mexico)**, and try again. **Settings → Speech → Test voice** checks it. Also check the media volume (press volume up while the app is open). |
+| **Listen** makes no sound, or says no Spanish voice is installed when one is | Open **Settings → Speech**. If your phone has more than one **speech engine** (Samsung phones usually have Samsung's and Google's), pick the one you installed Spanish in, then tap **Test voice**. Install voice opens the installer for whichever engine is selected. The small line of text there shows what that engine reports about Spanish; if it still won't play, send that line over. Also check the media volume. |
 | A red error naming a `.kt` file and a line number | The code wasn't compiled before handover, so a small slip is possible. Copy the **first** error (with its file name and line) and send it over to be fixed. |
 
 ---

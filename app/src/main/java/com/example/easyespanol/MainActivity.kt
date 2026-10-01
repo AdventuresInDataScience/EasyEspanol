@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
         val settings = AppSettings(applicationContext)
         val repo = PhraseRepository(applicationContext)
         // Started now so the voice is ready by the time the learner taps Listen.
-        speaker = Speaker(applicationContext)
+        speaker = Speaker(applicationContext, settings.ttsEngine)
 
         setContent {
             val dark = when (settings.themeMode) {
@@ -47,6 +47,12 @@ class MainActivity : ComponentActivity() {
                 AppNavigation(rememberNavController(), repo, settings, speaker)
             }
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        // Picks up a Spanish voice installed while the learner was in the phone's settings.
+        if (::speaker.isInitialized) speaker.refresh()
     }
 
     override fun onDestroy() {

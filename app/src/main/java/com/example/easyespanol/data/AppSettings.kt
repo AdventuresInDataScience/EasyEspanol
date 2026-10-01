@@ -38,6 +38,9 @@ class AppSettings(context: Context) {
         private set
     var lastScene: String? by mutableStateOf<String?>(prefs.getString("last_scene", null))
         private set
+    /** The text-to-speech engine chosen in Settings, or null for the phone's default. */
+    var ttsEngine: String? by mutableStateOf<String?>(prefs.getString("tts_engine", null))
+        private set
 
     fun updateDialect(value: Dialect) { dialect = value; saveEnum("dialect", value) }
     fun updateGender(value: SpeakerGender) { gender = value; saveEnum("gender", value) }
@@ -58,6 +61,11 @@ class AppSettings(context: Context) {
     fun updateHideKnown(value: Boolean) {
         hideKnown = value
         prefs.edit().putBoolean("hide_known", value).apply()
+    }
+
+    fun updateTtsEngine(value: String?) {
+        ttsEngine = value
+        prefs.edit().putString("tts_engine", value).apply()
     }
 
     fun updateLastScene(value: String) {

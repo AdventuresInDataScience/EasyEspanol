@@ -93,14 +93,57 @@ fun SettingsScreen(navController: NavController, repo: PhraseRepository, setting
             Section("Speech") {
                 val status = when (speaker.status) {
                     SpeechStatus.STARTING -> "Starting up…"
-                    SpeechStatus.READY -> if (speaker.engineName.isBlank()) "Ready" else "Ready, using ${speaker.engineName}"
-                    SpeechStatus.NO_SPANISH_VOICE -> "No Spanish voice installed yet"
-                    SpeechStatus.NO_ENGINE -> "No speech engine found on this phone"
+                    SpeechStatus.READY -> if (speaker.engineLabel.isBlank()) "Ready" else "Ready, using ${speaker.engineLabel}"
+                    SpeechStatus.NO_SPANISH_VOICE -> "No Spanish voice found in ${speaker.engineLabel}"
+                    SpeechStatus.NO_ENGINE -> "No speech engine is working"
                 }
                 SettingLabel("Listen button", status)
+                if (speaker.engines.size > 1) {
+                    Text(
+                        "Speech engine",
+                        style = MaterialTheme.typography.titleMedium,
+                        modifier = Modifier.padding(top = 4.dp),
+                    )
+                    Text(
+                        "Your phone has more than one. If Spanish won't play, pick the one you installed Spanish in.",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                    speaker.engines.forEach { engine ->
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .clip(RoundedCornerShape(12.dp))
+                                .clickable(role = Role.RadioButton) {
+                                    settings.updateTtsEngine(engine.name)
+                                    speaker.useEngine(engine.name)
+                                }
+                                .padding(vertical = 2.dp),
+                            verticalAlignment = Alignment.CenterVertically,
+                        ) {
+                            RadioButton(
+                                selected = engine.name == speaker.engineName,
+                                onClick = {
+                                    settings.updateTtsEngine(engine.name)
+                                    speaker.useEngine(engine.name)
+                                },
+                            )
+                            Text(engine.label, style = MaterialTheme.typography.bodyLarge)
+                        }
+                    }
+                    Spacer(Modifier.height(10.dp))
+                }
                 Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                     TintButton("Test voice", { speaker.test(settings.dialect) }, MaterialTheme.colorScheme.primary, Modifier.weight(1f))
                     TintButton("Install voice", { speaker.openVoiceSettings() }, MaterialTheme.colorScheme.tertiary, Modifier.weight(1f))
+                }
+                TextButton(onClick = { speaker.openSpeechSettings() }) { Text("Open the phone's speech settings") }
+                if (speaker.report.isNotBlank()) {
+                    Text(
+                        speaker.report,
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
                 }
                 speaker.problem?.let { message ->
                     Spacer(Modifier.height(12.dp))
