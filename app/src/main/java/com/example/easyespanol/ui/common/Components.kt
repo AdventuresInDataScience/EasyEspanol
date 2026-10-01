@@ -2,20 +2,24 @@
 
 package com.example.easyespanol.ui.common
 
+import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -182,6 +186,39 @@ fun SolidButton(text: String, onClick: () -> Unit, colour: Color, modifier: Modi
         contentAlignment = Alignment.Center,
     ) {
         Text(text, style = MaterialTheme.typography.titleMedium, color = textColour, maxLines = 1, overflow = TextOverflow.Ellipsis)
+    }
+}
+
+/**
+ * One of the pair of answer buttons. Both share the same soft colour; the one that
+ * matches the phrase (still learning, or known) gets a ring and a tick.
+ */
+@Composable
+fun ChoiceButton(text: String, selected: Boolean, onClick: () -> Unit, modifier: Modifier = Modifier) {
+    val dark = LocalBrand.current.dark
+    val colour = MaterialTheme.colorScheme.primary
+    val fill by animateColorAsState(
+        colour.copy(alpha = if (selected) (if (dark) 0.30f else 0.20f) else (if (dark) 0.16f else 0.09f)),
+        label = "choiceFill",
+    )
+    val ring by animateColorAsState(if (selected) colour else Color.Transparent, label = "choiceRing")
+    Box(
+        modifier = modifier
+            .heightIn(min = 56.dp)
+            .clip(PillShape)
+            .background(fill)
+            .border(2.dp, ring, PillShape)
+            .selectable(selected = selected, role = Role.RadioButton, onClick = onClick)
+            .padding(horizontal = 16.dp, vertical = 16.dp),
+        contentAlignment = Alignment.Center,
+    ) {
+        Text(
+            if (selected) "✓  $text" else text,
+            style = MaterialTheme.typography.titleMedium,
+            color = readableOn(colour, dark),
+            maxLines = 1,
+            overflow = TextOverflow.Ellipsis,
+        )
     }
 }
 

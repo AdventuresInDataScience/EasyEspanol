@@ -104,6 +104,7 @@ class AppSettings(context: Context) {
 
     // ── Progress ────────────────────────────────────────────────────────────
 
+    // Each phrase is either known or still learning. Only known ids are stored.
     private val known = mutableStateMapOf<String, Boolean>().apply {
         progressPrefs.all.forEach { (id, value) -> if (value == true) put(id, true) }
     }
@@ -112,6 +113,7 @@ class AppSettings(context: Context) {
 
     fun knownCount(phrases: List<Phrase>): Int = phrases.count { isKnown(it.id) }
 
+    /** Marks a phrase as known (true) or back to still learning (false). */
     fun setKnown(id: String, value: Boolean) {
         val editor = progressPrefs.edit()
         if (value) {

@@ -48,12 +48,14 @@ import com.example.easyespanol.ui.common.GradientBar
 import com.example.easyespanol.ui.common.GradientButton
 import com.example.easyespanol.ui.common.MarkedText
 import com.example.easyespanol.ui.common.ProgressRing
-import com.example.easyespanol.ui.common.SolidButton
+import com.example.easyespanol.ui.common.ChoiceButton
 import com.example.easyespanol.ui.common.SpeechProblemBanner
 import com.example.easyespanol.ui.common.Tag
 import com.example.easyespanol.ui.common.TintButton
 import com.example.easyespanol.ui.theme.LocalBrand
 import com.example.easyespanol.ui.theme.PhraseTextStyle
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
 @Composable
 fun StudyScreen(navController: NavController, repo: PhraseRepository, settings: AppSettings, speaker: Speaker, sceneKey: String) {
@@ -70,6 +72,7 @@ fun StudyScreen(navController: NavController, repo: PhraseRepository, settings: 
     LaunchedEffect(sceneKey) { settings.updateLastScene(sceneKey) }
 
     val haptics = LocalHapticFeedback.current
+    val scope = rememberCoroutineScope()
 
     // Take the list once per visit so cards don't vanish mid-session when marked as known.
     var includeKnown by rememberSaveable(sceneKey) { mutableStateOf(false) }
@@ -150,16 +153,19 @@ fun StudyScreen(navController: NavController, repo: PhraseRepository, settings: 
                         onSpeak = { speaker.speak(Markup.plain(current.spanish, settings.gender), settings.dialect) },
                         onPrevious = { if (position > 0) index = position - 1 },
                         onNext = { index = position + 1 },
+                        // Mark, let the ring show for a moment, then move on.
                         onKnown = {
                             haptics.performHapticFeedback(HapticFeedbackType.LongPress)
                             settings.setKnown(current.id, true)
                             settings.recordReview()
-                            index = position + 1
+                            val next = position + 1
+                            scope.launch { delay(260); index = next }
                         },
                         onLearning = {
                             settings.setKnown(current.id, false)
                             settings.recordReview()
-                            index = position + 1
+                            val next = position + 1
+                            scope.launch { delay(260); index = next }
                         },
                     )
                     speaker.problem?.let { message ->
@@ -250,7 +256,6 @@ private fun Controls(
     onKnown: () -> Unit,
     onLearning: () -> Unit,
 ) {
-    val brand = LocalBrand.current
     Row(
         modifier = Modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.spacedBy(12.dp),
@@ -265,11 +270,11 @@ private fun Controls(
         }
     }
     Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-        TintButton("Still learning", onLearning, brand.learning, Modifier.weight(1f))
-        SolidButton("I know this", onKnown, brand.known, Modifier.weight(1f))
+        ChoiceButton("Still learning", selected = !isKnown, onClick = onLearning, modifier = Modifier.weight(1f))
+        ChoiceButton("I know this", selected = isKnown, onClick = onKnown, modifier = Modifier.weight(1f))
     }
     Text(
-        if (isKnown) "You've marked this one as known."
+        if (isKnown) "Marked as known. Tap Still learning to change it."
         else "Matching colours link each part of the Spanish to the English.",
         style = MaterialTheme.typography.bodySmall,
         color = MaterialTheme.colorScheme.onSurfaceVariant,

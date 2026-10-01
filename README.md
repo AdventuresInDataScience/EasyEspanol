@@ -13,8 +13,8 @@ app/
   build.gradle.kts           app id, version number, minimum Android version
   src/main/
     assets/
-      phrases_spain.csv        3,553 phrases, Castilian Spanish
-      phrases_latam.csv        the same 3,553 phrases, Mexican Spanish
+      phrases_spain.csv        3,952 phrases, Castilian Spanish
+      phrases_latam.csv        the same 3,952 phrases, Mexican Spanish
       expressions_spain.csv    34 colloquial expressions
       expressions_latam.csv    35 colloquial expressions
     java/com/example/easyespanol/
@@ -34,10 +34,10 @@ tools/
 
 - 22 topics and 216 scenes, from greetings and hotels to storytelling, the news, paperwork, residency and learning Spanish itself.
 - Every phrase has a grammar level and a vocabulary level (1–3 each), so the app can filter on both independently.
-  - Grammar: 1,609 phrases at level 1, 1,117 at level 2, 827 at level 3.
-  - Vocabulary: 1,042 at level 1, 1,595 at level 2, 916 at level 3.
-- 983 phrases differ between the Spain and Latin America files. The differences cover vocabulary (coche / carro), grammar (vosotros / ustedes, present perfect / preterite) and meaning traps.
-- 83 phrases change with the speaker's gender setting, marked inline as `cansad[o|a]`.
+  - Grammar: 1,801 phrases at level 1, 1,266 at level 2, 885 at level 3.
+  - Vocabulary: 1,129 at level 1, 1,823 at level 2, 1,000 at level 3.
+- 1,104 phrases differ between the Spain and Latin America files. The differences cover vocabulary (coche / carro), grammar (vosotros / ustedes, present perfect / preterite) and meaning traps.
+- 90 phrases change with the speaker's gender setting, marked inline as `cansad[o|a]`.
 - Both files share IDs, order, levels and English, so switching dialect keeps a learner's progress.
 
 ## Checking the data
@@ -57,7 +57,7 @@ The script needs Python 3 and no extra packages. It prints a count of phrases pe
 - **Topics → scenes → cards:**
   - Each topic has its own colour and emoji, plus a progress ring.
   - Cards show English or Spanish first. Tapping one reveals the other side, with matching chunks in matching colours and a note underneath.
-  - Each card has a **Listen** button (the phone's text-to-speech), and buttons for "I know this" (green) and "Still learning" (amber).
+  - Each card has a **Listen** button (the phone's text-to-speech), and a matching pair of buttons, "Still learning" and "I know this". The one that applies to the phrase has a ring and a tick.
   - Cards slide as you move through a scene, and screens slide between each other.
 - **Settings:**
   - Spain or Mexico, the speaker's gender, which side of the card comes first, and grammar and vocabulary levels.
