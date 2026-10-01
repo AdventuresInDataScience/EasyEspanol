@@ -1,5 +1,9 @@
 package com.example.easyespanol.navigation
 
+import androidx.compose.animation.AnimatedContentTransitionScope
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
@@ -29,7 +33,29 @@ object Routes {
 
 @Composable
 fun AppNavigation(navController: NavHostController, repo: PhraseRepository, settings: AppSettings) {
-    NavHost(navController = navController, startDestination = Routes.HOME) {
+    // Screens slide in from the right as you go deeper, and back out to the right
+    // as you return. The screen underneath drifts a little way for depth.
+    val duration = 340
+    NavHost(
+        navController = navController,
+        startDestination = Routes.HOME,
+        enterTransition = {
+            slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.Start, tween(duration)) +
+                fadeIn(tween(duration))
+        },
+        exitTransition = {
+            slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.Start, tween(duration)) { it / 4 } +
+                fadeOut(tween(duration / 2))
+        },
+        popEnterTransition = {
+            slideIntoContainer(AnimatedContentTransitionScope.SlideDirection.End, tween(duration)) { it / 4 } +
+                fadeIn(tween(duration))
+        },
+        popExitTransition = {
+            slideOutOfContainer(AnimatedContentTransitionScope.SlideDirection.End, tween(duration)) +
+                fadeOut(tween(duration / 2))
+        },
+    ) {
         composable(Routes.HOME) {
             HomeScreen(navController, repo, settings)
         }

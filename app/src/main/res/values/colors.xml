@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shown for the moment before the app draws (and behind the launch splash). -->
+    <color name="window_background">#FFF6F7FB</color>
+</resources>

@@ -7,6 +7,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import com.example.easyespanol.ui.theme.AppPalette
 import com.example.easyespanol.ui.theme.ThemeMode
+import java.time.LocalDate
 
 /**
  * The learner's settings and progress, saved on the phone with SharedPreferences.
@@ -25,7 +26,7 @@ class AppSettings(context: Context) {
         private set
     var cardFront: CardFront by mutableStateOf(enumPref("card_front", CardFront.ENGLISH))
         private set
-    var palette: AppPalette by mutableStateOf(enumPref("palette", AppPalette.SPAIN))
+    var palette: AppPalette by mutableStateOf(enumPref("palette", AppPalette.ATARDECER))
         private set
     var themeMode: ThemeMode by mutableStateOf(enumPref("theme_mode", ThemeMode.SYSTEM))
         private set
@@ -67,6 +68,39 @@ class AppSettings(context: Context) {
     /** True if the phrase is within the learner's chosen grammar and vocabulary levels. */
     fun isVisible(phrase: Phrase): Boolean =
         phrase.grammar <= maxGrammar && phrase.vocab <= maxVocab
+
+    // ── Daily streak and today's count (shown on the home screen) ───────────
+
+    private var lastStudyDay: Long by mutableStateOf(prefs.getLong("last_study_day", Long.MIN_VALUE / 2))
+    private var streakDays: Int by mutableStateOf(prefs.getInt("streak", 0))
+    private var reviewedDay: Long by mutableStateOf(prefs.getLong("reviewed_day", Long.MIN_VALUE / 2))
+    private var reviewedCount: Int by mutableStateOf(prefs.getInt("reviewed_count", 0))
+
+    /** Days in a row with at least one card reviewed. Still counts until today ends. */
+    val streak: Int get() = if (lastStudyDay >= today() - 1) streakDays else 0
+
+    val reviewedToday: Int get() = if (reviewedDay == today()) reviewedCount else 0
+
+    /** Call whenever a card is marked known or still learning. */
+    fun recordReview() {
+        val day = today()
+        streakDays = when (lastStudyDay) {
+            day -> maxOf(streakDays, 1)
+            day - 1 -> streakDays + 1
+            else -> 1
+        }
+        reviewedCount = if (reviewedDay == day) reviewedCount + 1 else 1
+        reviewedDay = day
+        lastStudyDay = day
+        prefs.edit()
+            .putLong("last_study_day", day)
+            .putInt("streak", streakDays)
+            .putLong("reviewed_day", day)
+            .putInt("reviewed_count", reviewedCount)
+            .apply()
+    }
+
+    private fun today(): Long = LocalDate.now().toEpochDay()
 
     // ── Progress ────────────────────────────────────────────────────────────
 

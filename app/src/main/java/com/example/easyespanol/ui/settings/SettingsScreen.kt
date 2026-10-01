@@ -1,8 +1,11 @@
 package com.example.easyespanol.ui.settings
 
 import android.os.Build
+import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
@@ -12,8 +15,12 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.easyespanol.data.AppSettings
@@ -21,65 +28,57 @@ import com.example.easyespanol.data.CardFront
 import com.example.easyespanol.data.Dialect
 import com.example.easyespanol.data.PhraseRepository
 import com.example.easyespanol.data.SpeakerGender
-import com.example.easyespanol.ui.common.BackTopBar
+import com.example.easyespanol.ui.common.AppCard
+import com.example.easyespanol.ui.common.AppScaffold
+import com.example.easyespanol.ui.common.PillShape
+import com.example.easyespanol.ui.common.TintButton
 import com.example.easyespanol.ui.theme.AppPalette
 import com.example.easyespanol.ui.theme.ThemeMode
+import com.example.easyespanol.ui.theme.brandFor
 
-private val levelNames = mapOf(1 to "Level 1 only", 2 to "Up to 2", 3 to "All levels")
-
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SettingsScreen(navController: NavController, repo: PhraseRepository, settings: AppSettings) {
     var confirmReset by remember { mutableStateOf(false) }
 
-    Scaffold(topBar = { BackTopBar("Settings") { navController.navigateUp() } }) { padding ->
+    AppScaffold(title = "Settings", onBack = { navController.navigateUp() }) { padding ->
         Column(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(padding)
                 .verticalScroll(rememberScrollState())
-                .padding(16.dp),
-            verticalArrangement = Arrangement.spacedBy(20.dp),
+                .padding(horizontal = 20.dp, vertical = 8.dp),
+            verticalArrangement = Arrangement.spacedBy(16.dp),
         ) {
-            Section("Spanish variety", "Both have the same phrases; the wording changes where Spain and Mexico differ.") {
-                Dialect.entries.forEach { d ->
-                    Choice("${d.flag}  ${d.label}", null, settings.dialect == d) { settings.updateDialect(d) }
-                }
+            Section("Your Spanish") {
+                SettingLabel("Variety", "The phrases are the same; the wording changes where Spain and Mexico differ.")
+                Segmented(Dialect.entries, settings.dialect, { "${it.flag}  ${it.label}" }) { settings.updateDialect(it) }
+                Spacer(Modifier.height(18.dp))
+                SettingLabel("I'm…", "Phrases about you use the matching form, such as cansado or cansada.")
+                Segmented(SpeakerGender.entries, settings.gender, { it.label }) { settings.updateGender(it) }
+                Spacer(Modifier.height(18.dp))
+                SettingLabel("Card front", settings.cardFront.description)
+                Segmented(CardFront.entries, settings.cardFront, { it.label }) { settings.updateCardFront(it) }
             }
 
-            Section("I am…", "Some phrases change with who's speaking, e.g. cansado / cansada.") {
-                SpeakerGender.entries.forEach { g ->
-                    Choice(g.label, null, settings.gender == g) { settings.updateGender(g) }
-                }
-            }
-
-            Section("Card front", null) {
-                CardFront.entries.forEach { f ->
-                    Choice(f.label, f.description, settings.cardFront == f) { settings.updateCardFront(f) }
-                }
-            }
-
-            Section("Grammar", "1: present tense and set phrases · 2: past, future and commands · 3: subjunctive and 'if' sentences") {
-                LevelChips(settings.maxGrammar) { settings.updateMaxGrammar(it) }
-            }
-
-            Section("Vocabulary", "1: core words · 2: everyday words · 3: more specific words") {
-                LevelChips(settings.maxVocab) { settings.updateMaxVocab(it) }
-            }
-
-            Section("Practice", null) {
+            Section("Difficulty") {
+                SettingLabel("Grammar", "1: present tense and set phrases. 2: past, future and commands. 3: subjunctive and 'if' sentences.")
+                Segmented(listOf(1, 2, 3), settings.maxGrammar, ::levelLabel) { settings.updateMaxGrammar(it) }
+                Spacer(Modifier.height(18.dp))
+                SettingLabel("Vocabulary", "1: core words. 2: everyday words. 3: more specific words.")
+                Segmented(listOf(1, 2, 3), settings.maxVocab, ::levelLabel) { settings.updateMaxVocab(it) }
+                Spacer(Modifier.height(14.dp))
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .clip(RoundedCornerShape(12.dp))
-                        .clickable { settings.updateHideKnown(!settings.hideKnown) }
-                        .padding(vertical = 8.dp),
+                        .clip(RoundedCornerShape(16.dp))
+                        .clickable(role = Role.Switch) { settings.updateHideKnown(!settings.hideKnown) }
+                        .padding(vertical = 6.dp),
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
                     Column(Modifier.weight(1f)) {
-                        Text("Skip phrases I know", style = MaterialTheme.typography.bodyLarge)
+                        Text("Skip phrases I know", style = MaterialTheme.typography.titleMedium)
                         Text(
-                            "Only show phrases you haven't marked as known",
+                            "Scenes show only what you're still learning",
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                         )
@@ -88,43 +87,26 @@ fun SettingsScreen(navController: NavController, repo: PhraseRepository, setting
                 }
             }
 
-            Section("Colour scheme", null) {
-                AppPalette.entries.forEach { p ->
-                    val unavailable = p == AppPalette.WALLPAPER && Build.VERSION.SDK_INT < Build.VERSION_CODES.S
-                    Choice(
-                        label = p.label,
-                        description = if (unavailable) "Needs Android 12 or newer" else p.description,
-                        selected = settings.palette == p,
-                        enabled = !unavailable,
-                        trailing = { Swatches(p) },
-                    ) { settings.updatePalette(p) }
-                }
+            Section("Look and feel") {
+                SettingLabel("Colour scheme", settings.palette.description)
+                PalettePicker(settings.palette) { settings.updatePalette(it) }
+                Spacer(Modifier.height(18.dp))
+                SettingLabel("Light or dark", null)
+                Segmented(ThemeMode.entries, settings.themeMode, { it.label }) { settings.updateThemeMode(it) }
             }
 
-            Section("Light or dark", null) {
-                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    ThemeMode.entries.forEach { m ->
-                        FilterChip(
-                            selected = settings.themeMode == m,
-                            onClick = { settings.updateThemeMode(m) },
-                            label = { Text(m.label) },
-                        )
-                    }
-                }
-            }
-
-            Section("Progress", null) {
-                OutlinedButton(
-                    onClick = { confirmReset = true },
-                    colors = ButtonDefaults.outlinedButtonColors(contentColor = MaterialTheme.colorScheme.error),
-                ) { Text("Reset all progress") }
+            Section("Progress") {
+                SettingLabel("Start again", "Marks every phrase as not yet known. Your settings stay as they are.")
+                TintButton("Reset progress", { confirmReset = true }, MaterialTheme.colorScheme.error, Modifier.fillMaxWidth())
             }
 
             val topics = repo.topics(settings.dialect)
             Text(
-                "Easy Español · ${topics.sumOf { it.phrases.size }} phrases in ${topics.size} topics",
+                "Easy Español, ${topics.sumOf { it.phrases.size }} phrases in ${topics.size} topics",
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
+                textAlign = TextAlign.Center,
+                modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp),
             )
         }
     }
@@ -144,73 +126,101 @@ fun SettingsScreen(navController: NavController, repo: PhraseRepository, setting
     }
 }
 
+private fun levelLabel(level: Int): String = when (level) {
+    1 -> "Level 1"
+    2 -> "Up to 2"
+    else -> "All"
+}
+
 @Composable
-private fun Section(title: String, description: String?, content: @Composable ColumnScope.() -> Unit) {
-    Column {
-        Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
-        if (description != null) {
-            Text(
-                description,
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-        }
-        Spacer(Modifier.height(8.dp))
+private fun Section(title: String, content: @Composable ColumnScope.() -> Unit) {
+    AppCard(modifier = Modifier.fillMaxWidth(), padding = 20.dp) {
+        Text(title, style = MaterialTheme.typography.titleLarge)
+        Spacer(Modifier.height(14.dp))
         content()
     }
 }
 
 @Composable
-private fun Choice(
-    label: String,
-    description: String?,
-    selected: Boolean,
-    enabled: Boolean = true,
-    trailing: @Composable () -> Unit = {},
-    onClick: () -> Unit,
-) {
+private fun SettingLabel(title: String, description: String?) {
+    Text(title, style = MaterialTheme.typography.titleMedium)
+    if (description != null) {
+        Text(description, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+    }
+    Spacer(Modifier.height(10.dp))
+}
+
+/** A row of pill options; the chosen one fills with the primary colour. */
+@Composable
+private fun <T> Segmented(options: List<T>, selected: T, label: (T) -> String, onSelect: (T) -> Unit) {
+    val scheme = MaterialTheme.colorScheme
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(12.dp))
-            .clickable(enabled = enabled, onClick = onClick)
-            .padding(vertical = 4.dp),
-        verticalAlignment = Alignment.CenterVertically,
+            .clip(PillShape)
+            .background(scheme.surfaceVariant.copy(alpha = 0.6f))
+            .padding(4.dp),
     ) {
-        RadioButton(selected = selected, onClick = onClick, enabled = enabled)
-        Column(Modifier.weight(1f)) {
-            Text(label, style = MaterialTheme.typography.bodyLarge)
-            if (description != null) {
-                Text(
-                    description,
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
+        options.forEach { option ->
+            val isSelected = option == selected
+            val background by animateColorAsState(if (isSelected) scheme.primary else Color.Transparent, label = "segment")
+            val textColour by animateColorAsState(if (isSelected) scheme.onPrimary else scheme.onSurfaceVariant, label = "segmentText")
+            Box(
+                modifier = Modifier
+                    .weight(1f)
+                    .clip(PillShape)
+                    .background(background)
+                    .clickable(role = Role.RadioButton) { onSelect(option) }
+                    .padding(vertical = 11.dp, horizontal = 6.dp),
+                contentAlignment = Alignment.Center,
+            ) {
+                Text(label(option), style = MaterialTheme.typography.labelLarge, color = textColour, maxLines = 1)
             }
         }
-        trailing()
     }
 }
 
+/** Gradient swatches for each palette. The chosen one gets a ring. */
 @Composable
-private fun Swatches(palette: AppPalette) {
-    Row(horizontalArrangement = Arrangement.spacedBy(4.dp), modifier = Modifier.padding(end = 8.dp)) {
-        palette.swatch.forEach { colour ->
-            Box(Modifier.size(20.dp).clip(CircleShape).background(colour))
-        }
-    }
-}
-
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-private fun LevelChips(selected: Int, onSelect: (Int) -> Unit) {
-    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-        (1..3).forEach { level ->
-            FilterChip(
-                selected = selected == level,
-                onClick = { onSelect(level) },
-                label = { Text(levelNames.getValue(level)) },
-            )
+private fun PalettePicker(selected: AppPalette, onSelect: (AppPalette) -> Unit) {
+    val scheme = MaterialTheme.colorScheme
+    val dark = com.example.easyespanol.ui.theme.LocalBrand.current.dark
+    Row(
+        modifier = Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()),
+        horizontalArrangement = Arrangement.spacedBy(10.dp),
+    ) {
+        AppPalette.entries.forEach { palette ->
+            val available = palette != AppPalette.WALLPAPER || Build.VERSION.SDK_INT >= Build.VERSION_CODES.S
+            val brush = if (palette == AppPalette.WALLPAPER) {
+                Brush.sweepGradient(listOf(Color(0xFFE53935), Color(0xFFFDD835), Color(0xFF43A047), Color(0xFF1E88E5), Color(0xFF8E24AA), Color(0xFFE53935)))
+            } else {
+                Brush.linearGradient(brandFor(palette, dark, scheme).hero)
+            }
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                modifier = Modifier
+                    .width(76.dp)
+                    .alpha(if (available) 1f else 0.4f)
+                    .clip(RoundedCornerShape(16.dp))
+                    .clickable(enabled = available, role = Role.RadioButton) { onSelect(palette) }
+                    .padding(vertical = 6.dp),
+            ) {
+                Box(
+                    modifier = Modifier
+                        .size(58.dp)
+                        .border(3.dp, if (palette == selected) scheme.onSurface else Color.Transparent, CircleShape)
+                        .padding(6.dp)
+                        .clip(CircleShape)
+                        .background(brush),
+                )
+                Spacer(Modifier.height(6.dp))
+                Text(
+                    if (palette == AppPalette.WALLPAPER) "Wallpaper" else palette.label,
+                    style = MaterialTheme.typography.labelSmall,
+                    textAlign = TextAlign.Center,
+                    maxLines = 2,
+                )
+            }
         }
     }
 }

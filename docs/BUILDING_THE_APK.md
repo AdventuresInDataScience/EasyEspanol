@@ -1,19 +1,17 @@
 # Building Easy Español into an APK
 
-This guide takes the repository from a zip file to an app on your phone, using Android Studio.
+This guide takes the repository from a zip file to an app on your phone.
 
-## First, what builds this app?
+## What builds this app?
 
-Easy Español is a **Kotlin** app using **Jetpack Compose**. It is built by **Gradle**, which comes inside Android Studio. You don't install or run Gradle yourself; Android Studio does it when you press its buttons.
+Easy Español is a **Kotlin** app built with **Gradle**. Gradle comes with the project: the `gradlew` files in the top folder download and run it for you. Android Studio provides everything else Gradle needs (the Android SDK and Java).
 
-You may be thinking of **Buildozer**. That's a different tool, for apps written in **Python** with Kivy, and it isn't used here. If you ever see a `buildozer.spec` file, you're looking at a Python project, not this one.
+**Buildozer isn't involved.** That's a tool for Python apps.
 
-There are two ways to get the app onto a phone:
+There are two ways onto a phone:
 
-- **Route A: install straight from Android Studio.** This is the easiest, and needs no APK file. Use it for your own phone, plugged in by USB.
-- **Route B: build an APK file.** You get a file to copy to any phone or send to someone else.
-
-Both start with the same setup.
+- **Route A, the Run button:** Android Studio builds the app and installs it on a phone plugged in by USB. No APK file is involved.
+- **Route B, a terminal command:** one command produces an APK file you can copy to any phone. This doesn't depend on Android Studio's menus, which move between versions. In Otter and newer, the old Build APK menu items aren't where older guides say.
 
 ---
 
@@ -21,189 +19,248 @@ Both start with the same setup.
 
 ### 1. Install Android Studio
 
-- The copy you built EasyJapanesey with will do. This project uses the same build settings.
-- If you don't have it, download it from <https://developer.android.com/studio> and accept the defaults in the installer.
-- The first launch downloads the Android SDK, which is a few gigabytes. Let it finish.
+The copy you built EasyJapanesey with is fine. Otherwise, get it from <https://developer.android.com/studio> and accept the defaults. The first launch downloads the Android SDK, which is a few gigabytes; let it finish.
 
-### 2. Unzip the project somewhere with a short path
+### 2. Unzip the project
 
-- Unzip `EasyEspanol.zip`. You'll get a folder called `EasyEspanol` containing `settings.gradle.kts`, `gradlew` and an `app` folder.
-- **Windows:** use a short path such as `C:\Projects\EasyEspanol`.
-  - Avoid very deep folders: Windows has a path-length limit that can break builds.
-  - Avoid OneDrive-synced folders like Documents or Desktop. OneDrive locking build files is a common cause of baffling errors.
+Unzip `EasyEspanol.zip` to get a folder called `EasyEspanol`. It contains `settings.gradle.kts`, `gradlew`, `gradlew.bat` and an `app` folder.
+
+**On Windows, use a short path** such as `C:\Projects\EasyEspanol`. Avoid deep folders and OneDrive-synced folders like Documents or Desktop. Windows' path-length limit and OneDrive file locking both cause baffling build errors.
 
 ### 3. Open it in Android Studio
 
-1. Open Android Studio. On the welcome screen click **Open**. If a project is already open, use **File → Open…**.
-2. Select the **`EasyEspanol`** folder, the one that directly contains `settings.gradle.kts`.
-   - Don't select the zip file.
-   - Don't select the `app` folder inside it.
-3. Click **OK**. If asked whether to trust the project, choose **Trust Project**.
+1. On the welcome screen, click **Open**. If a project is already open, use **File → Open…**.
+   - On Windows, Android Studio's newer look hides the menu bar behind the **☰** icon at the top left.
+2. Select the **`EasyEspanol`** folder, the one that directly contains `settings.gradle.kts`. Click **OK**, then **Trust Project**.
 
 ### 4. Wait for the Gradle sync
 
-- A progress bar runs at the bottom right while Android Studio downloads what the project needs and sets it up. This is the "Gradle sync".
-- **The first time takes several minutes** and needs an internet connection. Later opens are much quicker.
-- It has finished when the progress bar disappears and the project tree on the left shows `app` with a green dot or Android icon.
+A progress bar at the bottom right shows Android Studio downloading what the project needs. **The first time takes several minutes** and needs internet. It's finished when the bar disappears.
 
-If Android Studio offers to **upgrade the Android Gradle Plugin**, you can dismiss it. The project works as it is.
-
-If a yellow or red bar says something is missing (for example an SDK platform), click the blue link in the message. It installs what's needed. Then use **File → Sync Project with Gradle Files**.
+- If it offers to upgrade the Android Gradle Plugin, dismiss it. The project works as it is.
+- If a message says something is missing (usually an SDK platform), click its blue link to install it. Then sync again with the elephant icon at the top right, or **File → Sync Project with Gradle Files**.
 
 ---
 
 ## Route A: install straight onto your phone
 
-This builds the app and installs it in one go, so you never handle an APK file.
-
 ### Turn on USB debugging (once per phone)
 
-1. On the phone, open **Settings → About phone** and tap **Build number** seven times. On Samsung phones it's under **Settings → About phone → Software information**. A message says you're now a developer.
-2. Go back to **Settings**. Find **Developer options**, usually under **System**, and turn on **USB debugging**.
+1. On the phone, go to **Settings → About phone** and tap **Build number** seven times. On Samsung, it's under **About phone → Software information**.
+2. In **Settings → System → Developer options**, turn on **USB debugging**.
 
-### Run the app
+### Run it
 
-1. Plug the phone into the computer.
-   - If the phone asks "Allow USB debugging?", tick **Always allow from this computer** and tap **Allow**.
+1. Plug the phone in.
+   - When the phone asks "Allow USB debugging?", tick **Always allow** and tap **Allow**.
    - If it asks what the USB connection is for, choose **File transfer**.
-2. Choose your phone in the device drop-down in Android Studio's top toolbar, next to the green ▶ button.
-3. Click the green **▶ Run 'app'** button (Shift+F10 on Windows, Ctrl+R on Mac).
+2. In Android Studio's top toolbar, choose your phone in the device drop-down.
+3. Press the green **▶ Run** button (Shift+F10 on Windows, Ctrl+R on Mac).
 
-The first build takes a minute or two. The app then opens on the phone and stays installed, with the Spanish flag icon, after you unplug it.
+The app installs, opens, and stays on the phone after you unplug it.
 
-You can also use the **emulator**, the virtual phone inside Android Studio: pick it in the same drop-down instead of your phone. To do it without a cable, turn on **Wireless debugging** in Developer options, then in Android Studio open **Device Manager → Pair Devices Using Wi-Fi**.
+To test without a phone, choose the **emulator** in the same drop-down instead.
 
 ---
 
-## Route B: build an APK file
+## Route B: build an APK file from the terminal
 
-### Build it
+### 1. Open the terminal inside Android Studio
 
-1. In the menu bar choose **Build → Generate App Bundles or APKs → Generate APKs**.
-   - Older versions of Android Studio call this **Build → Build Bundle(s) / APK(s) → Build APK(s)**.
-   - Can't find either? Press **Ctrl+Shift+A** (Cmd+Shift+A on Mac), type **Build APK** and press Enter. This "Find Action" box finds any menu item by name, which is handy because menus move between versions.
-2. Wait for the build. A pop-up at the bottom right says the APK was generated successfully. Click **locate** in that pop-up to open the folder.
-3. The file is:
+- Click the **Terminal** icon in the tool strip down the left or bottom edge (it looks like `>_`).
+- Or use **View → Tool Windows → Terminal**, or press **Alt+F12** (⌥F12 on a Mac).
 
-   ```
-   EasyEspanol/app/build/outputs/apk/debug/app-debug.apk
-   ```
+The terminal opens in the project folder, which is where the command needs to run.
 
-   You can rename it to `EasyEspanol.apk`. The name doesn't matter.
+### 2. Run the build command
 
-**If the menus misbehave**, build from Android Studio's **Terminal** tab (bottom of the window). This produces the same file:
+**Windows** (the terminal is PowerShell, so the `.\` at the start matters):
 
 ```
-./gradlew assembleDebug        (Mac / Linux)
-gradlew assembleDebug          (Windows)
+.\gradlew assembleDebug
 ```
 
-### Install the APK on a phone
+**Mac or Linux:**
 
-1. Copy the APK to the phone. You can drag it into the phone's **Download** folder over USB, upload it to Google Drive, or email it to yourself.
-2. On the phone, open the file, for example from the **Files** app or the Downloads notification.
+```
+./gradlew assembleDebug
+```
+
+The first run downloads Gradle itself, so give it a few minutes. You're done when it prints **BUILD SUCCESSFUL**.
+
+### 3. Collect the APK
+
+```
+EasyEspanol\app\build\outputs\apk\debug\app-debug.apk
+```
+
+You can rename it, for example to `EasyEspanol.apk`. Right-click the file in Android Studio's project tree and choose **Open In → Explorer** (Finder on a Mac) to see it in its folder.
+
+### If you see "JAVA_HOME is not set"
+
+The terminal doesn't always know where Android Studio keeps its built-in Java. Point it there for the current terminal window, then run the build command again.
+
+**Windows (PowerShell):**
+
+```
+$env:JAVA_HOME = "C:\Program Files\Android\Android Studio\jbr"
+.\gradlew assembleDebug
+```
+
+**Mac:**
+
+```
+export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
+./gradlew assembleDebug
+```
+
+If Android Studio is installed somewhere else, use that location. The folder you want is called `jbr`, inside the Android Studio folder. The setting lasts until you close the terminal.
+
+### Other errors
+
+- **`permission denied` on a Mac:** run `chmod +x gradlew` once, then try again.
+- **`gradlew is not recognised`:** you're in the wrong folder, or you left off the `.\`. Type `cd` followed by the path to the `EasyEspanol` folder, then try again.
+
+### No terminal? Use the Gradle panel instead
+
+1. Click the **elephant** icon on the right-hand edge to open the Gradle panel.
+2. Click its **Execute Gradle Task** button (also an elephant), type `assembleDebug`, and press Enter.
+
+This uses Android Studio's own Java, so the JAVA_HOME problem doesn't arise. The APK lands in the same place.
+
+---
+
+## Installing the APK on a phone
+
+1. Copy `app-debug.apk` to the phone. You can drag it into the phone's **Download** folder over USB, use Google Drive, or email it to yourself.
+2. On the phone, open it from the **Files** app or the download notification.
 3. Android will say this source isn't allowed to install apps. Tap **Settings**, turn on **Allow from this source**, and go back.
 4. Tap **Install**.
-5. Google Play Protect may warn about an "unknown developer" or say it hasn't seen the app before. That's normal for any app you build yourself. Tap **More details → Install anyway**.
+5. If Play Protect warns about an unknown app, tap **More details → Install anyway**. That's normal for any app you build yourself.
 
 ---
 
-## Debug and release copies
+## A signed release APK (optional)
 
-The APK above is a **debug** build. Android Studio signs it automatically with a debug key kept on your computer. For an app you use yourself, that's all you need.
+The debug APK is signed automatically with a key stored on your computer, and it's fine for your own use. A **release** APK is a little faster and smaller, and is signed with a key of your own. Setting that up is a one-off.
 
-A **release** build is signed with your own key, and a release APK is a bit faster and smaller. Make one with **Build → Generate Signed App Bundle or APK…**:
+### 1. Make a keystore (once)
 
-1. Choose **APK**, then click **Next**.
-2. Click **Create new…** to make a keystore file. Choose a password, and fill in at least your name.
-3. Choose the **release** build type, then click **Create**. The APK appears in `EasyEspanol/app/release/`.
+In the Android Studio terminal, run the line for your computer. It asks for a password and a few details; only the password matters.
 
-**Keep the keystore file and its password safe.** Every future update must be signed with the same key.
+**Windows:**
 
-Each installed copy is tied to the key it was signed with, and that matters when you update:
+```
+& "C:\Program Files\Android\Android Studio\jbr\bin\keytool.exe" -genkeypair -v -keystore easyespanol.jks -alias easyespanol -keyalg RSA -keysize 2048 -validity 10000
+```
 
-- **Debug and release don't mix.** You can't install a release APK over a debug one, or the other way round. Android says "App not installed" or "package conflicts with an existing package".
-- **Different computers mean different keys.** Each computer has its own debug key, so a debug build from a second computer won't install over one from the first.
-- **The only fix is to uninstall the old copy.** That deletes the progress saved on the phone.
+**Mac:**
 
-So pick one route, debug or release, on one computer, and stick with it.
+```
+"/Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/keytool" -genkeypair -v -keystore easyespanol.jks -alias easyespanol -keyalg RSA -keysize 2048 -validity 10000
+```
+
+### 2. Tell the build where it is
+
+1. Copy `keystore.properties.example` to `keystore.properties`, in the same top folder.
+2. Put your password in both password lines.
+
+Git ignores both this file and the `.jks` keystore, so they won't end up on GitHub.
+
+### 3. Build
+
+```
+.\gradlew assembleRelease        (Windows)
+./gradlew assembleRelease        (Mac / Linux)
+```
+
+The APK is `app\build\outputs\apk\release\app-release.apk`.
+
+**Back up `easyespanol.jks` and the password.** Every future update must be signed with the same key.
+
+### Which copy can replace which
+
+Android only installs an update over an existing copy if both were signed with the same key:
+
+- **Debug and release don't mix.** A release APK won't install over a debug one, or the other way round.
+- **Each computer has its own debug key.** A debug build from a second computer won't install over one from the first.
+- **You'll see "App not installed" or "conflicts with an existing package".** The only fix is to uninstall first, which deletes the progress saved on the phone.
+
+So pick one kind of build, on one computer, and stick with it.
 
 ---
 
 ## Updating the app later
 
-When you change the phrases (see `docs/DATA_GUIDE.md`) or the code:
+1. Change the phrases (see `docs/DATA_GUIDE.md`), then run `python tools/validate.py`.
+2. In `app/build.gradle.kts`, add 1 to `versionCode`, for example `versionCode = 2`.
+3. Build again (Route A or B) and install over the top.
 
-1. Run `python tools/validate.py` to check the data.
-2. Open `app/build.gradle.kts` and add 1 to `versionCode`, for example `versionCode = 2`. You can also change `versionName`, which is just the label people see.
-3. Build again with Route A or Route B and install over the top.
-
-Progress on the phone is kept, because it's saved against the phrase ids, which never change.
+Progress is kept, because it's stored against phrase ids that never change.
 
 ---
 
-## The app icon
+## The look: colours, fonts, icon
 
-The icon is the Spanish flag: the red–gold–red civil version, without the coat of arms, which turns into a blur at icon size. It's an *adaptive icon*, made of vector drawings, so it stays sharp at every size and takes whatever shape your phone uses (circle, squircle and so on). On Android 13 and later it also has a single-colour version for when "themed icons" are switched on.
+### Colour schemes
 
-The files are:
+In the app, open **Settings → Look and feel** to choose from:
 
-```
-app/src/main/res/drawable/ic_launcher_background.xml   the flag
-app/src/main/res/drawable/ic_launcher_foreground.xml   empty layer
-app/src/main/res/drawable/ic_launcher_monochrome.xml   themed-icon version
-app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml     ties the layers together
-```
+| Palette | Colours |
+|---|---|
+| **Atardecer** (default) | cobalt, violet, bougainvillea and coral |
+| **Rojo y oro** | crimson and gold |
+| **Azulejo** | tile blue and sea glass |
+| **Jacaranda** | violet and blossom pink |
+| **Olivo** | olive and gold |
+| **Match my wallpaper** | taken from your phone's wallpaper |
 
-`docs/icon_preview.png` shows how it looks under different icon shapes.
+Each palette also has a dark version. **Light or dark** chooses one, or follows the phone.
 
-**To use your own picture instead:**
+Some colours mean the same thing in every palette:
 
-1. Right-click the `app` folder in Android Studio and choose **New → Image Asset**.
-2. Pick your image and adjust it in the preview.
-3. Click **Next → Finish**. It overwrites the files above.
+- **Green** is "I know this" and **amber** is "Still learning". Red is kept for real errors, so being unsure never looks like failing.
+- **The nine chunk colours** linking Spanish to English were checked to stay readable on light and dark cards.
 
-If the phone still shows the old icon after an update, restart the phone. Launchers cache icons.
+**Why EasyJapanesey came out brown:** its `Theme.kt` has `dynamicColor: Boolean = true`. On Android 12 and newer, that builds the colours from your **wallpaper**: blue on the emulator's default wallpaper, brown on yours. To fix it there, set it to `false` and put your blues into `Color.kt`. Easy Español only does this if you choose **Match my wallpaper**.
 
----
+**To change the colours in code**, look in `app/src/main/java/com/example/easyespanol/ui/theme/`:
 
-## Colour schemes
+- **`Theme.kt`** holds each palette's colour scheme and its **brand** colours:
+  - the gradient for the home tile and main buttons,
+  - the background glows,
+  - the six accent colours that topics take in turn.
+- **`Color.kt`** holds the chunk colours and the known / still-learning colours.
+- **Hex codes** are written `0xFF` followed by the usual six digits, for example `0xFF2D4BD8`.
+- **To add a palette**, add a line to `AppPalette`, then a brand in `brandFor()` and a scheme in `paletteScheme()`. It appears in Settings automatically.
+- **For a full set of shades from one colour**, Google's free **Material Theme Builder** (<https://material-foundation.github.io/material-theme-builder/>) exports them for Jetpack Compose.
 
-### Choosing one in the app
+### Fonts
 
-Open **Settings → Colour scheme** and pick one of these:
+Both fonts are under the SIL Open Font License, which allows bundling them in an app. Their licences ship inside the app, in `app/src/main/assets/licences/`.
 
-- **Rojo y oro:** the default, red and gold like the flag.
-- **Mediterráneo:** blues.
-- **Olivo:** olive green and terracotta.
-- **Match my wallpaper:** described in the next section.
+- **Headings:** Bricolage Grotesque.
+- **Phrases and text:** Instrument Sans.
 
-**Settings → Light or dark** chooses light mode, dark mode, or following the phone.
+The files are in `app/src/main/res/font/`, and `ui/theme/Type.kt` sets the sizes.
 
-### Why EasyJapanesey turned out brown
+**To use other fonts:**
 
-EasyJapanesey's theme file has this line in `ui/theme/Theme.kt`:
+1. Drop the `.ttf` files into `res/font/`. The names must be lower case, with underscores only.
+2. Change the two `FontFamily` definitions in `Type.kt`.
 
-```kotlin
-dynamicColor: Boolean = true,
-```
+### Motion
 
-On Android 12 and later, dynamic colour ignores the app's own colours and builds a scheme from the phone's **wallpaper**. This is Google's "Material You". Android Studio's emulator has a blue default wallpaper, so the app looked blue there. On your phone, the wallpaper produced brown.
+- **Screens:** slide in from the right as you go deeper, and back out as you return.
+- **Cards:** slide in the direction you move.
+- **Answers:** expand into place when you tap a card.
+- **Progress ring:** sweeps round once when the home screen opens.
 
-To fix EasyJapanesey, change that line to `false`. The app then uses the colours in its `Color.kt` file, which are still Android Studio's template purples (`Purple40` and so on), so change those hex codes to the blues you want.
+### The icon
 
-Easy Español only uses dynamic colour if you choose **Match my wallpaper** in Settings.
+The icon is the Spanish flag as an adaptive icon, so it takes whatever shape your phone uses; `docs/icon_preview.png` shows it. The files are `res/drawable/ic_launcher_*.xml` and `res/mipmap-anydpi-v26/`.
 
-### Changing or adding colours in the code
-
-Everything is in `app/src/main/java/com/example/easyespanol/ui/theme/`:
-
-- **`Theme.kt`:** each palette is a list of hex colours, such as `primary = 0xFFAA151B`. `0xFF` means fully opaque, followed by the usual six-digit colour code. Each palette has a light version and a dark version.
-  - The main ones are `primary` (buttons, progress bars), `primaryContainer` (the top bar), `secondaryContainer` (the level badges) and `background`.
-  - To add a palette, add a line to `AppPalette` and a matching light/dark pair in `paletteScheme()`. It then appears in Settings automatically.
-- **`Color.kt`:** the flag colours, and the nine colours used to link Spanish and English chunks. The dark-mode set is lighter so it stays readable on a dark background.
-
-If you want a whole new scheme without picking every shade, Google's free **Material Theme Builder** (<https://material-foundation.github.io/material-theme-builder/>) makes one from a single colour you choose, and exports the values for Jetpack Compose.
+To use your own picture, right-click `app` and choose **New → Image Asset**. If the phone keeps showing the old icon after an update, restart it.
 
 ---
 
@@ -211,15 +268,16 @@ If you want a whole new scheme without picking every shade, Google's free **Mate
 
 | Message or problem | What to do |
 |---|---|
-| `SDK location not found` | You opened the project some other way. Open it through Android Studio's **File → Open**, which creates the missing `local.properties` file automatically. |
-| `Failed to find target android-36`, or anything about compile SDK 36 not being installed | **Tools → SDK Manager → SDK Platforms**. Tick the entry for **API level 36** (Android 16), then click **Apply**. |
-| The project needs a newer Android Gradle Plugin, or a newer Android Studio | **Help → Check for Updates** (on a Mac: **Android Studio → Check for Updates**), then reopen the project. |
-| `Unsupported class file major version`, or `Gradle requires JVM 17 or later` | **Settings → Build, Execution, Deployment → Build Tools → Gradle**, and set **Gradle JDK** to the bundled one (named `jbr-…` or "Embedded JDK"). On a Mac, Settings is under the **Android Studio** menu. |
-| Sync or build stuck, or strange errors after moving the folder | **Build → Clean Project**, then **File → Invalidate Caches… → Invalidate and Restart**. |
-| Phone doesn't appear in the device list | Use a data cable (some cables only charge). Set the USB mode to **File transfer**, and accept the "Allow USB debugging?" prompt on the phone. On Windows, some phone brands need their own USB driver from the maker's website. |
-| "App not installed" or "conflicts with an existing package" | An older copy signed with a different key is installed (see [Debug and release copies](#debug-and-release-copies)). Uninstall it first. This deletes saved progress. |
-| The **Listen** button is greyed out, or speaks with the wrong accent | The phone needs a Spanish voice. Go to **Settings → System → Languages → Text-to-speech output**. Open the settings for the speech engine, choose **Install voice data**, and pick **Spanish (Spain)** or **Spanish (Mexico)**. The exact path varies by phone; searching Settings for "text-to-speech" finds it. |
-| A red error naming a `.kt` file and a line number | The Kotlin code wasn't compiled before it was handed over, so a small slip is possible. Open the **Build** window at the bottom, copy the **first** error message, and send it over to be fixed. |
+| `JAVA_HOME is not set` or `no 'java' command could be found` | See [If you see "JAVA_HOME is not set"](#if-you-see-java_home-is-not-set) above, or use the Gradle panel instead. |
+| `SDK location not found` | Open the project once in Android Studio (**File → Open**). That creates the missing `local.properties` file. |
+| Anything about compile SDK 36, or `android-36`, not being installed | **Tools → SDK Manager → SDK Platforms**. Tick **API level 36**, then click **Apply**. |
+| The plugin needs a newer Android Studio | **Help → Check for Updates**, then reopen the project. |
+| `Unsupported class file major version`, or `requires JVM 17` | **Settings → Build, Execution, Deployment → Build Tools → Gradle**. Set **Gradle JDK** to the bundled one (`jbr-…`). In the terminal, use the JAVA_HOME line above. |
+| Strange errors after moving the folder | Delete `app/build` and `.gradle`, then run the build command again. |
+| Phone not in the device list | Use a data cable (some only charge), set USB mode to **File transfer**, and accept the prompt on the phone. |
+| "App not installed" or "conflicts with an existing package" | A copy signed with a different key is installed. Uninstall it first; this deletes progress. |
+| **Listen** greyed out, or the wrong accent | Install a Spanish voice. On the phone, search Settings for **text-to-speech**, open the engine's settings, choose **Install voice data**, then **Spanish (Spain)** or **Spanish (Mexico)**. |
+| A red error naming a `.kt` file and a line number | The code wasn't compiled before handover, so a small slip is possible. Copy the **first** error (with its file name and line) and send it over to be fixed. |
 
 ---
 
@@ -227,19 +285,19 @@ If you want a whole new scheme without picking every shade, Google's free **Mate
 
 ```
 EasyEspanol/
+  gradlew, gradlew.bat         the build commands used above
+  keystore.properties.example  template for release signing
   app/
-    build.gradle.kts           app name/id, versionCode, minimum Android version
+    build.gradle.kts           app id, versionCode, signing
     src/main/
-      AndroidManifest.xml      app label and icon
-      assets/                  the phrase and expression CSV files
-      res/                     icon, app name (values/strings.xml)
+      assets/                  phrase CSVs, font licences
+      res/                     icon, fonts, app name
       java/com/example/easyespanol/
-        MainActivity.kt        starts the app
-        data/                  CSV reading, markup, settings and progress, speech
-        navigation/            which screen leads where
-        ui/                    the screens, plus ui/theme for colours
+        data/                  CSV reading, settings, progress, streak, speech
+        navigation/            screens and the transitions between them
+        ui/                    the screens; ui/theme for colours and type
   docs/                        this guide, the data guide, icon preview
   tools/validate.py            checks the CSV files
 ```
 
-The app id is `com.example.easyespanol`. That's fine for installing APKs yourself. To publish on Google Play one day, change `applicationId` in `app/build.gradle.kts` to something of your own, such as `uk.yourname.easyespanol`, before the first release. Play doesn't accept `com.example` ids.
+The app id is `com.example.easyespanol`. That's fine for installing APKs yourself. Google Play doesn't accept `com.example` ids, so to publish there, change `applicationId` in `app/build.gradle.kts` before the first release.

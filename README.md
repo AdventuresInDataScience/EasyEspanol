@@ -23,7 +23,7 @@ app/
       ui/                      home, topics, study, expressions, settings, theme
     res/                       Spanish-flag app icon, app name
 docs/
-  BUILDING_THE_APK.md        Android Studio → APK, step by step, plus troubleshooting
+  BUILDING_THE_APK.md        building the APK (Run button or one terminal command), troubleshooting
   DATA_GUIDE.md              columns, markup, difficulty levels, dialect rules
   icon_preview.png           the icon under different launcher shapes
 tools/
@@ -50,12 +50,20 @@ The script needs Python 3 and no extra packages. It prints a count of phrases pe
 
 ## The app
 
-- **Home:** progress, a "continue where you left off" button, topics, expressions and settings.
-- **Topics → scenes → cards:** each card shows English or Spanish first, depending on the setting, and the other side when tapped. Matching chunks are drawn in matching colours, and notes appear underneath. Cards also have a **Listen** button (the phone's text-to-speech) and "I know this" / "Still learning" buttons.
+- **Home:**
+  - A sunset-gradient tile with an azulejo pattern, a greeting and overall progress.
+  - Tiles for your daily streak, cards reviewed today and phrases known.
+  - A "continue" button, and entry points to topics and expressions.
+- **Topics → scenes → cards:**
+  - Each topic has its own colour and emoji, plus a progress ring.
+  - Cards show English or Spanish first. Tapping one reveals the other side, with matching chunks in matching colours and a note underneath.
+  - Each card has a **Listen** button (the phone's text-to-speech), and buttons for "I know this" (green) and "Still learning" (amber).
+  - Cards slide as you move through a scene, and screens slide between each other.
 - **Settings:**
-  - Spain or Mexico, and the speaker's gender.
-  - Card front, plus separate grammar and vocabulary level filters.
-  - Skip known phrases, and reset progress.
-  - Colour scheme (red and gold, blues, olive, or match the wallpaper) and light or dark mode.
+  - Spain or Mexico, the speaker's gender, which side of the card comes first, and grammar and vocabulary levels.
+  - Skip known phrases.
+  - Five colour palettes plus "match my wallpaper", each with light and dark modes.
+  - Reset progress.
+- **Fonts:** Bricolage Grotesque for headings and Instrument Sans for text. Both are open-source (SIL OFL) and bundled, with their licences in `app/src/main/assets/licences/`.
 - **Progress** is stored on the phone against each phrase's permanent `id`, so it survives switching dialect and installing updated content.
 - **CSV reading:** the files use standard CSV quoting, and the app reads them with a quote-aware parser. Many Spanish fields contain commas, which would break a simple `split(",")`.
