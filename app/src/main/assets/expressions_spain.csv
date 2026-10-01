@@ -1,0 +1,35 @@
+id,group,register,spanish,literal,meaning,note
+expr-001,Reactions,slang,¡{1:Qué} {2:guay}!,{1:How} {2:cool}!,How cool!,"Very common in Spain, especially among younger people."
+expr-002,Reactions,slang,{1:Mola} {2:mucho}.,{1:It's cool} {2:a lot}.,It's really cool.,"From molar, 'to be cool'. There's no literal image behind it."
+expr-003,Reactions,slang,{1:Estoy} {2:flipando}.,{1:I'm} {2:flipping}.,I can't believe it.,flipar = to be amazed (good or bad).
+expr-004,Reactions,informal,{1:Me quedé} {2:a cuadros}.,{1:I was left} {2:in squares}.,I was gobsmacked.,
+expr-005,Reactions,informal,¡{1:Qué} {2:morro}!,{1:What} {2:a snout}!,What a cheek!,Said about someone who's being shameless.
+expr-010,Reactions,informal,¡{1:Ni} {2:loc[o|a]}!,{1:Not even} {2:crazy}!,No way! Not a chance!,Short for 'not even if I were crazy'. The ending matches the speaker.
+expr-011,Greetings & chat,slang,"{1:Tío}, ¿{2:qué pasa}?","{1:Uncle}, {2:what's happening}?","Mate, what's up?","tío / tía = mate, between friends."
+expr-015,People & character,informal,{1:Habla} {2:por los codos}.,{1:He talks} {2:through the elbows}.,He never stops talking.,
+expr-016,People & character,informal,{1:Está} {2:como una cabra}.,{1:He's} {2:like a goat}.,He's completely mad.,
+expr-017,People & character,informal,{1:Eres} {2:la leche}.,{1:You're} {2:the milk}.,You're unbelievable!,"Can be praise or exasperation, depending on tone."
+expr-018,People & character,informal,{1:Está} {2:de mala leche}.,{1:She's} {2:of bad milk}.,She's in a foul mood.,
+expr-019,People & character,neutral,{1:Iba} {2:de punta en blanco}.,{1:He was going} {2:of point in white}.,He was dressed to the nines.,
+expr-020,Effort & mistakes,informal,{1:Es} {2:pan comido}.,{1:It's} {2:eaten bread}.,It's a piece of cake.,
+expr-021,Effort & mistakes,informal,{1:Metí} {2:la pata}.,{1:I stuck in} {2:the paw}.,I put my foot in it.,
+expr-022,Effort & mistakes,informal,{1:Esto} {2:es} {3:un rollo}.,{1:This} {2:is} {3:a roll}.,This is a drag.,
+expr-023,Effort & mistakes,informal,¡{1:Qué} {2:mala pata}!,{1:What} {2:bad paw}!,What bad luck!,
+expr-025,Effort & mistakes,informal,{1:Ponte} {2:las pilas}.,{1:Put in} {2:your batteries}.,Get your act together.,
+expr-027,Effort & mistakes,neutral,{1:Vamos} {2:al grano}.,{1:Let's go} {2:to the grain}.,Let's get to the point.,
+expr-028,Effort & mistakes,informal,{1:Échame} {2:una mano}.,{1:Throw me} {2:a hand}.,Give me a hand.,
+expr-029,Effort & mistakes,informal,{1:Me} {2:estás tomando} {3:el pelo}.,{2:You're taking} {1:my} {3:hair}.,You're pulling my leg.,
+expr-030,Effort & mistakes,informal,{1:Deja de} {2:darme la lata}.,{1:Stop} {2:giving me the tin can}.,Stop pestering me.,
+expr-031,Money & work,slang,{1:No tengo} {2:pasta}.,{1:I don't have} {2:pasta}.,I'm skint.,
+expr-033,Money & work,informal,{1:Cuesta} {2:un ojo de la cara}.,{1:It costs} {2:an eye of the face}.,It costs an arm and a leg.,
+expr-034,Money & work,slang,{1:Mañana} {2:tengo que} {3:currar}.,{1:Tomorrow} {2:I have to} {3:graft}.,I've got to work tomorrow.,currar = to work; el curro = the job.
+expr-036,Feelings & states,informal,{1:Estoy} {2:hech[o|a] polvo}.,{1:I'm} {2:made dust}.,I'm shattered.,The ending matches the speaker.
+expr-038,Feelings & states,informal,{1:Me} {2:importa} {3:un pepino}.,{2:It matters} {1:to me} {3:a cucumber}.,I couldn't care less.,Works like gustar: the thing matters 'to me'.
+expr-040,Feelings & states,neutral,{1:Estaba} {2:en las nubes}.,{1:I was} {2:in the clouds}.,I was miles away.,
+expr-041,Feelings & states,informal,{1:Estoy} {2:hasta las narices}.,{1:I'm} {2:up to the noses}.,I'm fed up.,
+expr-042,Feelings & states,informal,{1:No} {2:pegué} {3:ojo}.,{2:I did}{1:n't} {2:stick} {3:an eye}.,I didn't sleep a wink.,
+expr-043,Feelings & states,neutral,{1:Se me hace} {2:la boca agua}.,{2:My mouth} {1:is turning} {2:to water}.,My mouth is watering.,
+expr-048,Sayings,neutral,{1:No hay} {2:mal} {3:que por bien no venga}.,{1:There's no} {2:bad thing} {3:that doesn't come for good}.,Every cloud has a silver lining.,
+expr-049,Sayings,neutral,{1:Más vale} {2:pájaro en mano} {3:que ciento volando}.,{1:Better} {2:a bird in the hand} {3:than a hundred flying}.,A bird in the hand is worth two in the bush.,
+expr-050,Sayings,neutral,{1:En boca cerrada} {2:no entran moscas}.,{1:Into a closed mouth} {2:no flies enter}.,Sometimes it's best to say nothing.,
+expr-051,Sayings,neutral,{1:Dime con quién andas} {2:y te diré quién eres}.,{1:Tell me who you walk with} {2:and I'll tell you who you are}.,You're known by the company you keep.,

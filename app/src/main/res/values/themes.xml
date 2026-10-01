@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Only used for the split second before the app draws itself.
+         The real colours are chosen in ui/theme/Theme.kt. -->
+    <style name="Theme.EasyEspanol" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

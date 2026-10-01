@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Used when the user turns on themed icons (Android 13+): the flag's two red
+     stripes are drawn as solid bars in the phone's theme colour. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:fillColor="#FFFFFFFF" android:pathData="M18,28h72v12h-72z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M18,68h72v12h-72z" />
+</vector>

@@ -1,0 +1,36 @@
+id,group,register,spanish,literal,meaning,note
+expr-006,Reactions,slang,¡{1:Qué} {2:padre}!,{1:How} {2:father}!,How cool!,Mexico. Also ¡qué padrísimo! for 'how brilliant'.
+expr-007,Reactions,slang,¡{1:No manches}!,{1:Don't stain}!,No way! You're kidding!,"Mexico. Used for surprise, good or bad."
+expr-008,Reactions,slang,¿{1:Neta}?,{1:Truth}?,Seriously? For real?,"Mexico. From la neta, 'the plain truth'."
+expr-009,Reactions,slang,{1:Está} {2:bien chido}.,{1:It's} {2:really cool}.,It's awesome.,Mexico. chido = cool; bien here means 'really'.
+expr-010,Reactions,informal,¡{1:Ni} {2:loc[o|a]}!,{1:Not even} {2:crazy}!,No way! Not a chance!,Short for 'not even if I were crazy'. The ending matches the speaker.
+expr-012,Greetings & chat,slang,¿{1:Qué onda}?,{1:What wave}?,What's up?,Mexico. Very common greeting between friends.
+expr-013,Greetings & chat,neutral,¿{1:Mande}?,{1:Command}?,Pardon? Sorry?,Mexico. A polite way to ask someone to repeat themselves.
+expr-014,Greetings & chat,informal,{1:Ahorita} {2:voy}.,{1:Little now} {2:I go}.,I'll be there in a bit.,Mexico. ahorita can mean 'right now' or 'at some point later'; context decides.
+expr-015,People & character,informal,{1:Habla} {2:por los codos}.,{1:He talks} {2:through the elbows}.,He never stops talking.,
+expr-019,People & character,neutral,{1:Iba} {2:de punta en blanco}.,{1:He was going} {2:of point in white}.,He was dressed to the nines.,
+expr-020,Effort & mistakes,informal,{1:Es} {2:pan comido}.,{1:It's} {2:eaten bread}.,It's a piece of cake.,
+expr-021,Effort & mistakes,informal,{1:Metí} {2:la pata}.,{1:I stuck in} {2:the paw}.,I put my foot in it.,
+expr-024,Effort & mistakes,slang,{1:Está} {2:cañón}.,{1:It's} {2:canyon}.,It's really tough.,Mexico. Used for anything difficult.
+expr-025,Effort & mistakes,informal,{1:Ponte} {2:las pilas}.,{1:Put in} {2:your batteries}.,Get your act together.,
+expr-026,Effort & mistakes,informal,{1:Hay que} {2:echarle ganas}.,{1:You have to} {2:throw desire at it}.,You've got to give it your all.,
+expr-027,Effort & mistakes,neutral,{1:Vamos} {2:al grano}.,{1:Let's go} {2:to the grain}.,Let's get to the point.,
+expr-028,Effort & mistakes,informal,{1:Échame} {2:una mano}.,{1:Throw me} {2:a hand}.,Give me a hand.,
+expr-029,Effort & mistakes,informal,{1:Me} {2:estás tomando} {3:el pelo}.,{2:You're taking} {1:my} {3:hair}.,You're pulling my leg.,
+expr-030,Effort & mistakes,informal,{1:Deja de} {2:darme lata}.,{1:Stop} {2:giving me the tin can}.,Stop pestering me.,
+expr-032,Money & work,slang,{1:No tengo} {2:lana}.,{1:I don't have} {2:wool}.,I'm skint.,Mexico.
+expr-033,Money & work,informal,{1:Cuesta} {2:un ojo de la cara}.,{1:It costs} {2:an eye of the face}.,It costs an arm and a leg.,
+expr-035,Money & work,slang,{1:Tengo que} {2:ir} {3:a la chamba}.,{1:I have to} {2:go} {3:to the graft}.,I've got to go to work.,"Mexico. chamba = work, a job."
+expr-037,Feelings & states,slang,{1:Estoy} {2:crud[o|a]}.,{1:I'm} {2:raw}.,I'm hungover.,Mexico. The ending matches the speaker.
+expr-039,Feelings & states,slang,{1:Me vale}.,{1:It's worth to me}.,I don't care.,Mexico. Can sound rude.
+expr-040,Feelings & states,neutral,{1:Estaba} {2:en las nubes}.,{1:I was} {2:in the clouds}.,I was miles away.,
+expr-042,Feelings & states,informal,{1:No} {2:pegué} {3:el ojo}.,{2:I did}{1:n't} {2:stick} {3:an eye}.,I didn't sleep a wink.,
+expr-043,Feelings & states,neutral,{1:Se me hace} {2:agua} {3:la boca}.,{3:My mouth} {1:is turning} {2:to water}.,My mouth is watering.,
+expr-044,Feelings & states,neutral,{1:Me da} {2:pena}.,{1:It gives me} {2:sorrow}.,I'm embarrassed.,"In Spain, this means 'it makes me sad'."
+expr-045,Feelings & states,slang,{1:Fue} {2:un oso}.,{1:It was} {2:a bear}.,It was so embarrassing.,Mexico.
+expr-046,Feelings & states,slang,{1:Me late}.,{1:It beats to me}.,Sounds good to me.,Mexico.
+expr-047,Feelings & states,slang,¡{1:Aguas}!,{1:Waters}!,Watch out!,Mexico.
+expr-048,Sayings,neutral,{1:No hay} {2:mal} {3:que por bien no venga}.,{1:There's no} {2:bad thing} {3:that doesn't come for good}.,Every cloud has a silver lining.,
+expr-049,Sayings,neutral,{1:Más vale} {2:pájaro en mano} {3:que ciento volando}.,{1:Better} {2:a bird in the hand} {3:than a hundred flying}.,A bird in the hand is worth two in the bush.,
+expr-050,Sayings,neutral,{1:En boca cerrada} {2:no entran moscas}.,{1:Into a closed mouth} {2:no flies enter}.,Sometimes it's best to say nothing.,
+expr-051,Sayings,neutral,{1:Dime con quién andas} {2:y te diré quién eres}.,{1:Tell me who you walk with} {2:and I'll tell you who you are}.,You're known by the company you keep.,
