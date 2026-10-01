@@ -5,25 +5,76 @@ greet-meet-03,Greetings & introductions,Meeting someone,1,1,{1:Encantad[o|a]}.,{
 greet-meet-04,Greetings & introductions,Meeting someone,1,1,{1:Soy} {2:de} {3:Inglaterra}.,{1:I'm} {2:from} {3:England}.,
 greet-meet-05,Greetings & introductions,Meeting someone,1,1,¿{1:De dónde} {2:eres}?,{1:Where} {2:are you} {1:from}?,Spanish keeps 'from where' together at the start.
 greet-meet-06,Greetings & introductions,Meeting someone,1,1,"{1:Vivo} {2:en Londres}, {3:pero} {4:trabajo} {5:desde casa}.","{1:I live} {2:in London}, {3:but} {4:I work} {5:from home}.",No 'I' needed: the verb ending already says who.
+greet-meet-11,Greetings & introductions,Meeting someone,1,1,{1:Mucho gusto}.,{1:Pleased to meet you}.,
+greet-meet-12,Greetings & introductions,Meeting someone,1,1,"{1:Este es} {2:mi esposo}, {3:Tom}.","{1:This is} {2:my husband}, {3:Tom}.",
+greet-meet-13,Greetings & introductions,Meeting someone,1,1,"{1:Soy} {2:ingl[és|esa]}, {3:pero} {4:mi mamá} {5:es} {6:de aquí}.","{1:I'm} {2:English}, {3:but} {4:my mother} {5:is} {6:from here}.",
+greet-meet-14,Greetings & introductions,Meeting someone,1,1,{1:Tengo} {2:cuarenta y dos años}.,{1:I'm} {2:forty-two}.,
+greet-meet-15,Greetings & introductions,Meeting someone,1,2,{1:Estoy aquí} {2:por trabajo}.,{1:I'm here} {2:for work}.,
+greet-meet-16,Greetings & introductions,Meeting someone,1,2,{1:Estoy} {2:de vacaciones} {3:con mi familia}.,{1:I'm} {2:on holiday} {3:with my family}.,
+greet-meet-17,Greetings & introductions,Meeting someone,1,2,{1:Somos} {2:vecinos}; {3:vivo} {4:en el tercero}.,{1:We're} {2:neighbours}; {3:I live} {4:on the third floor}.,
+greet-meet-18,Greetings & introductions,Meeting someone,1,2,{1:Te presento} a {2:mi compañera de trabajo}.,{1:This is} {2:my colleague}.,
+greet-meet-19,Greetings & introductions,Meeting someone,1,3,{1:Me dedico} {2:a la fisioterapia}.,{1:I work} {2:as a physiotherapist}.,
+greet-meet-20,Greetings & introductions,Meeting someone,1,3,"{1:Nací} {2:en Escocia}, {3:pero} {4:me crie} {5:en Gales}.","{1:I was born} {2:in Scotland}, {3:but} {4:I grew up} {5:in Wales}.",
 greet-meet-07,Greetings & introductions,Meeting someone,2,1,{1:Llegué} {2:aquí} {3:hace} {4:dos semanas}.,{1:I arrived} {2:here} {4:two weeks} {3:ago}.,hace + time = 'ago'. Llegué is the preterite: a finished action.
 greet-meet-08,Greetings & introductions,Meeting someone,2,1,{1:Llevo} {2:tres meses} {3:aprendiendo} {4:español}.,{1:I've been} {3:learning} {4:Spanish} {1:for} {2:three months}.,llevar + time + -ando/-iendo = 'have been doing for'.
+greet-meet-21,Greetings & introductions,Meeting someone,2,1,"{1:Nos conocimos} {2:en la boda de Lucía}, ¿{3:verdad}?","{1:We met} {2:at Lucía's wedding}, {3:didn't we}?",
+greet-meet-22,Greetings & introductions,Meeting someone,2,2,{1:Me mudé} {2:aquí} {3:por mi pareja}.,{1:I moved} {2:here} {3:because of my partner}.,
+greet-meet-23,Greetings & introductions,Meeting someone,2,2,{1:Siempre} {2:he querido} {3:vivir} {4:aquí}.,{2:I've} {1:always} {2:wanted} {3:to live} {4:here}.,
+greet-meet-24,Greetings & introductions,Meeting someone,2,3,{1:Me han hablado} {2:mucho} {3:de ti}.,{1:I've heard} {2:a lot} {3:about you}.,
 greet-meet-09,Greetings & introductions,Meeting someone,3,1,"{1:Si} {2:hablaras} {3:más despacio}, {4:te} {5:entendería} {6:mejor}.","{1:If} {2:you spoke} {3:more slowly}, {5:I'd understand} {4:you} {6:better}.","Si + imperfect subjunctive, then the conditional: an 'if' that isn't real."
 greet-meet-10,Greetings & introductions,Meeting someone,3,1,{1:Me alegro} de que {2:por fin} {3:nos hayamos conocido}.,{1:I'm glad} {3:we've} {2:finally} {3:met}.,Feelings + que take the subjunctive (hayamos).
+greet-meet-25,Greetings & introductions,Meeting someone,3,2,"{1:Si} {2:no} {3:me hubieras saludado}, {4:no} {5:te habría reconocido}.","{1:If} {3:you had}{2:n't} {3:said hello}, {5:I would}{4:n't} {5:have recognised you}.",
+greet-meet-26,Greetings & introductions,Meeting someone,3,2,{1:Me encantaría} que {2:conocieras} a {3:mis amigos}.,{1:I'd love} {2:you to meet} {3:my friends}.,
 greet-chat-01,Greetings & introductions,Small talk,1,1,¿{1:Qué tal}?,{1:How's it going}?,
 greet-chat-02,Greetings & introductions,Small talk,1,1,"{1:Muy bien}, {2:gracias}. ¿{3:Y tú}?","{1:Very well}, {2:thanks}. {3:And you}?",
 greet-chat-03,Greetings & introductions,Small talk,1,1,{1:Me} {2:gusta} {3:mucho} {4:esta ciudad}.,{1:I} {3:really} {2:like} {4:this city}.,gustar works backwards: literally 'this city pleases me a lot'.
 greet-chat-04,Greetings & introductions,Small talk,1,1,"{1:Hace} {2:mucho calor} {3:hoy}, ¿{4:verdad}?","{1:It's} {2:really hot} {3:today}, {4:isn't it}?",Weather uses hacer: literally 'it makes a lot of heat'. ¿verdad? works like 'isn't it?'
+greet-chat-10,Greetings & introductions,Small talk,1,1,¿{1:Qué tal} {2:el fin de semana}?,{1:How was} {2:your weekend}?,
+greet-chat-11,Greetings & introductions,Small talk,1,1,"{1:Todo bien}, {2:gracias}.","{1:All good}, {2:thanks}.",
+greet-chat-12,Greetings & introductions,Small talk,1,1,¿{1:Vives} {2:por aquí}?,{1:Do you live} {2:around here}?,
+greet-chat-13,Greetings & introductions,Small talk,1,1,¡{1:Qué} {2:día} {3:tan bonito}!,{1:What} {3:a lovely} {2:day}!,
 greet-chat-05,Greetings & introductions,Small talk,1,2,¿{1:A qué} {2:te dedicas}?,{1:What} {2:do you do}?,Literally 'To what do you dedicate yourself?' The usual way to ask about someone's job.
+greet-chat-14,Greetings & introductions,Small talk,1,2,{1:Hoy} {2:hay} {3:mucha gente} {4:en la calle}.,{2:There are} {3:lots of people} {4:out} {1:today}.,
+greet-chat-15,Greetings & introductions,Small talk,1,2,¿{1:Vienes} {2:mucho} {3:por aquí}?,{1:Do you come} {3:here} {2:often}?,
+greet-chat-16,Greetings & introductions,Small talk,1,2,{1:Me encanta} {2:tu perro}. ¿{3:Cómo se llama}?,{1:I love} {2:your dog}. {3:What's his name}?,
+greet-chat-17,Greetings & introductions,Small talk,1,2,{1:Hace} {2:un tiempo} {3:raro} {4:para esta época}.,{1:It's} {3:strange} {2:weather} {4:for the time of year}.,
+greet-chat-21,Greetings & introductions,Small talk,1,2,{1:Hace mucho} que {2:no} {3:te veo}.,{3:I have}{2:n't} {3:seen you} {1:for ages}.,
+greet-chat-18,Greetings & introductions,Small talk,1,3,{1:El tráfico} {2:está} {3:pesadísimo} {4:esta mañana}.,{1:The traffic} {2:is} {3:awful} {4:this morning}.,
 greet-chat-06,Greetings & introductions,Small talk,2,1,¿{1:Has estado} {2:alguna vez} {3:en Inglaterra}?,{1:Have you} {2:ever} {1:been} {3:to England}?,The present perfect for life experiences.
 greet-chat-07,Greetings & introductions,Small talk,2,1,{1:El fin de semana pasado} {2:fuimos} {3:a la playa} {4:con unos amigos}.,{1:Last weekend} {2:we went} {3:to the beach} {4:with some friends}.,fuimos = we went (preterite of ir).
+greet-chat-19,Greetings & introductions,Small talk,2,1,¿{1:Qué} {2:hiciste} {3:ayer}?,{1:What} {2:did you do} {3:yesterday}?,
+greet-chat-20,Greetings & introductions,Small talk,2,2,¿{1:Viste} {2:el partido} {3:de anoche}?,{1:Did you see} {3:last night's} {2:match}?,
+greet-chat-22,Greetings & introductions,Small talk,2,2,{1:Me dijeron} que {2:te vas} {3:de viaje}.,{1:I hear} {2:you're going} {3:away}.,
+greet-chat-23,Greetings & introductions,Small talk,2,3,{1:Este verano} {2:ha estado} {3:muy caluroso}.,{1:This summer} {2:has been} {3:boiling}.,
 greet-chat-08,Greetings & introductions,Small talk,3,1,{1:Espero} que {2:te guste} {3:la comida} {4:de aquí}.,{1:I hope} {2:you like} {3:the food} {4:here}.,Espero que + subjunctive: hopes and wishes.
 greet-chat-09,Greetings & introductions,Small talk,3,1,"{1:Si} {2:hubiera sabido} que {3:hacía} {4:tanto frío}, {5:habría traído} {6:un abrigo}.","{1:If} {2:I'd known} {3:it was} {4:this cold}, {5:I'd have brought} {6:a coat}.","A past 'if': si + pluperfect subjunctive, then the conditional perfect."
+greet-chat-24,Greetings & introductions,Small talk,3,2,¿{1:Qué} {2:harías} {3:si} {4:te tocara} {5:la lotería}?,{1:What} {2:would you do} {3:if} {4:you won} {5:the lottery}?,
+greet-chat-25,Greetings & introductions,Small talk,3,2,{1:No me extraña} que {2:necesites} {3:vacaciones} {4:con tanto trabajo}.,{1:No wonder} {2:you need} {3:a holiday} {4:with all that work}.,
 greet-bye-01,Greetings & introductions,Saying goodbye,1,1,"{1:Adiós}, {2:hasta luego}.","{1:Bye}, {2:see you later}.",
 greet-bye-02,Greetings & introductions,Saying goodbye,1,1,{1:Hasta mañana}.,{1:See you tomorrow}.,Literally 'until tomorrow'.
 greet-bye-03,Greetings & introductions,Saying goodbye,1,1,{1:Tengo que} {2:irme}.,{1:I have to} {2:go}.,irse = to leave. irme = 'take myself off'.
+greet-bye-07,Greetings & introductions,Saying goodbye,1,1,{1:Hasta pronto}.,{1:See you soon}.,
+greet-bye-08,Greetings & introductions,Saying goodbye,1,1,{1:Nos vemos}.,{1:See you}.,
+greet-bye-09,Greetings & introductions,Saying goodbye,1,1,{1:Buenas noches}.,{1:Good night}.,
+greet-bye-10,Greetings & introductions,Saying goodbye,1,1,{1:Hasta el lunes}.,{1:See you on Monday}.,
+greet-bye-11,Greetings & introductions,Saying goodbye,1,1,{1:Ya} {2:es} {3:muy tarde}.,{2:It's} {3:very late} {1:now}.,
+greet-bye-12,Greetings & introductions,Saying goodbye,1,2,"{1:Me voy} {2:ya}, que {3:mañana} {4:me levanto temprano}.",{1:I'm off} {2:now}; {4:I've got an early start} {3:tomorrow}.,
+greet-bye-13,Greetings & introductions,Saying goodbye,1,2,{1:Gracias por} {2:todo}.,{1:Thanks for} {2:everything}.,
+greet-bye-14,Greetings & introductions,Saying goodbye,1,2,{1:Salúdame} {2:a tu mamá}.,{1:Give my regards} {2:to your mother}.,
+greet-bye-15,Greetings & introductions,Saying goodbye,1,2,{1:Tenemos que} {2:repetirlo}.,{1:We must} {2:do this again}.,
+greet-bye-16,Greetings & introductions,Saying goodbye,1,3,{1:Me tengo que ir} {2:corriendo}.,{1:I have to} {2:dash}.,
 greet-bye-04,Greetings & introductions,Saying goodbye,2,1,{1:La pasé} {2:muy bien}.,{1:I've had} {2:a great time}.,pasarla bien = to have a good time.
-greet-bye-05,Greetings & introductions,Saying goodbye,3,2,{1:Avísame} {2:cuando} {3:llegues} {4:a casa}.,{1:Let me know} {2:when} {3:you get} {4:home}.,cuando + subjunctive for a moment that hasn't happened yet.
+greet-bye-17,Greetings & introductions,Saying goodbye,2,1,{1:Fue} {2:un placer}.,{1:It's been} {2:a pleasure}.,
+greet-bye-18,Greetings & introductions,Saying goodbye,2,1,{1:Cuídate} {2:mucho}.,{1:Take} {2:good} {1:care}.,
+greet-bye-19,Greetings & introductions,Saying goodbye,2,2,{1:Te llamo} {2:la próxima semana}.,{1:I'll call you} {2:next week}.,
+greet-bye-20,Greetings & introductions,Saying goodbye,2,2,{1:Escríbeme} {2:cuando} {3:puedas}.,{1:Write to me} {2:when} {3:you can}.,
+greet-bye-21,Greetings & introductions,Saying goodbye,2,2,{1:Saluda} a {2:todos} {3:de mi parte}.,{1:Say hello} {2:to everyone} {3:for me}.,
 greet-bye-06,Greetings & introductions,Saying goodbye,3,1,{1:Ojalá} {2:pudiéramos} {3:quedarnos} {4:más tiempo}.,{1:I wish} {2:we could} {3:stay} {4:longer}.,Ojalá + imperfect subjunctive: a wish that probably won't come true.
+greet-bye-22,Greetings & introductions,Saying goodbye,3,1,{1:Que tengas} {2:buen viaje}.,{1:Have} {2:a good trip}.,"Que + subjunctive, a set way of wishing someone well."
+greet-bye-23,Greetings & introductions,Saying goodbye,3,1,{1:Que} {2:te vaya} {3:bien}.,{1:I hope} {2:it goes} {3:well}.,
+greet-bye-05,Greetings & introductions,Saying goodbye,3,2,{1:Avísame} {2:cuando} {3:llegues} {4:a casa}.,{1:Let me know} {2:when} {3:you get} {4:home}.,cuando + subjunctive for a moment that hasn't happened yet.
+greet-bye-24,Greetings & introductions,Saying goodbye,3,2,"{1:Si} {2:vuelves} {3:por aquí}, {4:avísame}.","{1:If} {2:you're} {3:ever back this way}, {4:let me know}.",
+greet-bye-25,Greetings & introductions,Saying goodbye,3,2,{1:Ojalá} {2:nos veamos} {3:pronto}.,{1:I hope} {2:we see each other} {3:soon}.,
 greet-polite-01,Greetings & introductions,Polite basics,1,1,{1:Muchas gracias}.,{1:Thank you very much}.,
 greet-polite-02,Greetings & introductions,Polite basics,1,1,{1:De nada}.,{1:You're welcome}.,Literally 'of nothing'.
 greet-polite-03,Greetings & introductions,Polite basics,1,1,{1:Lo siento} {2:mucho}.,{1:I'm} {2:very} {1:sorry}.,
@@ -114,32 +165,81 @@ greet-formal-12,Greetings & introductions,Formal introductions,3,1,{1:Espero} qu
 greet-formal-13,Greetings & introductions,Formal introductions,3,2,"{1:Si} {2:necesita} {3:cualquier cosa}, {4:no} {5:dude en} {6:contactarme}.","{1:If} {2:you need} {3:anything}, {5:do}{4:n't} {5:hesitate to} {6:contact me}.",
 greet-formal-14,Greetings & introductions,Formal introductions,3,3,{1:Me pidió} que {2:le diera recuerdos}.,{1:She asked me} {2:to give you her regards}.,
 greet-formal-15,Greetings & introductions,Formal introductions,3,3,{1:Sería} {2:un honor} que {3:aceptara} {4:nuestra invitación}.,{1:It would be} {2:an honour} {3:if you accepted} {4:our invitation}.,
-hotel-checkin-01,Hotel,Checking in,1,2,"{1:Hola}, {2:tengo} {3:una reserva}.","{1:Hello}, {2:I have} {3:a reservation}.",
-hotel-checkin-02,Hotel,Checking in,1,2,{1:Estoy} {2:en el lobby}.,{1:I'm} {2:in the lobby}.,
-hotel-checkin-03,Hotel,Checking in,1,2,{1:La reserva} {2:está} {3:a nombre de} {4:García}.,{1:The reservation} {2:is} {3:under the name} {4:García}.,
 hotel-checkin-04,Hotel,Checking in,1,1,¿{1:Necesita} {2:mi pasaporte}?,{1:Do you need} {2:my passport}?,Necesita is the polite 'you' (usted).
 hotel-checkin-05,Hotel,Checking in,1,1,¿{1:A qué hora} {2:es} {3:el desayuno}?,{1:What time} {2:is} {3:breakfast}?,
 hotel-checkin-06,Hotel,Checking in,1,1,{1:Mi habitación} {2:todavía} {3:no} {4:está} {5:lista}.,{1:My room} {4:is}{3:n't} {5:ready} {2:yet}.,lista ends in -a because habitación is feminine.
+hotel-checkin-11,Hotel,Checking in,1,1,"{1:Buenas tardes}, {2:tengo} {3:una habitación reservada}.","{1:Good afternoon}, {2:I have} {3:a room booked}.",
+hotel-checkin-12,Hotel,Checking in,1,1,{1:Es} {2:para dos noches}.,{1:It's} {2:for two nights}.,
+hotel-checkin-13,Hotel,Checking in,1,1,¿{1:Hay} {2:wifi} {3:en las habitaciones}?,{1:Is there} {2:wifi} {3:in the rooms}?,
+hotel-checkin-01,Hotel,Checking in,1,2,"{1:Hola}, {2:tengo} {3:una reserva}.","{1:Hello}, {2:I have} {3:a reservation}.",
+hotel-checkin-02,Hotel,Checking in,1,2,{1:Estoy} {2:en el lobby}.,{1:I'm} {2:in the lobby}.,
+hotel-checkin-03,Hotel,Checking in,1,2,{1:La reserva} {2:está} {3:a nombre de} {4:García}.,{1:The reservation} {2:is} {3:under the name} {4:García}.,
+hotel-checkin-14,Hotel,Checking in,1,2,¿{1:En qué piso} {2:está} {3:la habitación}?,{1:What floor} {2:is} {3:the room} {1:on}?,
+hotel-checkin-15,Hotel,Checking in,1,2,¿{1:Dónde} {2:está} {3:el elevador}?,{1:Where}{2:'s} {3:the lift}?,
+hotel-checkin-16,Hotel,Checking in,1,2,¿{1:Puedo} {2:cambiar} {3:a una habitación} {4:con tina}?,{1:Can I} {2:change} {3:to a room} {4:with a bath}?,
+hotel-checkin-17,Hotel,Checking in,1,2,¿{1:Tienen} {2:estacionamiento}?,{1:Do you have} {2:parking}?,
+hotel-checkin-18,Hotel,Checking in,1,3,{1:Prefiero} {2:una habitación} {3:con vistas al mar}.,{1:I'd prefer} {2:a room} {3:with a sea view}.,
+hotel-checkin-19,Hotel,Checking in,1,3,{1:Necesitamos} {2:una cuna} {3:para el bebé}.,{1:We need} {2:a cot} {3:for the baby}.,
+hotel-checkin-20,Hotel,Checking in,1,3,¿{1:Hasta qué hora} {2:está abierta} {3:la recepción}?,{1:Until what time} {2:is} {3:reception} {2:open}?,
 hotel-checkin-07,Hotel,Checking in,2,2,{1:Reservé} {2:una habitación} {3:doble} {4:para tres noches}.,{1:I booked} {2:a} {3:double} {2:room} {4:for three nights}.,The adjective usually comes after the noun.
 hotel-checkin-08,Hotel,Checking in,2,2,¿{1:Podría} {2:dejar} {3:las maletas} {4:aquí} {5:hasta las tres}?,{1:Could I} {2:leave} {3:my bags} {4:here} {5:until three}?,Podría (conditional) makes a request softer and more polite.
+hotel-checkin-21,Hotel,Checking in,2,2,{1:Llegaremos} {2:sobre las once} {3:de la noche}.,{1:We'll arrive} {2:around eleven} {3:at night}.,
+hotel-checkin-22,Hotel,Checking in,2,2,"{1:Llene} {2:esta ficha}, {3:por favor}.","{1:Could you fill in} {2:this form}, {3:please}?",
+hotel-checkin-23,Hotel,Checking in,2,3,{1:Pagué} {2:por adelantado} {3:en la web}.,{1:I paid} {2:in advance} {3:on the website}.,
+hotel-checkin-24,Hotel,Checking in,2,3,¿{1:Me podría dar} {2:un plano} {3:de la ciudad}?,{1:Could you give me} {2:a map} {3:of the city}?,
 hotel-checkin-09,Hotel,Checking in,3,2,"{1:Mientras} {2:estaba sentad[o|a]} {3:en el lobby}, {4:el recepcionista} {5:me} {6:dijo} que {7:mi habitación} {8:todavía} {9:se estaba preparando}.","{1:As} {2:I sat} {3:in the lobby}, {4:the receptionist} {6:told} {5:me} {7:my room} {9:was} {8:still} {9:being prepared}.","The imperfect sets the scene, the preterite interrupts it. 'Se estaba preparando' is a passive with se."
 hotel-checkin-10,Hotel,Checking in,3,2,"{1:Al llegar}, {2:me dijeron} que {3:habían vendido} {4:más habitaciones} {5:de las que} {6:tenían}.","{1:When I arrived}, {2:they told me} {3:they'd sold} {4:more rooms} {5:than} {6:they had}.",Al + infinitive = 'on doing'. Habían vendido is the pluperfect: 'had sold'.
+hotel-checkin-25,Hotel,Checking in,3,2,{1:Pedí} que {2:las camas} {3:estuvieran} {4:separadas}.,{1:I asked for} {2:the beds} {3:to be} {4:separate}.,
 hotel-room-01,Hotel,In the room,1,1,{1:La habitación} {2:es} {3:muy bonita}.,{1:The room} {2:is} {3:very nice}.,
+hotel-room-10,Hotel,In the room,1,1,{1:La ventana} {2:no} {3:cierra} {4:bien}.,{1:The window} {3:does}{2:n't} {3:close} {4:properly}.,
+hotel-room-11,Hotel,In the room,1,1,{1:Hace} {2:mucho calor} {3:en la habitación}.,{1:It's} {2:very hot} {3:in the room}.,
 hotel-room-02,Hotel,In the room,1,2,{1:No hay} {2:toallas}.,{1:There are no} {2:towels}.,hay = there is / there are.
 hotel-room-03,Hotel,In the room,1,2,{1:El aire acondicionado} {2:no} {3:funciona}.,{1:The air conditioning} {3:does}{2:n't} {3:work}.,no goes straight before the verb.
 hotel-room-04,Hotel,In the room,1,2,¿{1:Me} {2:puede} {3:traer} {4:otra almohada}?,{2:Can you} {3:bring} {1:me} {4:another pillow}?,The pronoun (me) comes before the verb in Spanish.
+hotel-room-12,Hotel,In the room,1,2,{1:No} {2:hay} {3:papel higiénico}.,{2:There's} {1:no} {3:toilet paper}.,
+hotel-room-13,Hotel,In the room,1,2,{1:La luz} {2:del baño} {3:no prende}.,{1:The light} {2:in the bathroom} {3:won't come on}.,
+hotel-room-14,Hotel,In the room,1,2,¿{1:Cómo funciona} {2:la calefacción}?,{1:How does} {2:the heating} {1:work}?,
 hotel-room-05,Hotel,In the room,1,3,{1:La llave} {2:del baño} {3:gotea}.,{1:The tap} {2:in the bathroom} {3:is dripping}.,"In Mexico, llave means both 'key' and 'tap'. del = de + el."
 hotel-room-06,Hotel,In the room,1,3,{1:El control} {2:de la tele} {3:no tiene} {4:pilas}.,{1:The remote} {2:for the TV} {3:has no} {4:batteries}.,
+hotel-room-15,Hotel,In the room,1,3,{1:Hay} {2:moho} {3:en la regadera}.,{1:There's} {2:mould} {3:in the shower}.,
+hotel-room-16,Hotel,In the room,1,3,{1:La caja fuerte} {2:no} {3:se abre}.,{1:The safe} {3:wo}{2:n't} {3:open}.,
+hotel-room-17,Hotel,In the room,1,3,{1:Necesito} {2:un adaptador} {3:para el contacto}.,{1:I need} {2:an adaptor} {3:for the socket}.,
+hotel-room-18,Hotel,In the room,1,3,{1:El extractor} {2:hace} {3:mucho ruido}.,{1:The extractor fan} {2:makes} {3:a lot of noise}.,
 hotel-room-07,Hotel,In the room,2,1,{1:Anoche} {2:no} {3:pude} {4:dormir} {5:por el ruido}.,{1:Last night} {3:I could}{2:n't} {4:sleep} {5:because of the noise}.,pude = I could (preterite of poder): one specific night.
 hotel-room-08,Hotel,In the room,2,2,{1:La regadera} {2:lleva} {3:dos días} {4:sin} {5:agua caliente}.,{1:The shower} {2:has had} {4:no} {5:hot water} {2:for} {3:two days}.,llevar + time + sin = 'have gone without... for'.
+hotel-room-19,Hotel,In the room,2,2,"{1:Limpiaron} {2:la habitación}, {3:pero} {4:no} {5:cambiaron} {6:las toallas}.","{1:They've cleaned} {2:the room}, {3:but} {5:they have}{4:n't} {5:changed} {6:the towels}.",
+hotel-room-20,Hotel,In the room,2,2,{1:Se fue} {2:la luz}.,{2:The power} {1:has gone off}.,
+hotel-room-21,Hotel,In the room,2,3,{1:Mándeme} {2:a alguien} {3:para arreglar} {4:la persiana}.,{1:Please send} {2:someone} {3:to fix} {4:the blind}.,
+hotel-room-22,Hotel,In the room,2,3,{1:Me quedé} {2:afuera} {3:sin la tarjeta}.,{1:I've locked myself} {2:out} {3:without the key card}.,
+hotel-room-23,Hotel,In the room,2,3,¿{1:Podrían} {2:traerme} {3:una cobija} {4:más}?,{1:Could you} {2:bring me} {4:another} {3:blanket}?,
 hotel-room-09,Hotel,In the room,3,2,{1:Le agradecería} que {2:me cambiara} {3:a otra habitación} {4:más tranquila}.,"{1:I'd be grateful if} {2:you could move me} {3:to another}, {4:quieter} {3:room}.",Conditional + que + imperfect subjunctive: a very polite request.
+hotel-room-24,Hotel,In the room,3,2,"{1:No} {2:molesten} {3:hasta mediodía}, {4:por favor}.",{4:Please} {2:do}{1:n't} {2:disturb us} {3:until midday}.,
+hotel-room-25,Hotel,In the room,3,3,"{1:Si} {2:hubiera sabido} que {3:daba} {4:a la calle}, {5:habría pedido} {6:otra}.","{1:If} {2:I'd known} {3:it faced} {4:the street}, {5:I'd have asked for} {6:another one}.",
 hotel-checkout-01,Hotel,Checking out,1,1,¿{1:A qué hora} {2:hay que} {3:dejar} {4:la habitación}?,{1:What time} {2:do I have to} {3:leave} {4:the room}?,hay que = 'one has to'.
 hotel-checkout-02,Hotel,Checking out,1,1,{1:Aquí tiene} {2:la llave}.,{1:Here's} {2:the key}.,"Aquí tiene: literally 'here you have', said when handing something over."
 hotel-checkout-03,Hotel,Checking out,1,1,¿{1:Me} {2:puede} {3:pedir} {4:un taxi} {5:para las diez}?,{2:Can you} {3:order} {1:me} {4:a taxi} {5:for ten o'clock}?,
+hotel-checkout-08,Hotel,Checking out,1,1,{1:Queremos} {2:dejar la habitación}.,{1:We'd like} {2:to check out}.,
+hotel-checkout-09,Hotel,Checking out,1,1,¿{1:Puedo} {2:pagar} {3:ahora}?,{1:Can I} {2:pay} {3:now}?,
 hotel-checkout-04,Hotel,Checking out,1,2,{1:Hay} {2:un error} {3:en la factura}.,{1:There's} {2:a mistake} {3:on the bill}.,
+hotel-checkout-10,Hotel,Checking out,1,2,¿{1:Puedo} {2:dejar} {3:la maleta} {4:en guarda equipaje}?,{1:Can I} {2:leave} {3:my suitcase} {4:in storage}?,
+hotel-checkout-11,Hotel,Checking out,1,2,¿{1:Me da} {2:una factura} {3:a nombre de la empresa}?,{1:Could I have} {2:an invoice} {3:in the company's name}?,
+hotel-checkout-12,Hotel,Checking out,1,2,{1:Necesito} {2:salir} {3:un poco más tarde}.,{1:I need} {2:to check out} {3:a bit later}.,
+hotel-checkout-13,Hotel,Checking out,1,2,¿{1:Cuánto} {2:cuesta} {3:quedarse} {4:hasta las dos}?,{1:How much} {2:is it} {3:to stay} {4:until two}?,
+hotel-checkout-14,Hotel,Checking out,1,3,¿{1:Qué} {2:es} {3:este cargo}?,{1:What}{2:'s} {3:this charge}?,
+hotel-checkout-15,Hotel,Checking out,1,3,{1:La tasa turística} {2:se paga} {3:aparte}.,{1:The tourist tax} {2:is paid} {3:separately}.,
+hotel-checkout-16,Hotel,Checking out,2,1,{1:Nos la pasamos} {2:muy bien}.,{1:We've had} {2:a really good time}.,
 hotel-checkout-05,Hotel,Checking out,2,2,{1:No} {2:usé} {3:el minibar}.,{2:I have}{1:n't} {2:used} {3:the minibar}.,Latin America normally uses the preterite here.
 hotel-checkout-06,Hotel,Checking out,2,2,{1:Fue} {2:una estadía} {3:increíble}; {4:volveremos} {5:seguro}.,{1:It's been} {2:a} {3:wonderful} {2:stay}; {4:we'll} {5:definitely} {4:be back}.,volveremos is the future: 'we will return'.
+hotel-checkout-17,Hotel,Checking out,2,2,"¿{1:Me llama} {2:un taxi}, {3:por favor}?","{1:Could you call me} {2:a taxi}, {3:please}?",
+hotel-checkout-18,Hotel,Checking out,2,2,{1:Se me olvidó} {2:el cargador} {3:en la habitación}.,{1:I've left} {2:my charger} {3:in the room}.,
+hotel-checkout-19,Hotel,Checking out,2,2,{1:Solo tomé} {2:un agua} {3:del minibar}.,{1:I only had} {2:a water} {3:from the minibar}.,
+hotel-checkout-21,Hotel,Checking out,2,2,{1:Mándeme} {2:la factura} {3:por correo electrónico}.,{1:Send me} {2:the invoice} {3:by email}.,
+hotel-checkout-20,Hotel,Checking out,2,3,{1:Ya} {2:lo pagué} {3:al hacer la reserva}.,{2:I} {1:already} {2:paid for it} {3:when I booked}.,
+hotel-checkout-22,Hotel,Checking out,3,2,{1:Me gustaría} que {2:revisaran} {3:la cuenta} {4:otra vez}.,{1:I'd like} {2:you to check} {3:the bill} {4:again}.,
+hotel-checkout-25,Hotel,Checking out,3,2,"{1:Aunque} {2:me ofrezcan} {3:un descuento}, {4:no} {5:volveré}.","{1:Even if} {2:they offer me} {3:a discount}, {5:I wo}{4:n't} {5:come back}.",
 hotel-checkout-07,Hotel,Checking out,3,3,{1:Me dijeron} que {2:me devolverían} {3:el depósito} {4:en cuanto} {5:revisaran} {6:la habitación}.,{1:They told me} {2:they'd give me back} {3:the deposit} {4:as soon as} {5:they'd checked} {6:the room}.,"Reported speech: the future becomes the conditional, and en cuanto takes the subjunctive."
+hotel-checkout-23,Hotel,Checking out,3,3,"{1:Si} {2:me hubieran avisado} {3:del recargo}, {4:habría salido} {5:antes}.","{1:If} {2:you'd told me} {3:about the surcharge}, {4:I'd have checked out} {5:earlier}.",
+hotel-checkout-24,Hotel,Checking out,3,3,{1:Me aseguraron} que {2:la cancelación} {3:sería} {4:gratuita}.,{1:They assured me} {2:the cancellation} {3:would be} {4:free}.,
 hotel-booking-01,Hotel,Booking ahead,1,1,¿{1:Tienen} {2:habitaciones} {3:libres} {4:para el viernes}?,{1:Do you have} {2:any} {3:free} {2:rooms} {4:for Friday}?,
 hotel-booking-02,Hotel,Booking ahead,1,1,¿{1:Cuánto} {2:cuesta} {3:por noche}?,{1:How much} {2:is it} {3:per night}?,
 hotel-booking-03,Hotel,Booking ahead,1,2,{1:Quiero} {2:reservar} {3:una habitación}.,{1:I'd like to} {2:book} {3:a room}.,
@@ -171,15 +271,29 @@ hotel-services-13,Hotel,Hotel services,3,2,"{1:Si} {2:necesita} {3:algo más}, {
 hotel-services-14,Hotel,Hotel services,3,3,"{1:Le recomiendo} que {2:reserve} {3:mesa} {4:con antelación}, {5:porque} {6:suele llenarse}.","{1:I'd recommend} {2:booking} {3:a table} {4:in advance}, {5:because} {6:it tends to fill up}.",recomendar que + subjunctive. soler = to tend to.
 hotel-hostel-01,Hotel,Hostels & camping,1,1,¿{1:Hay} {2:camas} {3:libres} {4:esta noche}?,{1:Are there} {2:any} {3:free} {2:beds} {4:tonight}?,
 hotel-hostel-02,Hotel,Hostels & camping,1,1,¿{1:Puedo} {2:usar} {3:la cocina}?,{1:Can I} {2:use} {3:the kitchen}?,
+hotel-hostel-12,Hotel,Hostels & camping,1,1,¿{1:Cuánto} {2:cuesta} {3:una cama} {4:por noche}?,{1:How much} {2:is} {3:a bed} {4:per night}?,
+hotel-hostel-13,Hotel,Hostels & camping,1,1,¿{1:A qué hora} {2:cierran} {3:la puerta}?,{1:What time} {2:do you lock} {3:the door}?,
 hotel-hostel-03,Hotel,Hostels & camping,1,2,{1:Es} {2:un dormitorio} {3:compartido}.,{1:It's} {2:a} {3:shared} {2:dormitory}.,
 hotel-hostel-04,Hotel,Hostels & camping,1,2,¿{1:Dónde} {2:están} {3:los lockers}?,{1:Where} {2:are} {3:the lockers}?,
+hotel-hostel-14,Hotel,Hostels & camping,1,2,{1:Quiero} {2:la litera de abajo}.,{1:I'd like} {2:the bottom bunk}.,
+hotel-hostel-15,Hotel,Hostels & camping,1,2,¿{1:Tienen} {2:candados} {3:para los lockers}?,{1:Do you have} {2:padlocks} {3:for the lockers}?,
+hotel-hostel-16,Hotel,Hostels & camping,1,2,¿{1:Se puede} {2:lavar ropa} {3:aquí}?,{1:Can you} {2:do laundry} {3:here}?,
 hotel-hostel-05,Hotel,Hostels & camping,1,3,{1:Queremos} {2:poner} {3:la casa de campaña} {4:aquí}.,{1:We want} {2:to put up} {3:the tent} {4:here}.,
+hotel-hostel-17,Hotel,Hostels & camping,1,3,{1:Las regaderas} {2:son} {3:compartidas}.,{1:The showers} {2:are} {3:shared}.,
+hotel-hostel-18,Hotel,Hostels & camping,1,3,{1:Mi compañero de cuarto} {2:ronca} {3:muchísimo}.,{1:My roommate} {2:snores} {3:terribly}.,
 hotel-hostel-06,Hotel,Hostels & camping,2,2,¿{1:Se puede} {2:hacer fuego} {3:en el campamento}?,{1:Can you} {2:light a fire} {3:at the campsite}?,
 hotel-hostel-07,Hotel,Hostels & camping,2,2,{1:Alguien} {2:se llevó} {3:mi toalla}.,{1:Someone}{2:'s taken} {3:my towel}.,
+hotel-hostel-19,Hotel,Hostels & camping,2,2,"{1:Apaga} {2:la luz}, {3:por favor}.","{1:Turn off} {2:the light}, {3:please}.",
+hotel-hostel-20,Hotel,Hostels & camping,2,2,{1:Conocí} a {2:gente} {3:de todo el mundo}.,{1:I met} {2:people} {3:from all over the world}.,
 hotel-hostel-08,Hotel,Hostels & camping,2,3,{1:Se me olvidó} {2:el saco de dormir}.,{1:I've forgotten} {2:my sleeping bag}.,Literally 'the sleeping bag has forgotten itself on me': this se takes the blame off you.
+hotel-hostel-21,Hotel,Hostels & camping,2,3,{1:Rentamos} {2:un lugar} {3:junto al lago}.,{1:We rented} {2:a pitch} {3:by the lake}.,
+hotel-hostel-22,Hotel,Hostels & camping,2,3,{1:Se nos metió} {2:una avispa} {3:en la casa de campaña}.,{2:A wasp} {1:got into} {3:the tent}.,
+hotel-hostel-23,Hotel,Hostels & camping,3,1,{1:No} {2:hagan} {3:ruido} {4:después de las once}.,{1:Don't} {2:make} {3:noise} {4:after eleven}.,
 hotel-hostel-09,Hotel,Hostels & camping,3,2,{1:Es mejor} que {2:no} {3:dejes} {4:nada} {5:de valor} {6:en la habitación}.,{1:It's best} {2:not} {3:to leave} {4:anything} {5:valuable} {6:in the room}.,
 hotel-hostel-10,Hotel,Hostels & camping,3,2,"{1:Si} {2:hubiéramos traído} {3:una linterna}, {4:no} {5:nos habríamos perdido}.","{1:If} {2:we'd brought} {3:a torch}, {5:we would}{4:n't} {5:have got lost}.",
 hotel-hostel-11,Hotel,Hostels & camping,3,2,{1:Buscamos} {2:un albergue} que {3:no} {4:esté} {5:muy lejos} {6:del centro}.,{1:We're looking for} {2:a hostel} {4:that is}{3:n't} {5:too far} {6:from the centre}.,
+hotel-hostel-24,Hotel,Hostels & camping,3,2,{1:Es mejor} que {2:reserves}; {3:en agosto} {4:se llena}.,{1:It's best} {2:to book}; {4:it fills up} {3:in August}.,
+hotel-hostel-25,Hotel,Hostels & camping,3,3,{1:Nos pidieron} que {2:recogiéramos} {3:la basura} {4:antes de irnos}.,{1:They asked us} {2:to pick up} {3:our rubbish} {4:before leaving}.,
 hotel-complaints-01,Hotel,Complaining at the hotel,1,1,{1:La habitación} {2:está} {3:sucia}.,{1:The room} {2:is} {3:dirty}.,
 hotel-complaints-02,Hotel,Complaining at the hotel,1,1,{1:Hace} {2:mucho frío} {3:en la habitación}.,{1:It's} {2:very cold} {3:in the room}.,
 hotel-complaints-03,Hotel,Complaining at the hotel,1,2,{1:Las sábanas} {2:no} {3:están} {4:limpias}.,{1:The sheets} {3:are}{2:n't} {4:clean}.,
@@ -214,31 +328,83 @@ food-cafe-01,Food & drink,At the café,1,1,"{1:Un café}, {2:por favor}.","{1:A 
 food-cafe-02,Food & drink,At the café,1,1,¿{1:Me da} {2:un café con leche}?,{1:Can I have} {2:a white coffee}?,Me da (literally 'do you give me') is the everyday way to order.
 food-cafe-03,Food & drink,At the café,1,1,"{1:Para mí}, {2:un jugo} {3:de naranja}.","{1:For me}, {2:an} {3:orange} {2:juice}.",Spanish says 'a juice of orange'.
 food-cafe-04,Food & drink,At the café,1,1,¿{1:Qué} {2:quieren} {3:tomar}?,{1:What} {2:do you all want} {3:to drink}?,"Ustedes (quieren) is 'you all' in Latin America, formal or not."
+food-cafe-08,Food & drink,At the café,1,1,"{1:Un té}, {2:por favor}.","{1:A tea}, {2:please}.",
+food-cafe-09,Food & drink,At the café,1,1,{1:Dos} {2:cafés} {3:solos}.,{1:Two} {3:black} {2:coffees}.,
+food-cafe-10,Food & drink,At the café,1,1,¿{1:Tienen} {2:algo para comer}?,{1:Do you have} {2:anything to eat}?,
+food-cafe-11,Food & drink,At the café,1,1,{1:Para tomar aquí}.,{1:To have here}.,
 food-cafe-05,Food & drink,At the café,1,2,¿{1:Tienen} {2:leche} {3:sin lactosa}?,{1:Do you have} {3:lactose-free} {2:milk}?,
+food-cafe-12,Food & drink,At the café,1,2,"{1:Una torta} {2:de jamón}, {3:por favor}.","{1:A} {2:ham} {1:sandwich}, {3:please}.",
+food-cafe-13,Food & drink,At the café,1,2,¿{1:Me da} {2:un cortado}?,{1:Can I have} {2:a coffee with a dash of milk}?,A cortado is an espresso 'cut' with a little milk.
+food-cafe-14,Food & drink,At the café,1,2,"{1:Con leche de avena}, {2:por favor}.","{1:With oat milk}, {2:please}.",
+food-cafe-15,Food & drink,At the café,1,2,¿{1:Es} {2:descafeinado}?,{1:Is it} {2:decaf}?,
+food-cafe-16,Food & drink,At the café,1,2,"{1:Un jugo} {2:natural}, {3:sin hielo}.","{1:A fresh} {2:juice}, {3:no ice}.",
+food-cafe-17,Food & drink,At the café,1,2,{1:Un pan tostado} {2:con aceite de oliva y jitomate}.,{1:Toast} {2:with olive oil and tomato}.,
+food-cafe-18,Food & drink,At the café,1,3,¿{1:Tienen} {2:sustituto de azúcar}?,{1:Do you have} {2:sweetener}?,
+food-cafe-19,Food & drink,At the café,1,3,¿{1:Hay} {2:contactos} {3:cerca de las mesas}?,{1:Are there} {2:sockets} {3:near the tables}?,
 food-cafe-06,Food & drink,At the café,2,1,"{1:Acabo de} {2:pedir}, {3:gracias}.","{1:I've just} {2:ordered}, {3:thanks}.",acabar de + infinitive = 'to have just done'.
+food-cafe-20,Food & drink,At the café,2,1,"{1:Dame} {2:otro}, {3:por favor}.","{1:Give me} {2:another one}, {3:please}.",
+food-cafe-21,Food & drink,At the café,2,2,{1:Se me tiró} {2:el café}.,{1:I've spilt} {2:my coffee}.,
+food-cafe-22,Food & drink,At the café,2,2,{1:Antes venía} {2:aquí} {3:todas las mañanas}.,{1:I used to come} {2:here} {3:every morning}.,
+food-cafe-23,Food & drink,At the café,2,3,"{1:Caliéntemelo} {2:un poco más}, {3:por favor}.","{1:Could you heat it up} {2:a bit more}, {3:please}?",
 food-cafe-07,Food & drink,At the café,3,2,{1:No} {2:creo} que {3:tengan} {4:nada} {5:sin gluten}.,{2:I do}{1:n't} {2:think} {3:they have} {4:anything} {5:gluten-free}.,No creo que + subjunctive: doubt. Note the double negative: no... nada.
+food-cafe-24,Food & drink,At the café,3,2,{1:Quiero} {2:un café} {3:que no esté} {4:tan amargo}.,{1:I'd like} {2:a coffee} {3:that isn't} {4:so bitter}.,
+food-cafe-25,Food & drink,At the café,3,2,{1:No} {2:pidas} {3:el pay de queso}; {4:se acabó}.,{1:Don't} {2:order} {3:the cheesecake}; {4:it's sold out}.,
 food-restaurant-01,Food & drink,At a restaurant,1,1,"{1:Una mesa} {2:para dos}, {3:por favor}.","{1:A table} {2:for two}, {3:please}.",
 food-restaurant-02,Food & drink,At a restaurant,1,1,"¿{1:Nos} {2:trae} {3:el menú}, {4:por favor}?","{2:Could you bring} {1:us} {3:the menu}, {4:please}?",
 food-restaurant-03,Food & drink,At a restaurant,1,1,{1:Soy} {2:vegetarian[o|a]}.,{1:I'm} {2:vegetarian}.,
+food-restaurant-10,Food & drink,At a restaurant,1,1,{1:Tenemos} {2:una reserva} {3:a las nueve}.,{1:We have} {2:a booking} {3:for nine o'clock}.,
+food-restaurant-11,Food & drink,At a restaurant,1,1,¿{1:Hay} {2:mesa} {3:en la terraza}?,{1:Is there} {2:a table} {3:outside}?,
+food-restaurant-12,Food & drink,At a restaurant,1,1,"{1:Agua} {2:sin gas}, {3:por favor}.","{2:Still} {1:water}, {3:please}.",
 food-restaurant-04,Food & drink,At a restaurant,1,2,¿{1:Qué} {2:me recomienda}?,{1:What} {2:would you recommend}?,
 food-restaurant-05,Food & drink,At a restaurant,1,2,"{1:De entrada}, {2:voy a querer} {3:la sopa}.","{1:For starters}, {2:I'll have} {3:the soup}.",'Voy a querer' (I'm going to want) is a very common way to order in Mexico.
+food-restaurant-13,Food & drink,At a restaurant,1,2,¿{1:Cuál es} {2:el plato del día}?,{1:What's} {2:the dish of the day}?,
+food-restaurant-14,Food & drink,At a restaurant,1,2,¿{1:Tiene} {2:nueces}?,{1:Does it have} {2:nuts} {1:in it}?,
+food-restaurant-15,Food & drink,At a restaurant,1,2,{1:Somos} {2:seis}; ¿{3:podemos} {4:juntar} {5:dos mesas}?,{1:We're} {2:a party of six}; {3:can we} {4:put} {5:two tables} {4:together}?,
+food-restaurant-16,Food & drink,At a restaurant,1,2,"{1:Para beber}, {2:una copa} {3:de vino tinto}.","{1:To drink}, {2:a glass} {3:of red wine}.",
 food-restaurant-06,Food & drink,At a restaurant,1,3,{1:El cordero} {2:viene con} {3:papas} {4:asadas} {5:y} {6:verduras} {7:de temporada}.,{1:The lamb} {2:comes with} {4:roast} {3:potatoes} {5:and} {7:seasonal} {6:vegetables}.,
+food-restaurant-17,Food & drink,At a restaurant,1,3,"{1:La comida corrida} {2:incluye} {3:sopa}, {4:plato fuerte} {5:y} {6:postre}.","{1:The set menu} {2:includes} {3:a starter}, {4:a main} {5:and} {6:a dessert}.",In Mexico the set lunch is la comida corrida.
+food-restaurant-18,Food & drink,At a restaurant,1,3,{1:El pescado} {2:viene} {3:a la plancha} {4:o} {5:empanizado}.,{1:The fish} {2:comes} {3:grilled} {4:or} {5:in batter}.,
+food-restaurant-19,Food & drink,At a restaurant,1,3,¿{1:Me trae} {2:la salsa} {3:aparte}?,{1:Could I have} {2:the sauce} {3:on the side}?,
+food-restaurant-20,Food & drink,At a restaurant,2,2,"{1:Tráiganos} {2:un poco más de pan}, {3:por favor}.","{1:Could you bring us} {2:a bit more bread}, {3:please}?",
+food-restaurant-21,Food & drink,At a restaurant,2,2,{1:Estaba} {2:todo} {3:buenísimo}.,{2:Everything} {1:was} {3:delicious}.,
 food-restaurant-07,Food & drink,At a restaurant,2,3,"{1:Pedí} {2:el filete} {3:término rojo}, {4:pero} {5:está} {6:bien cocido}.","{1:I ordered} {2:the steak} {3:rare}, {4:but} {5:it's} {6:well done}.","Steak in Mexico: término rojo (rare), término medio (medium), bien cocido (well done)."
+food-restaurant-22,Food & drink,At a restaurant,2,3,{1:Nos trajeron} {2:el platillo equivocado}.,{1:They've brought us} {2:the wrong dish}.,
+food-restaurant-23,Food & drink,At a restaurant,2,3,{1:La sopa} {2:llegó} {3:fría}.,{1:The soup} {2:has come} {3:cold}.,
 food-restaurant-08,Food & drink,At a restaurant,3,1,{1:Pide} {2:lo que} {3:quieras}. {4:Invito yo}.,{1:Order} {2:whatever} {3:you want}. {4:It's on me}.,lo que + subjunctive = 'whatever'. invitar = to treat someone.
 food-restaurant-09,Food & drink,At a restaurant,3,1,{1:Habríamos pedido} {2:postre} {3:si} {4:no} {5:hubiéramos comido} {6:tanto}.,{1:We'd have ordered} {2:dessert} {3:if} {5:we had}{4:n't} {5:eaten} {6:so much}.,A past 'if' with the clauses the other way round.
+food-restaurant-24,Food & drink,At a restaurant,3,2,¿{1:Le importaría} que {2:nos cambiáramos} {3:de mesa}?,{1:Would you mind} {2:if we moved} {3:to another table}?,
+food-restaurant-25,Food & drink,At a restaurant,3,3,"{1:Si} {2:hubiéramos reservado}, {3:no} {4:habríamos esperado} {5:tanto}.","{1:If} {2:we'd booked}, {4:we would}{3:n't} {4:have waited} {5:so long}.",
 food-paying-01,Food & drink,Paying,1,1,"{1:La cuenta}, {2:por favor}.","{1:The bill}, {2:please}.",
 food-paying-02,Food & drink,Paying,1,1,¿{1:Puedo} {2:pagar} {3:con tarjeta}?,{1:Can I} {2:pay} {3:by card}?,
+food-paying-08,Food & drink,Paying,1,1,{1:Vamos a} {2:pagar} {3:a medias}.,{1:Let's} {2:split} {3:the bill}.,a medias = half each.
+food-paying-09,Food & drink,Paying,1,1,{1:Pago} {2:yo}.,{2:I'll} {1:pay}.,
+food-paying-10,Food & drink,Paying,1,1,"{1:Todo junto}, {2:por favor}.","{1:All together}, {2:please}.",
+food-paying-11,Food & drink,Paying,1,1,¿{1:Cuánto} {2:es}?,{1:How much} {2:is it}?,
 food-paying-03,Food & drink,Paying,1,2,¿{1:Está incluida} {2:la propina}?,{1:Is} {2:the tip} {1:included}?,incluida ends in -a to match la propina.
+food-paying-12,Food & drink,Paying,1,2,¿{1:Puedo pagar} {2:con el celular}?,{1:Can I pay} {2:with my phone}?,
+food-paying-13,Food & drink,Paying,1,2,¿{1:Aceptan} {2:pago sin contacto}?,{1:Do you take} {2:contactless}?,
+food-paying-14,Food & drink,Paying,1,2,{1:No} {2:traigo} {3:cambio}.,{2:I've got} {1:no} {3:change}.,
+food-paying-24,Food & drink,Paying,1,2,"{1:Si} {2:pagas} {3:tú} {4:la cena}, {5:yo} {6:pago} {7:las copas}.","{1:If} {3:you} {2:pay for} {4:dinner}, {5:I'll} {6:get} {7:the drinks}.",
+food-paying-17,Food & drink,Paying,1,3,¿{1:Nos puede cobrar} {2:por separado}?,{1:Can you charge us} {2:separately}?,
+food-paying-18,Food & drink,Paying,1,3,{1:Aquí} {2:la propina} {3:no} {4:es obligatoria}.,{2:Tipping} {4:is}{3:n't} {4:compulsory} {1:here}.,
 food-paying-04,Food & drink,Paying,2,1,{1:Esto} {2:no} {3:es} {4:lo que} {5:pedí}.,{1:This} {3:is}{2:n't} {4:what} {5:I ordered}.,lo que = 'what' (the thing that).
+food-paying-19,Food & drink,Paying,2,1,{1:Ya} {2:pagué} {3:en la barra}.,{2:I've} {1:already} {2:paid} {3:at the bar}.,
 food-paying-05,Food & drink,Paying,2,2,{1:Creo} que {2:se equivocaron} {3:con la cuenta}.,{1:I think} {2:you've made a mistake} {3:with the bill}.,equivocarse = to get something wrong.
 food-paying-06,Food & drink,Paying,2,2,{1:Nos cobraron} {2:dos botellas} {3:aunque} {4:solo} {5:pedimos} {6:una}.,{1:You've charged us for} {2:two bottles} {3:even though} {5:we} {4:only} {5:ordered} {6:one}.,"Latin America uses the preterite, even for earlier today."
+food-paying-15,Food & drink,Paying,2,2,{1:Redondéelo} {2:a veinte}.,{1:Round it up} {2:to twenty}.,
+food-paying-16,Food & drink,Paying,2,2,¿{1:Cuánto} {2:se suele dejar} {3:de propina}?,{1:How much} {2:do people usually leave} {3:as a tip}?,
+food-paying-20,Food & drink,Paying,2,2,{1:Me cobró} {2:de más}.,{1:You've charged me} {2:too much}.,
+food-paying-21,Food & drink,Paying,2,2,"{1:Tráigame} {2:la terminal}, {3:por favor}.","{1:Could you bring} {2:the card machine}, {3:please}?",
+food-paying-22,Food & drink,Paying,2,3,{1:La tarjeta} {2:fue rechazada}.,{1:The card} {2:has been declined}.,
+food-paying-23,Food & drink,Paying,3,1,{1:No} {2:te preocupes}; ya {3:me invitarás} {4:otro día}.,{1:Don't} {2:worry}; {3:you can treat me} {4:another day}.,ya + future here means 'some other time'.
 food-paying-07,Food & drink,Paying,3,2,{1:Me extraña} que {2:la cuenta} {3:sea} {4:tan alta}; ¿{5:podría} {6:revisar}{7:la}?,{1:I'm surprised} {2:the bill} {3:is} {4:so high}; {5:could you} {6:check} {7:it}?,Surprise + que takes the subjunctive. The pronoun la (it) joins the end of the infinitive.
+food-paying-25,Food & drink,Paying,3,3,{1:Me extraña} que {2:no} {3:hayan incluido} {4:el servicio}.,{1:I'm surprised} {3:they have}{2:n't} {3:included} {4:service}.,
 food-bar-01,Food & drink,At the bar,1,1,{1:Dos} {2:vinos} {3:tintos}.,{1:Two} {3:red} {2:wines}.,
 food-bar-02,Food & drink,At the bar,1,1,{1:Esta ronda} {2:la pago} {3:yo}.,{1:This round}{2:'s on} {3:me}.,"Putting the object first, then la, emphasises it."
+food-bar-06,Food & drink,At the bar,1,1,¿{1:Me da} {2:un vaso de agua}?,{1:Can I have} {2:a glass of water}?,
 food-bar-03,Food & drink,At the bar,1,2,"{1:Una cerveza chica}, {2:por favor}.","{1:A small beer}, {2:please}.",
 food-bar-04,Food & drink,At the bar,1,2,¿{1:Qué} {2:botanas} {3:tienen}?,{1:What} {2:bar snacks} {3:do you have}?,Botanas are Mexican bar snacks.
 food-bar-05,Food & drink,At the bar,1,2,"{1:Otra} {2:ronda}, {3:por favor}.","{1:Another} {2:round}, {3:please}.",
-food-bar-06,Food & drink,At the bar,1,1,¿{1:Me da} {2:un vaso de agua}?,{1:Can I have} {2:a glass of water}?,
 food-bar-07,Food & drink,At the bar,1,2,¿{1:Hay} {2:lugar} {3:en la terraza}?,{1:Is there} {2:room} {3:on the terrace}?,
 food-bar-08,Food & drink,At the bar,1,2,{1:Te invito} {2:a una copa}.,{1:Let me buy you} {2:a drink}.,invitar = to treat someone.
 food-bar-09,Food & drink,At the bar,1,2,"¿{1:Me cobra}, {2:por favor}?","{1:Can I pay}, {2:please}?",Literally 'will you charge me?'
@@ -399,27 +565,77 @@ around-directions-01,Getting around,Asking the way,1,1,"{1:Disculpe}, ¿{2:dónd
 around-directions-02,Getting around,Asking the way,1,1,¿{1:Está} {2:lejos}?,{1:Is it} {2:far}?,estar for location: where something is.
 around-directions-03,Getting around,Asking the way,1,1,{1:Está} {2:a cinco minutos} {3:caminando}.,{1:It's} {2:five minutes away} {3:on foot}.,
 around-directions-04,Getting around,Asking the way,1,1,{1:Estoy} {2:perdid[o|a]}. ¿{3:Me puede ayudar}?,{1:I'm} {2:lost}. {3:Can you help me}?,
+around-directions-09,Getting around,Asking the way,1,1,¿{1:Hay} {2:un banco} {3:por aquí}?,{1:Is there} {2:a bank} {3:around here}?,
+around-directions-11,Getting around,Asking the way,1,1,{1:Está} {2:al lado de} {3:la farmacia}.,{1:It's} {2:next to} {3:the chemist's}.,
+around-directions-12,Getting around,Asking the way,1,1,{1:Está} {2:enfrente del} {3:palacio municipal}.,{1:It's} {2:opposite} {3:the town hall}.,
+around-directions-13,Getting around,Asking the way,1,2,{1:Está} {2:en la esquina}.,{1:It's} {2:on the corner}.,
+around-directions-14,Getting around,Asking the way,1,2,{1:Es} {2:la segunda calle} {3:a la derecha}.,{1:It's} {2:the second street} {3:on the right}.,
+around-directions-16,Getting around,Asking the way,1,2,"{1:No} {2:soy} {3:de aquí}, {4:lo siento}.","{4:Sorry}, {2:I'm} {1:not} {3:from around here}.",
+around-directions-17,Getting around,Asking the way,1,3,"{1:Está} {2:pasado el puente}, {3:a mano izquierda}.","{1:It's} {2:past the bridge}, {3:on the left}.",
+around-directions-18,Getting around,Asking the way,1,3,{1:Hay que} {2:subir} {3:la cuesta}.,{1:You have to} {2:go up} {3:the hill}.,
 around-directions-05,Getting around,Asking the way,2,1,{1:Siga} {2:derecho} {3:y} {4:dé vuelta} {5:a la izquierda}.,{1:Go} {2:straight on} {3:and} {4:turn} {5:left}.,Siga and dé vuelta are polite (usted) commands.
 around-directions-06,Getting around,Asking the way,2,1,¿{1:Me} {2:lo} {3:puede} {4:mostrar} {5:en el mapa}?,{3:Can you} {4:show} {2:it to} {1:me} {5:on the map}?,Two pronouns: me (to me) comes before lo (it).
+around-directions-10,Getting around,Asking the way,2,1,¿{1:Por dónde} {2:se va} {3:al museo}?,{1:Which way} {2:is it} {3:to the museum}?,
+around-directions-19,Getting around,Asking the way,2,1,{1:Cruce} {2:la plaza}.,{1:Cross} {2:the square}.,
+around-directions-15,Getting around,Asking the way,2,2,¿{1:Se puede} {2:ir caminando}?,{1:Can you} {2:walk there}?,
+around-directions-20,Getting around,Asking the way,2,2,{1:Tome} {2:la primera} {3:a la izquierda}.,{1:Take} {2:the first} {3:on the left}.,
+around-directions-21,Getting around,Asking the way,2,2,{1:Siga} {2:hasta el semáforo}.,{1:Carry on} {2:to the traffic lights}.,
+around-directions-22,Getting around,Asking the way,2,2,{1:Me equivoqué} {2:de calle}.,{1:I've gone down} {2:the wrong street}.,
+around-directions-23,Getting around,Asking the way,2,3,"{1:Al llegar} {2:a la glorieta}, {3:tome} {4:la tercera salida}.","{1:When you get} {2:to the roundabout}, {3:take} {4:the third exit}.",
 around-directions-07,Getting around,Asking the way,3,1,"{1:Cuando} {2:veas} {3:una iglesia}, {4:da vuelta} {5:a la derecha}.","{1:When} {2:you see} {3:a church}, {4:turn} {5:right}.",cuando + subjunctive (veas) for a future moment.
 around-directions-08,Getting around,Asking the way,3,1,"{1:Si} {2:hubiera tomado} {3:el otro camino}, {4:ya} {5:habría llegado}.","{1:If} {2:I'd taken} {3:the other road}, {5:I'd have arrived} {4:by now}.","tomar = to take (a road, a bus)."
-around-transport-01,Getting around,Public transport,1,2,"{1:Un boleto} {2:redondo}, {3:por favor}.","{1:A} {2:return} {1:ticket}, {3:please}.",A return ticket is a boleto redondo ('round ticket').
+around-directions-24,Getting around,Asking the way,3,2,{1:No} {2:cruces} {3:por ahí}; {4:es peligroso}.,{1:Don't} {2:cross} {3:there}; {4:it's dangerous}.,
+around-directions-25,Getting around,Asking the way,3,3,"{1:En cuanto} {2:pases} {3:la gasolinera}, {4:lo verás} {5:a la derecha}.","{1:As soon as} {2:you pass} {3:the petrol station}, {4:you'll see it} {5:on the right}.",
 around-transport-02,Getting around,Public transport,1,1,¿{1:A qué hora} {2:sale} {3:el próximo tren}?,{1:What time} {2:does} {3:the next train} {2:leave}?,
 around-transport-03,Getting around,Public transport,1,1,¿{1:Este autobús} {2:va} {3:al centro}?,{2:Does} {1:this bus} {2:go} {3:to the centre}?,No 'does' in Spanish questions: just raise your voice. al = a + el.
 around-transport-04,Getting around,Public transport,1,1,{1:Voy a} {2:tomar} {3:el metro}.,{1:I'm going to} {2:take} {3:the metro}.,tomar = to take (transport).
+around-transport-10,Getting around,Public transport,1,1,¿{1:Dónde} {2:está} {3:la parada}?,{1:Where}{2:'s} {3:the stop}?,
+around-transport-11,Getting around,Public transport,1,1,¿{1:Cuánto} {2:cuesta} {3:el boleto}?,{1:How much} {2:is} {3:the ticket}?,
+around-transport-01,Getting around,Public transport,1,2,"{1:Un boleto} {2:redondo}, {3:por favor}.","{1:A} {2:return} {1:ticket}, {3:please}.",A return ticket is a boleto redondo ('round ticket').
 around-transport-05,Getting around,Public transport,1,2,{1:Tengo que} {2:cambiar} {3:de línea} {4:en la próxima estación}.,{1:I have to} {2:change} {3:lines} {4:at the next station}.,
-around-transport-06,Getting around,Public transport,2,2,{1:El tren} {2:salió} con {3:veinte minutos} {4:de retraso}.,{1:The train} {2:left} {3:twenty minutes} {4:late}.,Literally 'left with twenty minutes of delay'.
+around-transport-12,Getting around,Public transport,1,2,"{1:Una tarjeta} {2:de diez viajes}, {3:por favor}.","{1:A} {2:ten-journey} {1:pass}, {3:please}.",
+around-transport-13,Getting around,Public transport,1,2,¿{1:Qué línea} {2:va} {3:al aeropuerto}?,{1:Which line} {2:goes} {3:to the airport}?,
+around-transport-14,Getting around,Public transport,1,2,¿{1:Para} {2:en todas las estaciones}?,{1:Does it stop} {2:at every station}?,
+around-transport-15,Getting around,Public transport,1,2,¿{1:Este asiento} {2:está desocupado}?,{2:Is} {1:this seat} {2:free}?,
+around-transport-16,Getting around,Public transport,1,3,{1:El metro} {2:cierra} {3:a la una y media}.,{1:The metro} {2:closes} {3:at half past one}.,
+around-transport-17,Getting around,Public transport,1,3,{1:Mañana} {2:hay} {3:huelga} {4:de metro}.,{2:There's} {4:a metro} {3:strike} {1:tomorrow}.,
 around-transport-07,Getting around,Public transport,2,1,{1:Perdí} {2:el último autobús} {3:y} {4:tuve que} {5:volver} {6:caminando}.,{1:I missed} {2:the last bus} {3:and} {4:had to} {6:walk} {5:back}.,"perder = to lose, and also to miss (a bus, a train)."
+around-transport-18,Getting around,Public transport,2,1,{1:Bajé} {2:en la parada equivocada}.,{1:I got off} {2:at the wrong stop}.,
+around-transport-06,Getting around,Public transport,2,2,{1:El tren} {2:salió} con {3:veinte minutos} {4:de retraso}.,{1:The train} {2:left} {3:twenty minutes} {4:late}.,Literally 'left with twenty minutes of delay'.
+around-transport-19,Getting around,Public transport,2,2,{1:Valida} {2:el boleto} {3:en la máquina}.,{1:Validate} {2:your ticket} {3:in the machine}.,
+around-transport-20,Getting around,Public transport,2,2,{1:Cede} {2:el asiento} {3:a las personas mayores}.,{1:Give up} {2:your seat} {3:to older people}.,
 around-transport-08,Getting around,Public transport,2,3,"{1:Debido a} {2:obras} {3:en la vía}, {4:habrá} {5:un servicio de autobuses} {6:alternativo} {7:hasta nuevo aviso}.","{1:Due to} {2:engineering works} {3:on the line}, {4:there will be} {5:a} {6:replacement} {5:bus service} {7:until further notice}.",habrá = there will be (future of hay).
+around-transport-21,Getting around,Public transport,2,3,{1:Se descompuso} {2:el tren} {3:entre dos estaciones}.,{2:The train} {1:has broken down} {3:between two stations}.,
+around-transport-22,Getting around,Public transport,2,3,{1:Recargué} {2:la tarjeta} {3:de transporte}.,{1:I topped up} {2:my} {3:travel} {2:card}.,
 around-transport-09,Getting around,Public transport,3,2,{1:Es mejor} que {2:compres} {3:el boleto} {4:antes de} {5:subir}.,{1:It's best if} {2:you buy} {3:your ticket} {4:before} {5:you get on}.,Es mejor que + subjunctive: giving advice.
+around-transport-23,Getting around,Public transport,3,2,¿{1:Me avisaría} {2:cuando} {3:lleguemos} {4:a la plaza}?,{1:Would you tell me} {2:when} {3:we get} {4:to the square}?,
+around-transport-24,Getting around,Public transport,3,3,{1:Me dijeron} que {2:el inspector} {3:me multaría} {4:si} {5:no} {6:validaba} {7:el boleto}.,{1:They told me} {2:the inspector} {3:would fine me} {4:if} {6:I did}{5:n't} {6:validate} {7:my ticket}.,
+around-transport-25,Getting around,Public transport,3,3,{1:Ojalá} {2:hubiera} {3:más frecuencia} {4:los domingos}.,{1:I wish} {2:there were} {3:more services} {4:on Sundays}.,
 around-driving-01,Getting around,Taxis & driving,1,1,"{1:A esta dirección}, {2:por favor}.","{1:To this address}, {2:please}.",
 around-driving-02,Getting around,Taxis & driving,1,1,¿{1:Cuánto} {2:cuesta} {3:ir} {4:al aeropuerto}?,{1:How much} {2:does it cost} {3:to go} {4:to the airport}?,
 around-driving-03,Getting around,Taxis & driving,1,2,¿{1:Dónde} {2:me puedo} {3:estacionar}?,{1:Where} {2:can I} {3:park}?,
+around-driving-11,Getting around,Taxis & driving,1,2,{1:Quiero} {2:rentar} {3:un carro} {4:automático}.,{1:I'd like} {2:to hire} {3:an} {4:automatic} {3:car}.,
+around-driving-12,Getting around,Taxis & driving,1,2,¿{1:El seguro} {2:está incluido}?,{2:Is} {1:insurance} {2:included}?,
+around-driving-13,Getting around,Taxis & driving,1,2,{1:Hay} {2:mucho tráfico} {3:en la autopista}.,{1:There's} {2:a traffic jam} {3:on the motorway}.,
+around-driving-14,Getting around,Taxis & driving,1,2,¿{1:Es} {2:de cuota}?,{1:Is it} {2:a toll road}?,
+around-driving-15,Getting around,Taxis & driving,1,3,{1:Los limpiaparabrisas} {2:no} {3:funcionan}.,{1:The windscreen wipers} {3:are}{2:n't} {3:working}.,
+around-driving-17,Getting around,Taxis & driving,1,3,{1:El carro} {2:tira} {3:aceite}.,{1:The car} {2:is leaking} {3:oil}.,
 around-driving-04,Getting around,Taxis & driving,2,1,"{1:Pare} {2:aquí}, {3:por favor}.","{1:Stop} {2:here}, {3:please}.",Pare is a polite (usted) command.
 around-driving-05,Getting around,Taxis & driving,2,2,{1:Renté} {2:un carro} {3:para} {4:toda la semana}.,{1:I hired} {2:a car} {3:for} {4:the whole week}.,
 around-driving-06,Getting around,Taxis & driving,2,2,{1:Nunca} {2:he manejado} {3:por la derecha}.,{2:I've} {1:never} {2:driven} {3:on the right}.,nunca can go before the verb on its own: no 'no' needed.
+around-driving-10,Getting around,Taxis & driving,2,2,¿{1:Dónde} {2:se paga} {3:la gasolina}?,{1:Where} {2:do I pay for} {3:the petrol}?,
+around-driving-18,Getting around,Taxis & driving,2,2,{1:Me paró} {2:la policía} {3:en un control}.,{2:The police} {1:stopped me} {3:at a checkpoint}.,
+around-driving-19,Getting around,Taxis & driving,2,2,{1:Pon} {2:la direccional}.,{1:Put} {2:the indicator} {1:on}.,
 around-driving-07,Getting around,Taxis & driving,2,3,{1:Me pusieron} {2:una multa} {3:por} {4:estacionarme} {5:en zona de carga y descarga}.,{1:I got} {2:a fine} {3:for} {4:parking} {5:in a loading bay}.,Literally 'they put a fine on me'.
+around-driving-09,Getting around,Taxis & driving,2,3,"{1:Revise} {2:la presión} {3:de las llantas}, {4:por favor}.","{1:Check} {2:the} {3:tyre} {2:pressure}, {4:please}.",
+around-driving-16,Getting around,Taxis & driving,2,3,{1:Se me apagó} {2:el carro} {3:en la subida}.,{1:I stalled} {2:the car} {3:on the hill}.,
+around-driving-20,Getting around,Taxis & driving,2,3,{1:Me pasé} {2:la salida}.,{1:I've missed} {2:the exit}.,
+around-driving-21,Getting around,Taxis & driving,2,3,{1:Devolví} {2:el carro} {3:con el tanque lleno}.,{1:I returned} {2:the car} {3:with a full tank}.,
+around-driving-22,Getting around,Taxis & driving,3,1,{1:No} {2:corras} {3:tanto}.,{1:Don't} {2:drive} {3:so fast}.,
 around-driving-08,Getting around,Taxis & driving,3,2,"{1:Si} {2:no} {3:hubiera} {4:tanto tráfico}, {5:llegaríamos} {6:a tiempo}.","{1:If} {3:there was}{2:n't} {4:so much traffic}, {5:we'd get there} {6:on time}.","An 'if' about now: si + imperfect subjunctive, then the conditional."
+around-driving-23,Getting around,Taxis & driving,3,2,{1:Es mejor} que {2:maneje} {3:yo}; {4:tú} {5:tomaste}.,{1:It's better} {2:if} {3:I} {2:drive}; {4:you}{5:'ve been drinking}.,
+around-driving-24,Getting around,Taxis & driving,3,3,"{1:Si} {2:hubiera cargado} {3:gasolina} {4:antes}, {5:no} {6:nos habríamos quedado} {7:varados}.","{1:If} {2:I'd put} {3:petrol} {2:in} {4:earlier}, {6:we would}{5:n't} {6:have been left} {7:stranded}.",
+around-driving-25,Getting around,Taxis & driving,3,3,{1:Necesito} {2:una licencia} {3:que} {4:sea válida} {5:aquí}.,{1:I need} {2:a licence} {3:that}{4:'s valid} {5:here}.,
 around-trains-01,Getting around,Trains & coaches,1,1,"{1:Dos boletos} {2:para mañana}, {3:por favor}.","{1:Two tickets} {2:for tomorrow}, {3:please}.",
 around-trains-02,Getting around,Trains & coaches,1,1,¿{1:Es} {2:directo}?,{1:Is it} {2:direct}?,
 around-trains-03,Getting around,Trains & coaches,1,1,¿{1:Cuánto} {2:dura} {3:el viaje}?,{1:How long} {2:does} {3:the journey} {2:take}?,
@@ -525,22 +741,77 @@ shop-shop-01,Shopping,In a shop,1,1,"{1:Solo} {2:estoy mirando}, {3:gracias}.","
 shop-shop-02,Shopping,In a shop,1,1,¿{1:Cuánto} {2:cuesta} {3:esto}?,{1:How much} {2:is} {3:this}?,Literally 'how much does this cost?'
 shop-shop-03,Shopping,In a shop,1,1,{1:Busco} {2:un regalo} {3:para mi mamá}.,{1:I'm looking for} {2:a present} {3:for my mother}.,buscar already means 'look for': no extra word needed.
 shop-shop-04,Shopping,In a shop,1,1,¿{1:Lo} {2:tienen} {3:en otro color}?,{2:Do you have} {1:it} {3:in another colour}?,lo (it) goes before the verb.
+shop-shop-08,Shopping,In a shop,1,1,¿{1:A qué hora} {2:cierran}?,{1:What time} {2:do you close}?,
+shop-shop-09,Shopping,In a shop,1,1,{1:Es} {2:demasiado caro}.,{1:It's} {2:too expensive}.,
+shop-shop-10,Shopping,In a shop,1,1,"{1:Quiero} {2:este}, {3:por favor}.","{1:I'd like} {2:this one}, {3:please}.",
+shop-shop-11,Shopping,In a shop,1,1,¿{1:Tienen} {2:uno} {3:más pequeño}?,{1:Do you have} {2:a} {3:smaller} {2:one}?,
+shop-shop-12,Shopping,In a shop,1,2,¿{1:Dónde} {2:está} {3:la caja}?,{1:Where}{2:'s} {3:the till}?,
+shop-shop-13,Shopping,In a shop,1,2,{1:Estoy buscando} {2:pilas}.,{1:I'm looking for} {2:batteries}.,
+shop-shop-14,Shopping,In a shop,1,2,¿{1:Lo tienen} {2:en bodega}?,{1:Have you got it} {2:in the stockroom}?,
+shop-shop-15,Shopping,In a shop,1,2,¿{1:Hacen} {2:descuento} {3:a estudiantes}?,{1:Do you give} {2:a discount} {3:to students}?,
+shop-shop-16,Shopping,In a shop,1,3,¿{1:Tiene} {2:garantía} {3:de dos años}?,{1:Does it have} {2:a} {3:two-year} {2:guarantee}?,
+shop-shop-17,Shopping,In a shop,1,3,{1:Necesito} {2:algo} {3:para quitar manchas}.,{1:I need} {2:something} {3:to remove stains}.,
 shop-shop-05,Shopping,In a shop,2,1,Me {1:lo} {2:llevo}.,{2:I'll take} {1:it}.,llevarse = to take (and keep). The me has no English equivalent.
+shop-shop-18,Shopping,In a shop,2,1,"¿{1:Me ayuda}, {2:por favor}?","{1:Could you help me}, {2:please}?",
 shop-shop-06,Shopping,In a shop,2,2,¿{1:Me} {2:lo} {3:puede} {4:envolver para regalo}?,{3:Can you} {4:gift-wrap} {2:it} {1:for me}?,"Two pronouns before the verb: me (for me), then lo (it)."
+shop-shop-19,Shopping,In a shop,2,2,{1:Lo vi} {2:en el aparador}.,{1:I saw it} {2:in the window}.,
+shop-shop-20,Shopping,In a shop,2,2,¿{1:Me lo podría} {2:apartar} {3:hasta mañana}?,{1:Could you} {2:put it aside for me} {3:until tomorrow}?,
+shop-shop-21,Shopping,In a shop,2,3,¿{1:Cuándo} {2:les llegará} {3:más mercancía}?,{1:When} {2:will you get} {3:more stock} {2:in}?,
+shop-shop-22,Shopping,In a shop,2,3,{1:Se le cayó} {2:esto}.,{1:You've dropped} {2:this}.,
 shop-shop-07,Shopping,In a shop,3,2,{1:Busco} {2:algo} que {3:no} {4:sea} {5:demasiado caro} {6:pero} que {7:parezca} {8:de buena calidad}.,{1:I'm looking for} {2:something} {4:that's} {3:not} {5:too expensive} {6:but} {7:looks} {8:good quality}.,"The subjunctive (sea, parezca) describes something you haven't found yet."
+shop-shop-23,Shopping,In a shop,3,2,{1:Busco} {2:unas tijeras} {3:que} {4:corten bien}.,{1:I'm looking for} {2:some scissors} {3:that} {4:cut well}.,
+shop-shop-24,Shopping,In a shop,3,2,"{1:Si} {2:lo tuvieran} {3:en azul}, {4:me lo llevaría}.","{1:If} {2:you had it} {3:in blue}, {4:I'd take it}.",
+shop-shop-25,Shopping,In a shop,3,3,"{1:No} {2:creo} que {3:me haga falta} {4:la bolsa}, {5:gracias}.","{2:I do}{1:n't} {2:think} {3:I need} {4:a bag}, {5:thanks}.",
+shop-clothes-08,Shopping,Clothes,1,1,{1:Me gusta} {2:esta camisa}.,{1:I like} {2:this shirt}.,
+shop-clothes-09,Shopping,Clothes,1,1,¿{1:Lo tienen} {2:en negro}?,{1:Have you got it} {2:in black}?,
+shop-clothes-10,Shopping,Clothes,1,1,{1:Uso} {2:la talla mediana}.,{1:I take} {2:a medium}.,
 shop-clothes-01,Shopping,Clothes,1,2,¿{1:Dónde} {2:están} {3:los probadores}?,{1:Where} {2:are} {3:the changing rooms}?,
 shop-clothes-02,Shopping,Clothes,1,2,¿{1:Tiene} {2:una talla} {3:más pequeña}?,{1:Do you have} {2:a} {3:smaller} {2:size}?,más pequeña = 'more small'.
 shop-clothes-03,Shopping,Clothes,1,2,{1:Me queda} {2:un poco} {3:grande}.,{1:It's} {2:a bit} {3:big} {1:on me}.,quedar = to fit or suit. Literally 'it stays a bit big on me'.
 shop-clothes-04,Shopping,Clothes,1,2,{1:Necesito} {2:unos tenis} {3:para correr}.,{1:I need} {2:some trainers} {3:for running}.,
+shop-clothes-11,Shopping,Clothes,1,2,¿{1:Tiene} {2:este zapato} {3:en mi número}?,{1:Do you have} {2:this shoe} {3:in my size}?,
+shop-clothes-12,Shopping,Clothes,1,2,{1:Me queda} {2:apretado} {3:de los hombros}.,{1:It's} {2:tight} {3:across the shoulders}.,
+shop-clothes-13,Shopping,Clothes,1,2,{1:Estos zapatos} {2:me lastiman}.,{1:These shoes} {2:hurt}.,
+shop-clothes-14,Shopping,Clothes,1,2,{1:Busco} {2:un abrigo} {3:de invierno}.,{1:I'm looking for} {2:a} {3:winter} {2:coat}.,
+shop-clothes-15,Shopping,Clothes,1,3,¿{1:Es} {2:de algodón} {3:o} {4:de poliéster}?,{1:Is it} {2:cotton} {3:or} {4:polyester}?,
+shop-clothes-16,Shopping,Clothes,1,3,{1:Necesito} {2:un traje} {3:para una boda}.,{1:I need} {2:a suit} {3:for a wedding}.,
+shop-clothes-17,Shopping,Clothes,1,3,{1:Esta chamarra} {2:tiene} {3:el cierre roto}.,{1:This jacket} {2:has} {3:a broken zip}.,
 shop-clothes-05,Shopping,Clothes,2,1,¿{1:Puedo} {2:probár}me{3:lo}?,{1:Can I} {2:try} {3:it} {2:on}?,probarse = to try on. Pronouns join the end of the infinitive: probar + me + lo.
 shop-clothes-06,Shopping,Clothes,2,2,{1:Estos jeans} {2:me quedaban} {3:bien} {4:el año pasado}.,{1:These jeans} {2:fitted me} {3:fine} {4:last year}.,The imperfect describes how things used to be.
+shop-clothes-18,Shopping,Clothes,2,2,{1:Pruébatelo}; {2:te quedará bien}.,{1:Try it on}; {2:it'll suit you}.,
+shop-clothes-19,Shopping,Clothes,2,2,{1:Se encogió} {2:al lavarlo}.,{1:It shrank} {2:in the wash}.,
+shop-clothes-20,Shopping,Clothes,2,3,{1:Quiero} {2:subirle} {3:el dobladillo} {4:a estos pantalones}.,{1:I want} {2:to get} {4:these trousers} {3:taken up}.,
+shop-clothes-21,Shopping,Clothes,2,3,{1:Lo lavé} {2:a mano} {3:y} {4:se destiñó}.,{1:I washed it} {2:by hand} {3:and} {4:the colour ran}.,
 shop-clothes-07,Shopping,Clothes,3,1,{1:Me lo compraría} {2:si} {3:fuera} {4:de otro color}.,{1:I'd buy it} {2:if} {3:it was} {4:a different colour}.,Conditional + si + imperfect subjunctive.
+shop-clothes-22,Shopping,Clothes,3,2,{1:No} {2:sé} {3:si} {4:me queda bien}; ¿{5:qué} {6:te parece}?,{2:I do}{1:n't} {2:know} {3:if} {4:it suits me}; {5:what} {6:do you think}?,
+shop-clothes-23,Shopping,Clothes,3,2,{1:Busco} {2:algo} que {3:pueda ponerme} {4:para trabajar}.,{1:I'm looking for} {2:something} {3:I can wear} {4:to work}.,
+shop-clothes-25,Shopping,Clothes,3,2,{1:Me pidió} que {2:le comprara} {3:unas medias} {4:negras}.,{1:She asked me} {2:to buy her} {3:some} {4:black} {3:tights}.,
+shop-clothes-24,Shopping,Clothes,3,3,"{1:Si} {2:fuera} {3:una talla menos}, {4:me quedaría} {5:perfecto}.","{1:If} {2:it were} {3:a size smaller}, {4:it would fit me} {5:perfectly}.",
 shop-returns-01,Shopping,Paying & returns,1,1,¿{1:Aceptan} {2:tarjeta}?,{1:Do you take} {2:cards}?,
 shop-returns-02,Shopping,Paying & returns,1,1,"¿{1:Me da} {2:una bolsa}, {3:por favor}?","{1:Can I have} {2:a bag}, {3:please}?",Literally 'do you give me a bag?'
+shop-returns-07,Shopping,Paying & returns,1,1,{1:Es} {2:demasiado pequeño}.,{1:It's} {2:too small}.,
+shop-returns-08,Shopping,Paying & returns,1,1,{1:Aquí} {2:tiene} {3:el ticket}.,{1:Here}{2:'s} {3:the receipt}.,
+shop-returns-09,Shopping,Paying & returns,1,1,¿{1:Puedo} {2:cambiarlo} {3:por otro}?,{1:Can I} {2:exchange it} {3:for another one}?,
 shop-returns-03,Shopping,Paying & returns,1,2,{1:Quiero} {2:devolver} {3:esto}.,{1:I'd like to} {2:return} {3:this}.,
+shop-returns-10,Shopping,Paying & returns,1,2,{1:No} {2:tengo} {3:el recibo}.,{2:I have}{1:n't} {2:got} {3:the receipt}.,
+shop-returns-11,Shopping,Paying & returns,1,2,{1:Está} {2:roto}.,{1:It's} {2:broken}.,
+shop-returns-12,Shopping,Paying & returns,1,2,{1:Le falta} {2:una pieza}.,{2:A piece} {1:is missing}.,
+shop-returns-13,Shopping,Paying & returns,1,2,¿{1:Cuánto tiempo} {2:tengo} {3:para devolverlo}?,{1:How long} {2:do I have} {3:to return it}?,
+shop-returns-14,Shopping,Paying & returns,1,3,{1:Prefiero} {2:que me devuelvan} {3:el dinero}.,{1:I'd rather} {2:have} {3:my money} {2:back}.,
+shop-returns-15,Shopping,Paying & returns,1,3,{1:El producto} {2:no} {3:coincide con} {4:la descripción}.,{1:The product} {3:does}{2:n't} {3:match} {4:the description}.,
 shop-returns-04,Shopping,Paying & returns,2,1,"{1:Lo compré} {2:ayer}, {3:pero} {4:no} {5:funciona}.","{1:I bought it} {2:yesterday}, {3:but} {5:it does}{4:n't} {5:work}.",compré = I bought (preterite).
+shop-returns-16,Shopping,Paying & returns,2,1,{1:Me regalaron} {2:dos iguales}.,{1:I was given} {2:two the same}.,
+shop-returns-17,Shopping,Paying & returns,2,2,{1:Solo} {2:lo usé} {3:una vez}.,{2:I've} {1:only} {2:used it} {3:once}.,
+shop-returns-18,Shopping,Paying & returns,2,2,{1:Me equivoqué} {2:de talla}.,{1:I got} {2:the wrong size}.,
 shop-returns-05,Shopping,Paying & returns,2,3,¿{1:Podría} {2:hacerme} {3:un reembolso} {4:en vez de} {5:un vale}?,{1:Could you} {2:give me} {3:a refund} {4:instead of} {5:a voucher}?,me joins the end of the infinitive: hacer + me.
+shop-returns-19,Shopping,Paying & returns,2,3,{1:Me lo devolvieron} {2:en la tarjeta}.,{1:They refunded it} {2:to my card}.,
+shop-returns-20,Shopping,Paying & returns,2,3,{1:Venía} {2:defectuoso} {3:de fábrica}.,{1:It was} {2:faulty} {3:from the factory}.,
+shop-returns-21,Shopping,Paying & returns,2,3,¿{1:Puedo hablar} {2:con el gerente}?,{1:Can I speak} {2:to the manager}?,
+shop-returns-22,Shopping,Paying & returns,3,2,{1:Quiero} que {2:me lo cambien} {3:por uno} {4:que} {5:funcione}.,{1:I want} {2:you to swap it} {3:for one} {4:that} {5:works}.,
+shop-returns-23,Shopping,Paying & returns,3,2,{1:Me dijeron} que {2:podía devolverlo} {3:sin problema}.,{1:They told me} {2:I could return it} {3:no problem}.,
 shop-returns-06,Shopping,Paying & returns,3,3,"{1:Aunque} {2:haya pasado} {3:el plazo} {4:de devolución}, {5:espero} que {6:puedan} {7:hacer} {8:una excepción}.","{1:Even though} {3:the} {4:returns} {3:period} {2:has passed}, {5:I hope} {6:you can} {7:make} {8:an exception}.",aunque + subjunctive concedes a point; espero que + subjunctive is a hope.
+shop-returns-24,Shopping,Paying & returns,3,3,"{1:Si} {2:hubiera sabido} que {3:no} {4:aceptaban devoluciones}, {5:no} {6:lo habría comprado}.","{1:If} {2:I'd known} {4:you did}{3:n't} {4:accept returns}, {6:I would}{5:n't} {6:have bought it}.",
+shop-returns-25,Shopping,Paying & returns,3,3,{1:Exijo} que {2:me den} {3:un formato de queja}.,{1:I insist} {2:you give me} {3:a complaints form}.,
 shop-supermarket-01,Shopping,At the supermarket,1,1,¿{1:Dónde} {2:está} {3:el pan}?,{1:Where}{2:'s} {3:the bread}?,
 shop-supermarket-02,Shopping,At the supermarket,1,1,"{1:Necesitamos} {2:leche}, {3:huevos} {4:y} {5:arroz}.","{1:We need} {2:milk}, {3:eggs} {4:and} {5:rice}.",
 shop-supermarket-03,Shopping,At the supermarket,1,1,¿{1:Tienen} {2:bolsas}?,{1:Do you have} {2:bags}?,
@@ -660,25 +931,79 @@ shop-electronics-13,Shopping,Electronics shop,3,2,{1:Quiero} {2:uno} {3:que teng
 shop-electronics-14,Shopping,Electronics shop,3,3,"{1:Si} {2:hubiera contratado} {3:el seguro}, {4:me habrían cambiado} {5:la pantalla} {6:gratis}.","{1:If} {2:I'd taken out} {3:the insurance}, {4:they'd have replaced} {5:the screen} {6:for free}.",
 health-unwell-01,Health,Feeling unwell,1,1,{1:Me duele} {2:la cabeza}.,{2:My head} {1:hurts}.,"doler works like gustar: literally 'the head hurts me'. Spanish uses la, not 'my', for body parts."
 health-unwell-02,Health,Feeling unwell,1,1,{1:No} {2:me siento} {3:bien}.,{2:I do}{1:n't} {2:feel} {3:well}.,
+health-unwell-08,Health,Feeling unwell,1,1,{1:Estoy} {2:enferm[o|a]}.,{1:I'm} {2:ill}.,
+health-unwell-10,Health,Feeling unwell,1,1,{1:Me duele} {2:el estómago}.,{1:I've got} {2:stomach ache}.,
+health-unwell-11,Health,Feeling unwell,1,1,{1:Tengo} {2:mucho sueño}.,{1:I'm} {2:really sleepy}.,
 health-unwell-03,Health,Feeling unwell,1,2,{1:Tengo} {2:fiebre}.,{1:I have} {2:a temperature}.,Literally 'I have fever'.
 health-unwell-04,Health,Feeling unwell,1,2,{1:Estoy} {2:un poco} {3:maread[o|a]}.,{1:I feel} {2:a bit} {3:dizzy}.,estar for temporary states.
+health-unwell-12,Health,Feeling unwell,1,2,{1:Estoy} {2:agotad[o|a]} {3:y} {4:sin fuerzas}.,{1:I'm} {2:exhausted} {3:and} {4:have no energy}.,
+health-unwell-13,Health,Feeling unwell,1,2,{1:Tengo} {2:tos} {3:desde el lunes}.,{1:I've had} {2:a cough} {3:since Monday}.,
+health-unwell-14,Health,Feeling unwell,1,2,{1:Me pica} {2:todo el cuerpo}.,{1:I'm itching} {2:all over}.,
+health-unwell-15,Health,Feeling unwell,1,2,{1:Tengo} {2:náuseas}.,{1:I feel} {2:sick}.,
+health-unwell-09,Health,Feeling unwell,1,3,{1:Tengo} {2:escalofríos}.,{1:I've got} {2:the shivers}.,
+health-unwell-16,Health,Feeling unwell,1,3,{1:Tengo} {2:la nariz} {3:tapada}.,{1:My} {2:nose} {3:is blocked}.,
+health-unwell-17,Health,Feeling unwell,1,3,{1:Me salió} {2:un salpullido} {3:en el brazo}.,{1:I've come out in} {2:a rash} {3:on my arm}.,
+health-unwell-18,Health,Feeling unwell,1,3,{1:Creo} que {2:tengo} {3:una intoxicación alimentaria}.,{1:I think} {2:I've got} {3:food poisoning}.,
 health-unwell-05,Health,Feeling unwell,2,1,{1:Llevo dos días} {2:sin dormir bien}.,{2:I haven't slept well} {1:for two days}.,llevar + time + sin + infinitive = 'haven't done... for'.
+health-unwell-19,Health,Feeling unwell,2,1,{1:Anoche} {2:vomité} {3:dos veces}.,{1:Last night} {2:I was sick} {3:twice}.,
+health-unwell-20,Health,Feeling unwell,2,2,{1:Me corté} {2:el dedo}.,{1:I've cut} {2:my finger}.,
+health-unwell-21,Health,Feeling unwell,2,2,{1:Me quemé} {2:con el horno}.,{1:I've burnt myself} {2:on the oven}.,
+health-unwell-24,Health,Feeling unwell,2,2,"{1:Si} {2:mañana} {3:sigo} {4:con fiebre}, {5:iré} {6:al médico}.","{1:If} {3:I've} {4:still got a temperature} {2:tomorrow}, {5:I'll go} {6:to the doctor}.",
 health-unwell-06,Health,Feeling unwell,2,3,{1:Ayer} {2:me torcí} {3:el tobillo} {4:jugando al fútbol}.,{1:Yesterday} {2:I twisted} {3:my ankle} {4:playing football}.,torcerse = to twist (a part of yourself).
+health-unwell-22,Health,Feeling unwell,2,3,{1:Me picó} {2:un agua mala} {3:en la playa}.,{1:I was stung} {2:by a jellyfish} {3:on the beach}.,
+health-unwell-23,Health,Feeling unwell,2,3,{1:Me mareé} {2:en el barco}.,{1:I got seasick} {2:on the boat}.,
 health-unwell-07,Health,Feeling unwell,3,1,"{1:No} {2:creo} que {3:sea} {4:nada grave}, {5:pero} {6:prefiero} que {7:me vea} {8:un médico}.","{2:I do}{1:n't} {2:think} {3:it's} {4:anything serious}, {5:but} {6:I'd rather} {8:a doctor} {7:had a look at me}.",Two subjunctives: after doubt (no creo que) and after a preference (prefiero que).
+health-unwell-25,Health,Feeling unwell,3,2,{1:Ojalá} {2:se me pase} {3:antes del viaje}.,{1:I hope} {2:it clears up} {3:before the trip}.,
+health-pharmacy-08,Health,At the pharmacy,1,1,¿{1:Tiene} {2:algo} {3:para el dolor de cabeza}?,{1:Have you got} {2:anything} {3:for a headache}?,
+health-pharmacy-09,Health,At the pharmacy,1,1,¿{1:Dónde} {2:hay} {3:una farmacia 24 horas}?,{1:Where} {2:is there} {3:a late-night chemist's}?,
 health-pharmacy-01,Health,At the pharmacy,1,2,¿{1:Tiene} {2:algo} {3:para la tos}?,{1:Do you have} {2:anything} {3:for a cough}?,
 health-pharmacy-02,Health,At the pharmacy,1,2,{1:Necesito} {2:bloqueador solar}.,{1:I need} {2:sun cream}.,
 health-pharmacy-03,Health,At the pharmacy,1,2,¿{1:Necesito} {2:receta}?,{1:Do I need} {2:a prescription}?,
 health-pharmacy-04,Health,At the pharmacy,1,2,{1:Soy} {2:alérgic[o|a]} {3:a la penicilina}.,{1:I'm} {2:allergic} {3:to penicillin}.,
+health-pharmacy-10,Health,At the pharmacy,1,2,{1:Necesito} {2:curitas}.,{1:I need} {2:plasters}.,
+health-pharmacy-11,Health,At the pharmacy,1,2,{1:Necesito} {2:algo} {3:para la diarrea}.,{1:I need} {2:something} {3:for diarrhoea}.,
+health-pharmacy-12,Health,At the pharmacy,1,2,¿{1:Es} {2:para adultos} {3:o} {4:para niños}?,{1:Is it} {2:for adults} {3:or} {4:for children}?,
+health-pharmacy-13,Health,At the pharmacy,1,2,¿{1:Tiene} {2:algo} {3:para las picaduras de mosquito}?,{1:Have you got} {2:anything} {3:for mosquito bites}?,
+health-pharmacy-14,Health,At the pharmacy,1,2,{1:Es} {2:para mi hija}; {3:tiene} {4:cuatro años}.,{1:It's} {2:for my daughter}; {3:she's} {4:four}.,
+health-pharmacy-15,Health,At the pharmacy,1,3,{1:Busco} {2:un repelente} {3:de insectos}.,{1:I'm looking for} {2:an} {3:insect} {2:repellent}.,
+health-pharmacy-16,Health,At the pharmacy,1,3,{1:Tengo} {2:la piel} {3:muy sensible}.,{1:I have} {3:very sensitive} {2:skin}.,
+health-pharmacy-17,Health,At the pharmacy,1,3,¿{1:Tiene} {2:el genérico}?,{1:Do you have} {2:the generic version}?,
+health-pharmacy-18,Health,At the pharmacy,1,3,{1:Necesito} {2:una prueba de embarazo}.,{1:I need} {2:a pregnancy test}.,
 health-pharmacy-05,Health,At the pharmacy,2,2,¿{1:Cada cuánto} {2:tengo que} {3:tomar}{4:lo}?,{1:How often} {2:do I have to} {3:take} {4:it}?,lo (it) joins the end of the infinitive.
 health-pharmacy-06,Health,At the pharmacy,2,2,{1:Tómese} {2:una pastilla} {3:cada ocho horas}.,{1:Take} {2:one tablet} {3:every eight hours}.,A polite (usted) command with se attached.
+health-pharmacy-19,Health,At the pharmacy,2,2,{1:Tómelo} {2:con las comidas}.,{1:Take it} {2:with meals}.,
+health-pharmacy-20,Health,At the pharmacy,2,2,{1:Me lo recetó} {2:mi médico} {3:en Inglaterra}.,{2:My doctor} {3:in England} {1:prescribed it}.,
+health-pharmacy-21,Health,At the pharmacy,2,3,{1:Se me acabaron} {2:las pastillas}.,{1:I've run out of} {2:my tablets}.,
+health-pharmacy-22,Health,At the pharmacy,2,3,{1:Aplíquese} {2:la crema} {3:dos veces al día}.,{1:Apply} {2:the cream} {3:twice a day}.,
+health-pharmacy-24,Health,At the pharmacy,2,3,"{1:Si} {2:los síntomas} {3:persisten}, {4:consulte} a {5:su médico}.","{1:If} {2:the symptoms} {3:persist}, {4:see} {5:your doctor}.",The standard warning on Spanish medicine packets.
+health-pharmacy-23,Health,At the pharmacy,3,2,{1:No} {2:lo tome} {3:con el estómago vacío}.,{1:Don't} {2:take it} {3:on an empty stomach}.,
 health-pharmacy-07,Health,At the pharmacy,3,3,{1:No} {2:maneje} {3:hasta que} {4:se le pase} {5:la somnolencia}.,{1:Don't} {2:drive} {3:until} {5:the drowsiness} {4:wears off}.,"A negative usted command, and hasta que + subjunctive."
+health-pharmacy-25,Health,At the pharmacy,3,3,{1:Me dijo} que {2:no} {3:lo mezclara} {4:con alcohol}.,{1:She told me} {2:not} {3:to mix it} {4:with alcohol}.,
 health-doctor-01,Health,At the doctor's,1,1,{1:Necesito} {2:ver} a {3:un médico}.,{1:I need} {2:to see} {3:a doctor}.,The a before a person (the 'personal a') has no English equivalent.
 health-doctor-02,Health,At the doctor's,1,1,{1:Me duele} {2:aquí}.,{1:It hurts} {2:here}.,
+health-doctor-08,Health,At the doctor's,1,1,{1:Me duele} {2:el oído}.,{1:I've got} {2:earache}.,
+health-doctor-09,Health,At the doctor's,1,1,{1:Tengo} {2:la presión} {3:baja}.,{1:I have} {3:low} {2:blood pressure}.,
 health-doctor-03,Health,At the doctor's,1,2,{1:Tengo} {2:una cita} {3:a las diez}.,{1:I have} {2:an appointment} {3:at ten}.,
-health-doctor-04,Health,At the doctor's,2,2,{1:Me empezó a doler} {2:la espalda} {3:hace} {4:una semana}.,{2:My back} {1:started hurting} {4:a week} {3:ago}.,empezar a + infinitive = to start doing.
+health-doctor-10,Health,At the doctor's,1,2,¿{1:Es} {2:grave}?,{1:Is it} {2:serious}?,
+health-doctor-11,Health,At the doctor's,1,2,¿{1:Cuánto} {2:tardan} {3:los resultados}?,{1:How long} {2:do} {3:the results} {2:take}?,
+health-doctor-12,Health,At the doctor's,1,2,{1:Quiero} {2:hacer una cita} {3:con el médico general}.,{1:I'd like} {2:to make an appointment} {3:with the GP}.,
+health-doctor-13,Health,At the doctor's,1,2,{1:Tengo} {2:seguro médico de viaje}.,{1:I have} {2:travel health insurance}.,
 health-doctor-05,Health,At the doctor's,1,3,{1:Le voy a pedir} {2:un análisis de sangre} {3:para descartar} {4:una infección}.,{1:I'm going to send you for} {2:a blood test} {3:to rule out} {4:an infection}.,The doctor speaking. le = you (usted).
+health-doctor-14,Health,At the doctor's,1,3,{1:Me cuesta} {2:respirar}.,{1:I'm finding it hard} {2:to breathe}.,
+health-doctor-15,Health,At the doctor's,1,3,{1:Tengo} {2:una bolita} {3:en el cuello}.,{1:I've got} {2:a lump} {3:on my neck}.,
+health-doctor-16,Health,At the doctor's,1,3,{1:Tomo} {2:pastillas} {3:para la presión}.,{1:I take} {2:tablets} {3:for my blood pressure}.,
+health-doctor-17,Health,At the doctor's,2,1,{1:Abra} {2:la boca}.,{1:Open} {2:your mouth}.,
+health-doctor-04,Health,At the doctor's,2,2,{1:Me empezó a doler} {2:la espalda} {3:hace} {4:una semana}.,{2:My back} {1:started hurting} {4:a week} {3:ago}.,empezar a + infinitive = to start doing.
+health-doctor-18,Health,At the doctor's,2,2,{1:Respire} {2:hondo}.,{1:Breathe} {2:in deeply}.,
+health-doctor-19,Health,At the doctor's,2,2,{1:Acuéstese} {2:en la camilla}.,{1:Lie down} {2:on the couch}.,
+health-doctor-20,Health,At the doctor's,2,2,{1:Me lastimé} {2:levantando} {3:una caja}.,{1:I hurt myself} {2:lifting} {3:a box}.,
+health-doctor-21,Health,At the doctor's,2,3,{1:Le voy a tomar} {2:la presión}.,{1:I'm going to take} {2:your blood pressure}.,
+health-doctor-22,Health,At the doctor's,2,3,{1:Le daré} {2:una constancia médica} {3:para el trabajo}.,{1:I'll give you} {2:a sick note} {3:for work}.,
+health-doctor-24,Health,At the doctor's,2,3,"{1:Si} {2:le sube} {3:la fiebre}, {4:vaya} {5:a urgencias}.","{1:If} {3:your temperature} {2:goes up}, {4:go} {5:to A&E}.",
 health-doctor-06,Health,At the doctor's,3,1,{1:Es importante} que {2:descanse} {3:y} {4:tome} {5:mucha agua}.,{1:It's important} {2:that you rest} {3:and} {4:drink} {5:plenty of water}.,"Es importante que + subjunctive. In Mexico, tomar is the everyday verb for drinking."
+health-doctor-23,Health,At the doctor's,3,2,{1:Quiero} que {2:se haga} {3:una radiografía}.,{1:I want} {2:you to have} {3:an X-ray}.,
 health-doctor-07,Health,At the doctor's,3,3,"{1:Me recetaron} {2:antibióticos}, {3:pero} {4:me dijeron} que {5:si} {6:no} {7:mejoraba} {8:en tres días}, {9:volviera}.","{1:They prescribed me} {2:antibiotics}, {3:but} {4:told me} {9:to come back} {5:if} {7:I did}{6:n't} {7:improve} {8:within three days}.",Reported instructions take the imperfect subjunctive (volviera).
+health-doctor-25,Health,At the doctor's,3,3,{1:No} {2:creo} que {3:haga falta} {4:operar}.,{2:I do}{1:n't} {2:think} {3:it'll be necessary} {4:to operate}.,
 health-symptoms-01,Health,Describing symptoms,1,2,{1:Me duele} {2:la garganta}.,{2:My throat} {1:hurts}.,
 health-symptoms-02,Health,Describing symptoms,1,2,{1:Tengo} {2:tos} {3:y} {4:mocos}.,{1:I have} {2:a cough} {3:and} {4:a runny nose}.,
 health-symptoms-03,Health,Describing symptoms,1,2,{1:Estoy} {2:resfriad[o|a]}.,{1:I have} {2:a cold}.,Literally 'I'm colded'.
@@ -815,20 +1140,55 @@ health-allergies-13,Health,Allergies & long-term conditions,3,2,{1:Es importante
 health-allergies-14,Health,Allergies & long-term conditions,3,3,{1:Asegúrate de} que {2:no} {3:lleve} {4:cacahuates}.,{1:Make sure} {3:it does}{2:n't} {3:contain} {4:peanuts}.,
 health-allergies-15,Health,Allergies & long-term conditions,3,3,"{1:Aunque} {2:me sienta} {3:bien}, {4:no} {5:puedo} {6:dejar} {7:el medicamento}.","{1:Even if} {2:I feel} {3:fine}, {5:I can}{4:'t} {6:stop taking} {7:my medication}.",
 travel-airport-01,Travel,At the airport,1,1,{1:Aquí} {2:está} {3:mi pasaporte}.,{1:Here}{2:'s} {3:my passport}.,
+travel-airport-09,Travel,At the airport,1,1,{1:Mi vuelo} {2:sale} {3:a las seis}.,{1:My flight} {2:leaves} {3:at six}.,
+travel-airport-10,Travel,At the airport,1,1,¿{1:Dónde} {2:está} {3:la terminal dos}?,{1:Where}{2:'s} {3:terminal two}?,
 travel-airport-02,Travel,At the airport,1,2,{1:Solo} {2:llevo} {3:equipaje de mano}.,{2:I've} {1:only} {2:got} {3:hand luggage}.,"llevar = to carry, to have with you."
 travel-airport-03,Travel,At the airport,1,2,¿{1:Dónde} {2:documento} {3:la maleta}?,{1:Where} {2:do I check in} {3:my suitcase}?,"In Mexico, documentar = to check in luggage."
 travel-airport-04,Travel,At the airport,1,2,{1:Quiero} {2:un asiento} {3:de pasillo}.,{1:I'd like} {2:an} {3:aisle} {2:seat}.,Literally 'a seat of aisle'.
 travel-airport-05,Travel,At the airport,1,2,¿{1:De qué puerta} {2:sale} {3:el vuelo}?,{1:Which gate} {2:does} {3:the flight} {2:leave} {1:from}?,Spanish puts the preposition first: 'from which gate'.
+travel-airport-11,Travel,At the airport,1,2,{1:Quiero} {2:un asiento} {3:de ventanilla}.,{1:I'd like} {2:a} {3:window} {2:seat}.,
+travel-airport-12,Travel,At the airport,1,2,{1:Llevo} {2:líquidos} {3:en la maleta de mano}.,{1:I've got} {2:liquids} {3:in my hand luggage}.,
+travel-airport-13,Travel,At the airport,1,2,¿{1:Está a tiempo} {2:el vuelo}?,{1:Is} {2:the flight} {1:on time}?,
+travel-airport-14,Travel,At the airport,1,2,{1:Tengo} {2:el pase de abordar} {3:en el celular}.,{1:I've got} {2:my boarding pass} {3:on my phone}.,
 travel-airport-06,Travel,At the airport,1,3,{1:Tengo} {2:una escala} {3:de dos horas} {4:en Lisboa}.,{1:I have} {2:a} {3:two-hour} {2:layover} {4:in Lisbon}.,
+travel-airport-15,Travel,At the airport,1,3,{1:Mi maleta} {2:pesa} {3:veinticinco kilos}.,{1:My suitcase} {2:weighs} {3:twenty-five kilos}.,
+travel-airport-16,Travel,At the airport,1,3,{1:Tengo que} {2:pasar} {3:el control de seguridad}.,{1:I have to} {2:go through} {3:security}.,
+travel-airport-17,Travel,At the airport,1,3,{1:El abordaje} {2:empieza} {3:a las cinco y media}.,{1:Boarding} {2:starts} {3:at half past five}.,
+travel-airport-18,Travel,At the airport,2,1,{1:Ya} {2:documenté}.,{2:I've} {1:already} {2:checked in}.,
 travel-airport-07,Travel,At the airport,2,2,{1:Me dijeron} que {2:el vuelo} {3:está} {4:retrasado}.,{1:They've told me} {2:the flight} {3:is} {4:delayed}.,
+travel-airport-19,Travel,At the airport,2,2,{1:Quítese} {2:el cinturón} {3:y} {4:los zapatos}.,{1:Take off} {2:your belt} {3:and} {4:shoes}.,
+travel-airport-20,Travel,At the airport,2,2,{1:Cambiaron} {2:la sala de abordar}.,{1:They've changed} {2:the gate}.,
+travel-airport-21,Travel,At the airport,2,3,{1:Me hicieron} {2:abrir} {3:la maleta}.,{1:They made me} {2:open} {3:my suitcase}.,
+travel-airport-22,Travel,At the airport,2,3,{1:El vuelo} {2:aterrizó} {3:antes de tiempo}.,{1:The flight} {2:has landed} {3:early}.,
 travel-airport-08,Travel,At the airport,3,2,"{1:Por si acaso}, {2:llega} {3:al aeropuerto} {4:dos horas antes} de que {5:salga} {6:el vuelo}.","{1:Just in case}, {2:get} {3:to the airport} {4:two hours before} {6:the flight} {5:leaves}.",antes de que always takes the subjunctive.
-travel-problems-01,Travel,Delays & problems,2,1,{1:Mi maleta} {2:no} {3:llegó}.,{1:My suitcase} {3:has}{2:n't} {3:arrived}.,
+travel-airport-23,Travel,At the airport,3,2,{1:No} {2:dejes} {3:la maleta} {4:sola}.,{1:Don't} {2:leave} {3:your suitcase} {4:unattended}.,
+travel-airport-24,Travel,At the airport,3,3,"{1:Si} {2:hubiera documentado} {3:por internet}, {4:me habría ahorrado} {5:la fila}.","{1:If} {2:I'd checked in} {3:online}, {4:I'd have saved myself} {5:the queue}.",
+travel-airport-25,Travel,At the airport,3,3,{1:Me pidieron} que {2:pagara} {3:el exceso de equipaje}.,{1:They asked me} {2:to pay} {3:for excess baggage}.,
 travel-problems-02,Travel,Delays & problems,1,1,{1:Es} {2:negra} {3:y} {4:bastante grande}.,{1:It's} {2:black} {3:and} {4:quite big}.,negra ends in -a to match la maleta.
+travel-problems-08,Travel,Delays & problems,1,1,{1:Mi vuelo} {2:llega} {3:tarde}.,{1:My flight} {2:is arriving} {3:late}.,
 travel-problems-03,Travel,Delays & problems,1,2,{1:El vuelo} {2:está cancelado}. ¿{3:Qué} {4:hago} {5:ahora}?,{1:The flight} {2:is cancelled}. {3:What} {4:do I do} {5:now}?,
+travel-problems-09,Travel,Delays & problems,1,2,¿{1:Hay} {2:otro vuelo} {3:hoy}?,{1:Is there} {2:another flight} {3:today}?,
+travel-problems-11,Travel,Delays & problems,1,2,{1:Necesito} {2:un hotel} {3:para esta noche}.,{1:I need} {2:a hotel} {3:for tonight}.,
+travel-problems-12,Travel,Delays & problems,1,2,{1:La maleta} {2:tiene} {3:una cinta roja}.,{1:The suitcase} {2:has} {3:a red ribbon} {2:on it}.,
 travel-problems-04,Travel,Delays & problems,1,3,¿{1:Tengo derecho a} {2:una indemnización}?,{1:Am I entitled to} {2:compensation}?,Literally 'do I have the right to...?'
+travel-problems-13,Travel,Delays & problems,1,3,{1:El tren} {2:lleva} {3:una hora} {4:parado}.,{1:The train} {2:has been} {4:stopped} {3:for an hour}.,
+travel-problems-14,Travel,Delays & problems,1,3,{1:Quiero} {2:presentar} {3:una queja}.,{1:I'd like} {2:to make} {3:a complaint}.,
+travel-problems-15,Travel,Delays & problems,1,3,¿{1:Me} {2:pagan} {3:la comida} {4:mientras espero}?,{2:Will you pay for} {1:my} {3:meals} {4:while I wait}?,
+travel-problems-01,Travel,Delays & problems,2,1,{1:Mi maleta} {2:no} {3:llegó}.,{1:My suitcase} {3:has}{2:n't} {3:arrived}.,
 travel-problems-05,Travel,Delays & problems,2,2,{1:Perdí} {2:el vuelo} {3:de conexión} {4:porque} {5:el primero} {6:salió} {7:tarde}.,{1:I missed} {2:my} {3:connecting} {2:flight} {4:because} {5:the first one} {6:left} {7:late}.,
+travel-problems-10,Travel,Delays & problems,2,2,¿{1:Dónde} {2:se reclaman} {3:las maletas perdidas}?,{1:Where} {2:do you report} {3:lost luggage}?,
+travel-problems-16,Travel,Delays & problems,2,2,{1:Nos cambiaron} {2:el vuelo} {3:sin avisar}.,{1:They've changed} {2:our flight} {3:without telling us}.,
+travel-problems-17,Travel,Delays & problems,2,2,{1:Me quedé} {2:varad[o|a]} {3:en Madrid} {4:toda la noche}.,{1:I was} {2:stranded} {3:in Madrid} {4:all night}.,
+travel-problems-18,Travel,Delays & problems,2,2,{1:Llené} {2:el formulario} {3:en el mostrador}.,{1:I filled in} {2:the form} {3:at the desk}.,
+travel-problems-19,Travel,Delays & problems,2,3,{1:Nos alojaron} {2:en un hotel} {3:junto al aeropuerto}.,{1:They put us up} {2:in a hotel} {3:next to the airport}.,
+travel-problems-20,Travel,Delays & problems,2,3,{1:La maleta} {2:llegó} {3:con una rueda rota}.,{1:The suitcase} {2:arrived} {3:with a broken wheel}.,
+travel-problems-21,Travel,Delays & problems,2,3,{1:Me reembolsarán} {2:el boleto} {3:en un plazo de siete días}.,{1:They'll refund} {2:my ticket} {3:within seven days}.,
 travel-problems-06,Travel,Delays & problems,3,2,"{1:Si} {2:me hubieran avisado} {3:antes}, {4:habría cambiado} {5:el vuelo}.","{1:If} {2:they'd told me} {3:earlier}, {4:I'd have changed} {5:my flight}.","A past 'if': pluperfect subjunctive, then the conditional perfect."
+travel-problems-22,Travel,Delays & problems,3,2,{1:Es imprescindible} que {2:llegue} {3:mañana}; {4:tengo} {5:una boda}.,{1:It's essential} {2:that I arrive} {3:tomorrow}; {4:I've got} {5:a wedding}.,
+travel-problems-23,Travel,Delays & problems,3,2,{1:Exijo} que {2:me den} {3:una solución}.,{1:I demand} {2:you give me} {3:a solution}.,
 travel-problems-07,Travel,Delays & problems,3,3,{1:La aerolínea} {2:me pidió} que {3:presentara} {4:un comprobante} {5:de los gastos} {6:antes de} {7:reembolsarme}.,{1:The airline} {2:asked me} {3:to provide} {4:proof} {5:of my expenses} {6:before} {7:reimbursing me}.,pedir que + imperfect subjunctive: a reported request.
+travel-problems-24,Travel,Delays & problems,3,3,"{1:Para cuando} {2:llegue} {3:la maleta}, {4:ya} {5:me habré ido}.","{1:By the time} {3:the suitcase} {2:arrives}, {5:I'll} {4:already} {5:have left}.",
+travel-problems-25,Travel,Delays & problems,3,3,{1:Me dijeron} que {2:me la entregarían} {3:en el hotel} {4:al día siguiente}.,{1:They told me} {2:they'd deliver it} {3:to the hotel} {4:the next day}.,
 travel-planning-01,Travel,Planning a trip,1,1,¿{1:Cuánto} {2:cuesta} {3:el vuelo}?,{1:How much} {2:is} {3:the flight}?,
 travel-planning-02,Travel,Planning a trip,1,1,{1:Vamos a} {2:ir} {3:en tren}.,{1:We're going to} {2:go} {3:by train}.,
 travel-planning-03,Travel,Planning a trip,1,2,{1:Queremos} {2:ir} {3:a la costa} {4:en agosto}.,{1:We want} {2:to go} {3:to the coast} {4:in August}.,
@@ -982,17 +1342,52 @@ home-routine-01,Home & daily life,Daily routine,1,1,{1:Me levanto} {2:a las siet
 home-routine-02,Home & daily life,Daily routine,1,1,{1:Desayuno} {2:café} {3:y} {4:pan tostado}.,{1:I have} {2:coffee} {3:and} {4:toast} {1:for breakfast}.,"desayunar = to have breakfast, all in one verb."
 home-routine-03,Home & daily life,Daily routine,1,1,{1:Me baño} {2:en la noche}.,{1:I shower} {2:at night}.,"In Mexico, bañarse is the everyday word for having a shower."
 home-routine-04,Home & daily life,Daily routine,1,1,{1:Normalmente} {2:voy} {3:al trabajo} {4:en bici}.,{2:I} {1:usually} {2:go} {3:to work} {4:by bike}.,
+home-routine-09,Home & daily life,Daily routine,1,1,{1:Me acuesto} {2:a las once}.,{1:I go to bed} {2:at eleven}.,
+home-routine-10,Home & daily life,Daily routine,1,1,{1:Como} {2:a las dos}.,{1:I have lunch} {2:at two}.,
+home-routine-11,Home & daily life,Daily routine,1,1,{1:Los domingos} {2:no} {3:hago} {4:nada}.,{1:On Sundays} {3:I do}{2:n't} {3:do} {4:anything}.,
+home-routine-12,Home & daily life,Daily routine,1,1,{1:Me lavo} {2:los dientes} {3:después de desayunar}.,{1:I brush} {2:my teeth} {3:after breakfast}.,
+home-routine-13,Home & daily life,Daily routine,1,2,{1:Paseo} {2:al perro} {3:dos veces al día}.,{1:I walk} {2:the dog} {3:twice a day}.,
+home-routine-14,Home & daily life,Daily routine,1,2,{1:Me tomo} {2:una siesta} {3:después de comer}.,{1:I have} {2:a nap} {3:after lunch}.,
+home-routine-15,Home & daily life,Daily routine,1,2,{1:Hago} {2:el súper} {3:los sábados}.,{1:I do} {2:the shopping} {3:on Saturdays}.,
+home-routine-16,Home & daily life,Daily routine,1,2,{1:Tardo} {2:media hora} {3:en llegar al trabajo}.,{1:It takes me} {2:half an hour} {3:to get to work}.,
+home-routine-17,Home & daily life,Daily routine,1,3,{1:Me pongo} {2:el despertador} {3:a las seis y cuarto}.,{1:I set} {2:my alarm} {3:for quarter past six}.,
+home-routine-18,Home & daily life,Daily routine,1,3,"{1:Antes de dormir}, {2:leo} {3:un rato}.","{1:Before going to sleep}, {2:I read} {3:for a while}.",
+home-routine-19,Home & daily life,Daily routine,1,3,"{1:Ceno} {2:muy tarde}, {3:sobre las diez}.","{1:I have dinner} {2:very late}, {3:around ten}.",
 home-routine-05,Home & daily life,Daily routine,2,1,"{1:Cuando} {2:era} {3:niñ[o|a]}, {4:me acostaba} {5:a las ocho}.","{1:When} {2:I was} {3:a child}, {4:I used to go to bed} {5:at eight}.",The imperfect for habits in the past: 'used to'.
+home-routine-20,Home & daily life,Daily routine,2,1,{1:Hoy} {2:me levanté} {3:tarde}.,{2:I got up} {3:late} {1:today}.,
 home-routine-06,Home & daily life,Daily routine,2,2,{1:Esta mañana} {2:me quedé dormid[o|a]} {3:y} {4:llegué} {5:tarde}.,{1:This morning} {2:I overslept} {3:and} {4:got in} {5:late}.,"Latin America uses the preterite, even for earlier today."
+home-routine-21,Home & daily life,Daily routine,2,2,{1:Antes iba} {2:al gimnasio} {3:a diario}.,{1:I used to go} {2:to the gym} {3:every day}.,
+home-routine-22,Home & daily life,Daily routine,2,2,{1:Esta semana} {2:trabajé} {3:muchísimo}.,{2:I've worked} {3:really hard} {1:this week}.,
+home-routine-23,Home & daily life,Daily routine,2,3,{1:Mañana} {2:me levantaré} {3:temprano} {4:para correr}.,{1:Tomorrow} {2:I'll get up} {3:early} {4:to go running}.,
 home-routine-07,Home & daily life,Daily routine,3,2,"{1:Antes de que} {2:te vayas}, ¿{3:puedes} {4:sacar} {5:la basura}?","{1:Before} {2:you go}, {3:can you} {4:take out} {5:the rubbish}?",antes de que + subjunctive.
 home-routine-08,Home & daily life,Daily routine,3,2,"{1:Me gustaría} {2:levantarme} {3:más temprano}, {4:pero} {5:por mucho que} {6:lo intente}, {7:no} {8:lo consigo}.","{1:I'd like} {2:to get up} {3:earlier}, {4:but} {5:however hard} {6:I try}, {8:I can}{7:'t} {8:manage it}.",por mucho que + subjunctive = 'however much'.
+home-routine-24,Home & daily life,Daily routine,3,2,"{1:Cuando} {2:me jubile}, no {3:pondré} {4:el despertador} {5:nunca más}.","{1:When} {2:I retire}, {3:I'll} {5:never} {3:set} {4:an alarm} {5:again}.",
+home-routine-25,Home & daily life,Daily routine,3,3,"{1:Si} {2:no} {3:tuviera} {4:que} {5:madrugar}, {6:dormiría} {7:hasta las diez}.","{1:If} {3:I did}{2:n't} {3:have} {4:to} {5:get up early}, {6:I'd sleep} {7:until ten}.",
 home-house-01,Home & daily life,Around the house,1,1,{1:Vivo} {2:en un departamento} {3:en el centro}.,{1:I live} {2:in a flat} {3:in the centre}.,
 home-house-02,Home & daily life,Around the house,1,1,{1:Mi casa} {2:tiene} {3:dos recámaras}.,{1:My house} {2:has} {3:two bedrooms}.,
 home-house-03,Home & daily life,Around the house,1,1,"{1:La cocina} {2:es} {3:pequeña}, {4:pero} {5:tiene} {6:mucha luz}.","{1:The kitchen} {2:is} {3:small}, {4:but} {5:it gets} {6:lots of light}.",
+home-house-08,Home & daily life,Around the house,1,1,{1:Mi departamento} {2:está} {3:en el quinto piso}.,{1:My flat} {2:is} {3:on the fifth floor}.,
+home-house-09,Home & daily life,Around the house,1,1,{1:La sala} {2:es} {3:muy grande}.,{1:The living room} {2:is} {3:very big}.,
+home-house-10,Home & daily life,Around the house,1,1,{1:No} {2:tenemos} {3:jardín}.,{2:We have}{1:n't} {2:got} {3:a garden}.,
 home-house-04,Home & daily life,Around the house,1,2,{1:El refrigerador} {2:hace} {3:un ruido} {4:raro}.,{1:The fridge} {2:is making} {3:a} {4:strange} {3:noise}.,hacer = to make or to do.
+home-house-11,Home & daily life,Around the house,1,2,{1:Hay} {2:un balcón} {3:que da a la calle}.,{1:There's} {2:a balcony} {3:overlooking the street}.,
+home-house-12,Home & daily life,Around the house,1,2,{1:El edificio} {2:no} {3:tiene} {4:elevador}.,{1:The building} {3:has} {2:no} {4:lift}.,
+home-house-13,Home & daily life,Around the house,1,2,{1:La calefacción} {2:es} {3:de gas}.,{1:The heating} {2:runs} {3:on gas}.,
+home-house-14,Home & daily life,Around the house,1,2,{1:El baño} {2:tiene} {3:tina} {4:y} {5:regadera}.,{1:The bathroom} {2:has} {3:a bath} {4:and} {5:a shower}.,
+home-house-15,Home & daily life,Around the house,1,3,{1:El lavaplatos} {2:está} {3:descompuesto}.,{1:The dishwasher} {2:is} {3:broken}.,
+home-house-16,Home & daily life,Around the house,1,3,{1:Hay} {2:humedad} {3:en el techo}.,{1:There's} {2:damp} {3:on the ceiling}.,
+home-house-17,Home & daily life,Around the house,1,3,{1:El cuarto de tiliches} {2:está} {3:lleno de cajas}.,{1:The storage room} {2:is} {3:full of boxes}.,
 home-house-05,Home & daily life,Around the house,2,2,{1:Ya} {2:puse} {3:la lavadora}.,{2:I've} {1:already} {2:put} {3:the washing machine} {2:on}.,
+home-house-18,Home & daily life,Around the house,2,2,{1:Cierra} {2:las persianas}; {3:entra} {4:mucho sol}.,{1:Close} {2:the blinds}; {4:a lot of sun} {3:is coming in}.,
+home-house-19,Home & daily life,Around the house,2,2,"{1:Pon} {2:el lavaplatos}, {3:por favor}.","{1:Put} {2:the dishwasher} {1:on}, {3:please}.",
+home-house-20,Home & daily life,Around the house,2,2,{1:Pintamos} {2:las paredes} {3:el verano pasado}.,{1:We painted} {2:the walls} {3:last summer}.,
 home-house-06,Home & daily life,Around the house,2,3,{1:Hay que} {2:llamar} a {3:un plomero}; {4:se tapó} {5:el desagüe}.,{1:We need to} {2:call} {3:a plumber}; {5:the drain} {4:is blocked}.,Spanish often puts the subject after the verb.
+home-house-21,Home & daily life,Around the house,2,3,{1:Se fundió} {2:el foco} {3:del pasillo}.,{2:The} {3:hall} {2:light bulb} {1:has gone}.,
+home-house-22,Home & daily life,Around the house,2,3,{1:Se bajó} {2:la pastilla}.,{2:The trip switch} {1:has gone}.,
 home-house-07,Home & daily life,Around the house,3,1,"{1:Si} {2:yo fuera} {3:tú}, {4:no} {5:dejaría} {6:la ventana abierta}.","{1:If} {2:I were} {3:you}, {5:I would}{4:n't} {5:leave} {6:the window open}.","The classic advice structure: si + imperfect subjunctive, then the conditional."
+home-house-23,Home & daily life,Around the house,3,2,{1:No} {2:dejes} {3:la puerta} {4:abierta}; {5:se escapa} {6:el gato}.,{1:Don't} {2:leave} {3:the door} {4:open}; {6:the cat} {5:gets out}.,
+home-house-24,Home & daily life,Around the house,3,3,"{1:Si} {2:tuviéramos} {3:más espacio}, {4:pondríamos} {5:una mesa} {6:más grande}.","{1:If} {2:we had} {3:more space}, {4:we'd get} {5:a} {6:bigger} {5:table}.",
+home-house-25,Home & daily life,Around the house,3,3,{1:Es importante} que {2:ventiles} {3:la casa} {4:cada mañana}.,{1:It's important} {2:to air} {3:the house} {4:every morning}.,
 home-chores-01,Home & daily life,Chores,1,1,{1:Voy a} {2:hacer} {3:la cama}.,{1:I'm going to} {2:make} {3:the bed}.,
 home-chores-02,Home & daily life,Chores,1,2,{1:Hoy} {2:me toca} {3:cocinar}.,{1:Today} {2:it's my turn} {3:to cook}.,tocar = to be someone's turn. Works like gustar.
 home-chores-03,Home & daily life,Chores,1,2,¿{1:Quién} {2:lava} {3:los trastes}?,{1:Who}{2:'s washing} {3:the dishes}?,
@@ -1128,27 +1523,79 @@ home-housemates-15,Home & daily life,Flatmates,3,3,{1:Propongo} que {2:hagamos} 
 people-family-01,Family & friends,Family,1,1,{1:Tengo} {2:dos hermanos}.,{1:I have} {2:two brothers}.,hermanos can also mean 'brothers and sisters'.
 people-family-02,Family & friends,Family,1,1,{1:Mi hermana} {2:es} {3:mayor} {4:que yo}.,{1:My sister} {2:is} {3:older} {4:than me}.,"After que, Spanish uses yo, not me."
 people-family-03,Family & friends,Family,1,1,{1:Mis padres} {2:viven} {3:en el campo}.,{1:My parents} {2:live} {3:in the countryside}.,
+people-family-08,Family & friends,Family,1,1,{1:Soy} {2:hij[o|a] únic[o|a]}.,{1:I'm} {2:an only child}.,
+people-family-09,Family & friends,Family,1,1,{1:Tengo} {2:una hija} {3:y} {4:un hijo}.,{1:I have} {2:a daughter} {3:and} {4:a son}.,
+people-family-10,Family & friends,Family,1,1,{1:Mi familia} {2:es} {3:muy grande}.,{1:My family} {2:is} {3:very big}.,
+people-family-11,Family & friends,Family,1,1,{1:Mi hermano} {2:vive} {3:en Australia}.,{1:My brother} {2:lives} {3:in Australia}.,
 people-family-04,Family & friends,Family,1,2,{1:Mi primo} {2:se parece mucho} a {3:mi tío}.,{1:My cousin} {2:looks a lot like} {3:my uncle}.,parecerse a = to look like.
+people-family-12,Family & friends,Family,1,2,{1:Mi suegra} {2:viene} {3:a comer} {4:los domingos}.,{1:My mother-in-law} {2:comes} {3:for lunch} {4:on Sundays}.,
+people-family-13,Family & friends,Family,1,2,{1:Mis papás} {2:están} {3:divorciados}.,{1:My parents} {2:are} {3:divorced}.,
+people-family-14,Family & friends,Family,1,2,{1:Me llevo} {2:muy bien} {3:con mi cuñada}.,{1:I get on} {2:really well} {3:with my sister-in-law}.,
+people-family-15,Family & friends,Family,1,2,{1:Mi sobrina} {2:tiene} {3:la misma edad} {4:que mi hija}.,{1:My niece} {2:is} {3:the same age} {4:as my daughter}.,
+people-family-16,Family & friends,Family,1,3,{1:Mi padrastro} {2:es} {3:de Sevilla}.,{1:My stepfather} {2:is} {3:from Seville}.,
+people-family-17,Family & friends,Family,1,3,{1:Tengo} {2:un medio hermano} {3:por parte de mi papá}.,{1:I have} {2:a half-brother} {3:on my father's side}.,
+people-family-18,Family & friends,Family,1,3,{1:Mi familia política} {2:es} {3:encantadora}.,{1:My in-laws} {2:are} {3:lovely}.,
 people-family-05,Family & friends,Family,2,1,{1:Mis abuelos} {2:se conocieron} {3:en un baile}.,{1:My grandparents} {2:met} {3:at a dance}.,conocerse in the preterite = to meet for the first time.
 people-family-06,Family & friends,Family,2,1,"{1:De pequeñ[o|a]}, {2:pasaba} {3:los veranos} {4:en casa de mis abuelos}.","{1:As a child}, {2:I spent} {3:the summers} {4:at my grandparents'}.",The imperfect for repeated actions in the past.
+people-family-19,Family & friends,Family,2,1,{1:Mi abuela} {2:murió} {3:el año pasado}.,{1:My grandmother} {2:died} {3:last year}.,
+people-family-20,Family & friends,Family,2,2,{1:Me crie} {2:con mis tíos}.,{1:I was brought up} {2:by my aunt and uncle}.,
+people-family-21,Family & friends,Family,2,2,{1:Mi hermana} {2:acaba de tener} {3:cuates}.,{1:My sister} {2:has just had} {3:twins}.,
+people-family-22,Family & friends,Family,2,3,{1:Nos reunimos} {2:toda la familia} {3:en Nochebuena}.,{2:The whole family} {1:gets together} {3:on Christmas Eve}.,
 people-family-07,Family & friends,Family,3,2,{1:A mi mamá} {2:le encantaría} que {3:la visitáramos} {4:más seguido}.,{1:My mother} {2:would love} {3:us to visit her} {4:more often}.,Conditional + que + imperfect subjunctive.
+people-family-23,Family & friends,Family,3,2,{1:A mis papás} {2:les gustaría} que {3:me casara}.,{1:My parents} {2:would like} {3:me to get married}.,
+people-family-24,Family & friends,Family,3,3,"{1:Si} {2:mi abuelo} {3:viviera}, {4:estaría} {5:orgulloso} {6:de ti}.","{1:If} {2:my grandfather} {3:were alive}, {4:he'd be} {5:proud} {6:of you}.",
+people-family-25,Family & friends,Family,3,3,"{1:Aunque} {2:vivamos} {3:lejos}, {4:hablamos} {5:todas las semanas}.","{1:Even though} {2:we live} {3:far apart}, {4:we talk} {5:every week}.","Aunque + subjunctive here concedes the point: 'even though, granted, we live far apart'."
 people-plans-01,Family & friends,Making plans,1,1,¿{1:Nos vemos} {2:mañana}?,{1:Shall we meet up} {2:tomorrow}?,Literally 'do we see each other tomorrow?'
 people-plans-02,Family & friends,Making plans,1,1,¿{1:Qué} {2:haces} {3:este fin de semana}?,{1:What} {2:are you doing} {3:this weekend}?,The simple present often covers 'are doing'.
 people-plans-03,Family & friends,Making plans,1,1,{1:Vamos a} {2:ir} {3:al cine} {4:el sábado}.,{1:We're going to} {2:go} {3:to the cinema} {4:on Saturday}.,No word for 'on' with days: just el sábado.
 people-plans-04,Family & friends,Making plans,1,1,"{1:Está bien}, {2:nos vemos} {3:a las ocho} {4:en la plaza}.","{1:OK}, {2:see you} {3:at eight} {4:in the square}.",
+people-plans-10,Family & friends,Making plans,1,1,¿{1:Estás libre} {2:el viernes}?,{1:Are you free} {2:on Friday}?,
+people-plans-11,Family & friends,Making plans,1,1,¿{1:Dónde} {2:nos vemos} {3:exactamente}?,"{1:Where} {2:shall we meet}, {3:exactly}?",
+people-plans-12,Family & friends,Making plans,1,1,{1:Me viene bien} {2:el sábado}.,{2:Saturday} {1:suits me}.,
+people-plans-13,Family & friends,Making plans,1,1,{1:Mejor} {2:otro día}.,{2:Another day} {1:would be better}.,
 people-plans-05,Family & friends,Making plans,1,2,¿{1:Se te antoja} {2:tomar algo}?,{1:Do you fancy} {2:a drink}?,antojarse works like gustar: 'does it appeal to you?'
 people-plans-06,Family & friends,Making plans,1,2,{1:Te mando} {2:la ubicación} {3:por WhatsApp}.,{1:I'll send you} {2:the location} {3:on WhatsApp}.,The present tense is often used for the near future.
+people-plans-14,Family & friends,Making plans,1,2,¿{1:Te animas}?,{1:Are you in}?,
+people-plans-15,Family & friends,Making plans,1,2,{1:Estoy} {2:hasta el tope} {3:esta semana}.,{1:I'm} {2:snowed under} {3:this week}.,
+people-plans-16,Family & friends,Making plans,1,2,{1:Nos vemos} {2:afuera del cine}.,{1:Let's meet} {2:outside the cinema}.,
+people-plans-17,Family & friends,Making plans,1,3,{1:Lo dejamos} {2:para la próxima semana}.,{1:Let's leave it} {2:until next week}.,
 people-plans-07,Family & friends,Making plans,2,1,"{1:Lo siento}, {2:no} {3:puedo}; {4:ya} {5:tengo planes} {6:con otra gente}.","{1:Sorry}, {3:I can}{2:'t}; {5:I've} {4:already} {5:made plans} {6:with other people}.",
+people-plans-18,Family & friends,Making plans,2,1,{1:Te marco} {2:luego} {3:y} {4:lo platicamos}.,{1:I'll ring you} {2:later} {3:and} {4:we'll talk about it}.,
+people-plans-19,Family & friends,Making plans,2,2,{1:Tengo que} {2:cancelar} {3:lo de mañana}.,{1:I have to} {2:cancel} {3:tomorrow}.,
+people-plans-20,Family & friends,Making plans,2,2,{1:Surgió} {2:algo} {3:en el trabajo}.,{2:Something} {1:has come up} {3:at work}.,
+people-plans-21,Family & friends,Making plans,2,2,{1:Reservé} {2:mesa} {3:para las nueve}.,{1:I booked} {2:a table} {3:for nine}.,
+people-plans-22,Family & friends,Making plans,2,3,{1:Llegaré} {2:un poco tarde}; {3:empiecen} {4:sin mí}.,{1:I'll be} {2:a bit late}; {3:start} {4:without me}.,
 people-plans-08,Family & friends,Making plans,3,1,{1:Llámame} {2:en cuanto} {3:sepas} {4:algo}.,{1:Call me} {2:as soon as} {3:you know} {4:anything}.,en cuanto + subjunctive for a future moment.
 people-plans-09,Family & friends,Making plans,3,1,"{1:Me dijo} que {2:vendría}, {3:pero} {4:dudo} que {5:venga}.","{1:She told me} {2:she'd come}, {3:but} {4:I doubt} {5:she will}.",Reported future becomes conditional (vendría); doubt takes the subjunctive (venga).
+people-plans-23,Family & friends,Making plans,3,1,"{1:Cuando} {2:sepas} {3:la hora}, {4:dímelo}.","{1:When} {2:you know} {3:the time}, {4:tell me}.",
+people-plans-24,Family & friends,Making plans,3,2,{1:Prefiero} que {2:vengan} {3:a la casa}.,{1:I'd rather} {2:you came} {3:to ours}.,
+people-plans-25,Family & friends,Making plans,3,3,"{1:Si} {2:hubiera sabido} que {3:venías}, {4:habría reservado} {5:para tres}.","{1:If} {2:I'd known} {3:you were coming}, {4:I'd have booked} {5:for three}.",
 people-feelings-01,Family & friends,Feelings,1,1,{1:Estoy} {2:muy content[o|a]}.,{1:I'm} {2:very happy}.,estar for how you feel right now.
 people-feelings-02,Family & friends,Feelings,1,1,{1:Estoy} {2:un poco} {3:nervios[o|a]}.,{1:I'm} {2:a bit} {3:nervous}.,
+people-feelings-09,Family & friends,Feelings,1,1,{1:Estoy} {2:cansad[o|a]}.,{1:I'm} {2:tired}.,
+people-feelings-10,Family & friends,Feelings,1,1,{1:Estoy} {2:aburrid[o|a]}.,{1:I'm} {2:bored}.,
+people-feelings-11,Family & friends,Feelings,1,1,{1:Tengo} {2:miedo} {3:de volar}.,{1:I'm} {2:scared} {3:of flying}.,
 people-feelings-03,Family & friends,Feelings,1,2,{1:Extraño} a {2:mi familia}.,{1:I miss} {2:my family}.,extrañar = to miss (someone). Note the personal a.
 people-feelings-04,Family & friends,Feelings,1,2,{1:Estoy} {2:enojad[o|a]} {3:con mi hermano}.,{1:I'm} {2:angry} {3:with my brother}.,
+people-feelings-12,Family & friends,Feelings,1,2,{1:Estoy} {2:hart[o|a]} {3:de esperar}.,{1:I'm} {2:fed up} {3:with waiting}.,
+people-feelings-13,Family & friends,Feelings,1,2,{1:Me siento} {2:muy sol[o|a]} {3:aquí}.,{1:I feel} {2:very lonely} {3:here}.,
+people-feelings-14,Family & friends,Feelings,1,2,{1:Estoy} {2:orgullos[o|a]} {3:de ti}.,{1:I'm} {2:proud} {3:of you}.,
+people-feelings-15,Family & friends,Feelings,1,2,{1:Me da} {2:pena} {3:hablar en público}.,{3:Speaking in public} {1:makes me} {2:embarrassed}.,"In Mexico, pena means embarrassment as well as sadness."
+people-feelings-16,Family & friends,Feelings,1,3,{1:Estoy} {2:abrumad[o|a]} {3:con tanto trabajo}.,{1:I'm} {2:overwhelmed} {3:with so much work}.,
+people-feelings-17,Family & friends,Feelings,1,3,{1:Me siento} {2:culpable}.,{1:I feel} {2:guilty}.,
+people-feelings-18,Family & friends,Feelings,1,3,{1:Extraño} {2:mucho} {3:mi tierra}.,{1:I'm} {2:homesick} {3:for home}.,"morriña is a Galician word for longing, used across Spain."
+people-feelings-19,Family & friends,Feelings,2,1,{1:Me puse} {2:muy content[o|a]} {3:al verte}.,{1:I was} {2:so happy} {3:to see you}.,
 people-feelings-05,Family & friends,Feelings,2,2,{1:Me puse} {2:muy nervios[o|a]} {3:antes de} {4:la entrevista}.,{1:I got} {2:really nervous} {3:before} {4:the interview}.,"ponerse + adjective = to become, to get."
+people-feelings-20,Family & friends,Feelings,2,2,{1:Me llevé} {2:un disgusto} {3:enorme}.,{1:I was} {3:terribly} {2:upset}.,
+people-feelings-21,Family & friends,Feelings,2,2,{1:Me emocioné} {2:con la película}.,{2:The film} {1:really moved me}.,
+people-feelings-22,Family & friends,Feelings,2,3,{1:Me quedé} {2:de piedra} {3:cuando} {4:me lo contó}.,{1:I was} {2:stunned} {3:when} {4:she told me}.,
 people-feelings-06,Family & friends,Feelings,3,1,{1:Me pone triste} que {2:te vayas}.,{1:It makes me sad} {2:that you're leaving}.,"Careful: in Mexico, 'me da pena' means 'I'm embarrassed'."
 people-feelings-07,Family & friends,Feelings,3,1,{1:Me molesta} que {2:la gente} {3:no} {4:diga} {5:la verdad}.,{1:It bothers me} {2:when people} {4:do}{3:n't} {4:tell} {5:the truth}.,"molestar works like gustar, and takes the subjunctive after que."
 people-feelings-08,Family & friends,Feelings,3,2,{1:Me arrepiento de} {2:no} {3:haberle dicho} {4:lo que} {5:sentía}.,{1:I regret} {2:not} {3:telling him} {4:how} {5:I felt}.,haber + past participle after a preposition: 'not having told'.
+people-feelings-23,Family & friends,Feelings,3,2,{1:Me alegro mucho} de que {2:estés} {3:mejor}.,{1:I'm so glad} {2:you're} {3:feeling better}.,
+people-feelings-24,Family & friends,Feelings,3,2,{1:Me preocupa} que {2:no} {3:me haya llamado}.,{1:I'm worried} {3:she has}{2:n't} {3:called me}.,
+people-feelings-25,Family & friends,Feelings,3,3,{1:Me habría gustado} que {2:me lo dijeras} {3:antes}.,{1:I'd have liked} {2:you to tell me} {3:earlier}.,
+people-feelings-26,Family & friends,Feelings,3,3,{1:No soporto} que {2:me hablen} {3:en ese tono}.,{1:I can't stand} {2:people talking to me} {3:in that tone}.,
 people-describing-01,Family & friends,Describing people,1,1,{1:Es} {2:alto} {3:y} {4:moreno}.,{1:He's} {2:tall} {3:and} {4:dark-haired}.,moreno can mean dark-haired or tanned.
 people-describing-02,Family & friends,Describing people,1,1,{1:Tiene} {2:los ojos} {3:azules}.,{1:She has} {3:blue} {2:eyes}.,
 people-describing-03,Family & friends,Describing people,1,1,{1:Mi amiga} {2:es} {3:muy simpática}.,{1:My friend} {2:is} {3:really nice}.,
@@ -1364,19 +1811,52 @@ people-grief-15,Family & friends,Grief & condolences,3,2,{1:Que} {2:descanse} {3
 work-jobs-01,Work & study,Jobs,1,1,{1:Soy} {2:profesor[|a]}.,{1:I'm} {2:a teacher}.,No un/una before a job after ser.
 work-jobs-02,Work & study,Jobs,1,1,{1:Trabajo} {2:en una oficina}.,{1:I work} {2:in an office}.,
 work-jobs-03,Work & study,Jobs,1,1,{1:Estoy buscando} {2:trabajo}.,{1:I'm looking for} {2:work}.,
+work-jobs-09,Work & study,Jobs,1,1,¿{1:En qué} {2:trabajas}?,{1:What} {2:do you do for work}?,
+work-jobs-10,Work & study,Jobs,1,1,{1:Soy} {2:enfermer[o|a]}.,{1:I'm} {2:a nurse}.,
+work-jobs-11,Work & study,Jobs,1,1,{1:Trabajo} {2:en un hospital}.,{1:I work} {2:in a hospital}.,
+work-jobs-12,Work & study,Jobs,1,1,{1:Estoy} {2:jubilad[o|a]}.,{1:I'm} {2:retired}.,
 work-jobs-04,Work & study,Jobs,1,2,{1:Estudio} {2:ingeniería} {3:en la universidad}.,{1:I study} {2:engineering} {3:at university}.,
+work-jobs-14,Work & study,Jobs,1,2,{1:Trabajo} {2:medio tiempo}.,{1:I work} {2:part-time}.,
+work-jobs-15,Work & study,Jobs,1,2,{1:Trabajo} {2:en el sector} {3:de la construcción}.,{1:I work} {2:in} {3:construction}.,
+work-jobs-13,Work & study,Jobs,1,3,{1:Soy} {2:servidor[|a] públic[o|a]}.,{1:I'm} {2:a civil servant}.,
+work-jobs-16,Work & study,Jobs,1,3,{1:Soy} {2:diseñador[|a] gráfic[o|a]}.,{1:I'm} {2:a graphic designer}.,
+work-jobs-17,Work & study,Jobs,1,3,{1:Hago} {2:turnos de noche}.,{1:I work} {2:night shifts}.,
+work-jobs-18,Work & study,Jobs,1,3,{1:Estoy} {2:haciendo prácticas} {3:en un despacho de abogados}.,{1:I'm} {2:doing an internship} {3:at a law firm}.,
+work-jobs-19,Work & study,Jobs,2,1,{1:Empecé} {2:a trabajar} {3:a los dieciséis años}.,{1:I started} {2:work} {3:at sixteen}.,
 work-jobs-05,Work & study,Jobs,2,2,{1:Trabajé} {2:de meser[o|a]} {3:durante} {4:dos años}.,{1:I worked} {2:as a waiter} {3:for} {4:two years}.,trabajar de = to work as.
+work-jobs-20,Work & study,Jobs,2,2,{1:Me ascendieron} {2:el mes pasado}.,{1:I was promoted} {2:last month}.,
+work-jobs-21,Work & study,Jobs,2,2,{1:He trabajado} {2:en restaurantes} {3:toda mi vida}.,{1:I've worked} {2:in hospitality} {3:all my life}.,
 work-jobs-06,Work & study,Jobs,2,3,{1:Me ofrecieron} {2:un contrato} {3:permanente}.,{1:I've been offered} {2:a} {3:permanent} {2:contract}.,Literally 'they've offered me'. Spanish prefers this to a passive.
+work-jobs-22,Work & study,Jobs,2,3,{1:Me quedé sin trabajo} {2:por un recorte de personal}.,{1:I lost my job} {2:in a round of redundancies}.,
 work-jobs-07,Work & study,Jobs,3,2,{1:Busco} {2:un trabajo} que {3:me permita} {4:viajar} {5:más}.,{1:I'm looking for} {2:a job} {3:that lets me} {4:travel} {5:more}.,The subjunctive (permita) for something you haven't found yet.
+work-jobs-23,Work & study,Jobs,3,2,{1:Me gustaría} {2:un trabajo} que {3:tenga que ver} {4:con idiomas}.,{1:I'd like} {2:a job} {3:to do} {4:with languages}.,
 work-jobs-08,Work & study,Jobs,3,3,"{1:Si} {2:me hubieran subido} {3:el sueldo}, {4:no} {5:habría renunciado}.","{1:If} {2:they'd raised} {3:my salary}, {5:I would}{4:n't} {5:have resigned}.",
+work-jobs-24,Work & study,Jobs,3,3,"{1:Si} {2:pudiera} {3:empezar de cero}, {4:estudiaría} {5:Medicina}.","{1:If} {2:I could} {3:start again}, {4:I'd study} {5:medicine}.",
 work-office-01,Work & study,At work,1,1,{1:Hoy} {2:trabajo} {3:desde casa}.,{1:Today} {2:I'm working} {3:from home}.,
+work-office-09,Work & study,At work,1,1,{1:Hoy} {2:salgo} {3:a las cinco}.,{1:Today} {2:I finish} {3:at five}.,
+work-office-10,Work & study,At work,1,1,¿{1:Tienes} {2:un momento}?,{1:Have you got} {2:a minute}?,
 work-office-02,Work & study,At work,1,2,{1:Tengo} {2:una reunión} {3:a las tres}.,{1:I have} {2:a meeting} {3:at three}.,
 work-office-03,Work & study,At work,1,2,{1:Mi computadora} {2:no} {3:funciona}.,{1:My computer} {3:is}{2:n't} {3:working}.,
 work-office-04,Work & study,At work,1,2,¿{1:Me} {2:puedes} {3:mandar} {4:el reporte} {5:antes del viernes}?,{2:Can you} {3:send} {1:me} {4:the report} {5:before Friday}?,
+work-office-12,Work & study,At work,1,2,{1:Estoy} {2:en una llamada}.,{1:I'm} {2:on a call}.,
+work-office-13,Work & study,At work,1,2,{1:Tengo} {2:mucho trabajo} {3:hoy}.,{1:I've got} {2:loads on} {3:today}.,
+work-office-14,Work & study,At work,1,2,{1:El plazo} {2:termina} {3:el jueves}.,{1:The deadline} {2:is} {3:Thursday}.,
 work-office-05,Work & study,At work,1,3,{1:Tenemos que} {2:posponer} {3:la reunión} {4:hasta la semana que viene}.,{1:We have to} {2:postpone} {3:the meeting} {4:until next week}.,
+work-office-15,Work & study,At work,1,3,{1:Necesito} {2:acceso} {3:a la carpeta compartida}.,{1:I need} {2:access} {3:to the shared folder}.,
+work-office-16,Work & study,At work,1,3,{1:Mañana} {2:tengo} {3:una videollamada} {4:con el cliente}.,{1:Tomorrow} {2:I have} {3:a video call} {4:with the client}.,
 work-office-06,Work & study,At work,2,2,{1:Ya} se {2:lo} {3:envié} {4:a mi jefe}.,{3:I've} {1:already} {3:sent} {2:it} {4:to my boss}.,"le becomes se before lo, so 'le lo' is never said."
+work-office-11,Work & study,At work,2,2,{1:Se atascó} {2:la copiadora}.,{2:The photocopier} {1:has jammed}.,
+work-office-17,Work & study,At work,2,2,{1:Te mandé} {2:el enlace} {3:por correo}.,{1:I've sent you} {2:the link} {3:by email}.,
+work-office-18,Work & study,At work,2,2,{1:Se cayó} {2:el servidor}.,{2:The server} {1:has gone down}.,
+work-office-19,Work & study,At work,2,2,{1:Échale un ojo} {2:a este documento}.,{1:Have a look} {2:at this document}.,
+work-office-20,Work & study,At work,2,3,{1:Lo comentaremos} {2:en la reunión} {3:del lunes}.,{1:We'll discuss it} {2:at} {3:Monday's} {2:meeting}.,
+work-office-21,Work & study,At work,2,3,{1:Pedí} {2:una semana} {3:de vacaciones} {4:en agosto}.,{1:I've asked for} {2:a week} {3:off} {4:in August}.,
 work-office-07,Work & study,At work,3,2,{1:Te lo diré} {2:en cuanto} {3:hable} {4:con el cliente}.,{1:I'll tell you} {2:as soon as} {3:I've spoken} {4:to the client}.,en cuanto + subjunctive for a future moment.
+work-office-22,Work & study,At work,3,2,{1:Avísame} {2:cuando} {3:termines} {4:el informe}.,{1:Let me know} {2:when} {3:you finish} {4:the report}.,
+work-office-23,Work & study,At work,3,2,{1:No} {2:envíes} {3:nada} {4:sin que} {5:lo revise} {6:yo}.,{1:Don't} {2:send} {3:anything} {4:without} {6:me} {5:checking it}.,
 work-office-08,Work & study,At work,3,3,{1:Es imprescindible} que {2:todos} {3:entreguen} {4:sus propuestas} {5:antes de que} {6:termine} {7:el trimestre}.,{1:It's essential} {2:that everyone} {3:submits} {4:their proposals} {5:before} {7:the quarter} {6:ends}.,Two subjunctives: after es imprescindible que and after antes de que.
+work-office-24,Work & study,At work,3,3,{1:El jefe} {2:dijo} que {3:se cancelaría} {4:la reunión} {5:si} {6:no} {7:venía} {8:el cliente}.,{1:The boss} {2:said} {4:the meeting} {3:would be cancelled} {5:if} {8:the client} {7:did}{6:n't} {7:come}.,
+work-office-25,Work & study,At work,3,3,{1:Ojalá} {2:hubiera guardado} {3:los cambios}.,{1:I wish} {2:I'd saved} {3:the changes}.,
 work-interview-01,Work & study,Job interview,1,1,{1:Hablo} {2:inglés} {3:y} {4:español}.,{1:I speak} {2:English} {3:and} {4:Spanish}.,
 work-interview-02,Work & study,Job interview,1,2,{1:Tengo} {2:una entrevista} {3:mañana}.,{1:I have} {2:an interview} {3:tomorrow}.,
 work-interview-03,Work & study,Job interview,1,2,{1:Vengo} {2:por} {3:la entrevista}.,{1:I'm here} {2:for} {3:the interview}.,
@@ -1566,16 +2046,51 @@ time-dates-02,Time & weather,Time & dates,1,1,{1:Son} {2:las tres y media}.,{1:I
 time-dates-03,Time & weather,Time & dates,1,1,{1:Hoy} {2:es} {3:lunes}.,{1:Today} {2:is} {3:Monday}.,Days of the week have no capital letter.
 time-dates-04,Time & weather,Time & dates,1,1,{1:Mi cumpleaños} {2:es} {3:el doce de mayo}.,{1:My birthday} {2:is} {3:on the twelfth of May}.,Dates use ordinary numbers: 'the twelve of May'.
 time-dates-05,Time & weather,Time & dates,1,1,{1:Llego} {2:dentro de} {3:diez minutos}.,{1:I'll be there} {2:in} {3:ten minutes}.,dentro de = in (a period of time from now).
+time-dates-08,Time & weather,Time & dates,1,1,¿{1:Qué día} {2:es hoy}?,{1:What day} {2:is it today}?,
+time-dates-09,Time & weather,Time & dates,1,1,{1:Es} {2:la una} {3:en punto}.,{1:It's} {2:one o'clock} {3:exactly}.,
+time-dates-10,Time & weather,Time & dates,1,1,{1:Son} {2:las diez menos cuarto}.,{1:It's} {2:quarter to ten}.,
+time-dates-11,Time & weather,Time & dates,1,1,{1:Hoy} {2:es} {3:quince de marzo}.,{1:Today} {2:is} {3:the fifteenth of March}.,
+time-dates-12,Time & weather,Time & dates,1,1,{1:Nos vemos} {2:el martes} {3:en la tarde}.,{1:See you} {2:on Tuesday} {3:afternoon}.,
+time-dates-13,Time & weather,Time & dates,1,2,{1:Abren} {2:de nueve} {3:a dos}.,{1:They're open} {2:from nine} {3:to two}.,
+time-dates-14,Time & weather,Time & dates,1,2,{1:Nací} {2:en mil novecientos ochenta y cinco}.,{1:I was born} {2:in nineteen eighty-five}.,
+time-dates-15,Time & weather,Time & dates,1,2,{1:Dentro de} {2:una semana} {3:me voy de vacaciones}.,{1:In} {2:a week's time} {3:I'm going on holiday}.,
+time-dates-16,Time & weather,Time & dates,1,2,{1:Los lunes} {2:tengo} {3:clase de yoga}.,{1:On Mondays} {2:I have} {3:a yoga class}.,
+time-dates-17,Time & weather,Time & dates,1,3,{1:Pasado mañana} {2:es} {3:día feriado}.,{1:The day after tomorrow} {2:is} {3:a bank holiday}.,
+time-dates-18,Time & weather,Time & dates,1,3,{1:Es} {2:a mediados de julio}.,{1:It's} {2:in mid-July}.,
 time-dates-06,Time & weather,Time & dates,2,1,{1:Hace} {2:tres años} que {3:vivo} {4:aquí}.,{3:I've lived} {4:here} {1:for} {2:three years}.,hace + time + que + present = 'have been... for'.
+time-dates-19,Time & weather,Time & dates,2,1,{1:Llegué} {2:antier}.,{1:I arrived} {2:the day before yesterday}.,
+time-dates-20,Time & weather,Time & dates,2,2,{1:Nos casamos} {2:en dos mil quince}.,{1:We got married} {2:in twenty fifteen}.,
+time-dates-21,Time & weather,Time & dates,2,2,{1:La tienda} {2:abrirá} {3:a finales de mes}.,{1:The shop} {2:will open} {3:at the end of the month}.,
+time-dates-22,Time & weather,Time & dates,2,3,{1:Lo entregaré} {2:a principios de la próxima semana}.,{1:I'll hand it in} {2:early next week}.,
 time-dates-07,Time & weather,Time & dates,3,1,"{1:Para cuando} {2:llegues}, {3:ya} {4:habremos cenado}.","{1:By the time} {2:you arrive}, {4:we'll} {3:already} {4:have had dinner}.","The future perfect, and para cuando + subjunctive."
+time-dates-23,Time & weather,Time & dates,3,2,"{1:Cuando} {2:sean} {3:las ocho}, {4:llámame}.","{1:When} {2:it's} {3:eight o'clock}, {4:call me}.",
+time-dates-24,Time & weather,Time & dates,3,3,{1:Para el viernes} {2:ya} {3:habré terminado}.,{1:By Friday} {3:I'll} {2:already} {3:have finished}.,
+time-dates-25,Time & weather,Time & dates,3,3,"{1:Dijo} que {2:volvería} {3:dentro de una hora}, {4:pero} {5:han pasado} {6:tres}.","{1:She said} {2:she'd be back} {3:in an hour}, {4:but} {6:three} {5:have gone by}.",
 time-weather-01,Time & weather,Weather,1,1,{1:Hace} {2:sol}.,{1:It's} {2:sunny}.,Literally 'it makes sun'.
 time-weather-02,Time & weather,Weather,1,1,{1:Está lloviendo}.,{1:It's raining}.,
 time-weather-03,Time & weather,Weather,1,1,{1:Hace} {2:mucho frío} {3:hoy}.,{1:It's} {2:very cold} {3:today}.,
 time-weather-04,Time & weather,Weather,1,1,{1:Mañana} {2:va a} {3:nevar}.,{1:Tomorrow} {2:it's going to} {3:snow}.,
+time-weather-09,Time & weather,Weather,1,1,{1:Hace} {2:viento}.,{1:It's} {2:windy}.,
+time-weather-10,Time & weather,Weather,1,1,{1:Hace} {2:buen tiempo}.,{1:The weather} {2:is nice}.,
+time-weather-11,Time & weather,Weather,1,1,{1:Está} {2:nublado}.,{1:It's} {2:cloudy}.,
+time-weather-12,Time & weather,Weather,1,1,¿{1:Qué tiempo} {2:hace} {3:hoy}?,{1:What's the weather} {2:like} {3:today}?,
+time-weather-14,Time & weather,Weather,1,2,{1:Hay} {2:niebla} {3:en la carretera}.,{1:There's} {2:fog} {3:on the road}.,
+time-weather-15,Time & weather,Weather,1,2,{1:Hace} {2:treinta y cinco grados} {3:a la sombra}.,{1:It's} {2:thirty-five degrees} {3:in the shade}.,
+time-weather-16,Time & weather,Weather,1,2,{1:Va a} {2:hacer} {3:mucho calor} {4:esta semana}.,{1:It's going to} {2:be} {3:very hot} {4:this week}.,
+time-weather-13,Time & weather,Weather,1,3,{1:Hace} {2:un frío tremendo}.,{1:It's} {2:bitterly cold}.,Literally 'a cold that peels'.
+time-weather-17,Time & weather,Weather,1,3,{1:Está} {2:chispeando}.,{1:It's} {2:spitting}.,
+time-weather-18,Time & weather,Weather,1,3,{1:Hay} {2:alerta amarilla} {3:por lluvias}.,{1:There's} {2:a yellow warning} {3:for rain}.,
 time-weather-05,Time & weather,Weather,2,1,{1:Ayer} {2:hizo} {3:un día} {4:precioso}.,{1:Yesterday} {2:was} {3:a} {4:beautiful} {3:day}.,hizo = past of hace.
+time-weather-19,Time & weather,Weather,2,2,{1:Se levantó} {2:mucho viento}.,{2:A strong wind} {1:has got up}.,
+time-weather-20,Time & weather,Weather,2,2,{1:Anoche} {2:cayó} {3:una tormenta tremenda}.,{1:Last night} {2:there was} {3:a terrible storm}.,
+time-weather-21,Time & weather,Weather,2,2,{1:Me empapé} {2:volviendo a casa}.,{1:I got soaked} {2:on the way home}.,
 time-weather-06,Time & weather,Weather,2,3,{1:Se esperan} {2:tormentas} {3:y} {4:fuertes rachas de viento} {5:en el norte}.,{2:Storms} {3:and} {4:strong gusts of wind} {1:are expected} {5:in the north}.,Passive with se: 'storms are expected'.
+time-weather-22,Time & weather,Weather,2,3,{1:Granizó} {2:esta tarde}.,{1:It hailed} {2:this afternoon}.,
+time-weather-23,Time & weather,Weather,2,3,{1:Mañana} {2:bajarán} {3:las temperaturas}.,{3:Temperatures} {2:will drop} {1:tomorrow}.,
 time-weather-07,Time & weather,Weather,3,1,{1:Ojalá} {2:haga buen tiempo} {3:el fin de semana}.,{1:Hopefully} {2:the weather will be nice} {3:at the weekend}.,Ojalá + present subjunctive: a hope that could come true.
 time-weather-08,Time & weather,Weather,3,1,"{1:Aunque} {2:llueva}, {3:vamos a} {4:salir} {5:a dar un paseo}.","{1:Even if} {2:it rains}, {3:we're going to} {4:go out} {5:for a walk}.",aunque + subjunctive = 'even if'. With the indicative it means 'even though'.
+time-weather-24,Time & weather,Weather,3,2,"{1:Lleva} {2:un paraguas}, {3:por si} {4:llueve}.","{1:Take} {2:an umbrella}, {3:in case} {4:it rains}.",
+time-weather-25,Time & weather,Weather,3,3,"{1:Si} {2:no} {3:hubiera llovido}, {4:habríamos ido} {5:a la playa}.","{1:If} {3:it had}{2:n't} {3:rained}, {4:we'd have gone} {5:to the beach}.",
 time-seasons-01,Time & weather,Seasons & climate,1,1,{1:En verano} {2:hace} {3:mucho calor} {4:aquí}.,{1:In summer} {2:it's} {3:very hot} {4:here}.,
 time-seasons-02,Time & weather,Seasons & climate,1,1,{1:Me encanta} {2:la primavera}.,{1:I love} {2:spring}.,
 time-seasons-03,Time & weather,Seasons & climate,1,1,{1:En invierno} {2:nieva} {3:mucho}.,{1:In winter} {2:it snows} {3:a lot}.,
@@ -1666,18 +2181,54 @@ time-calendar-13,Time & weather,Holidays & the calendar,3,2,{1:No} {2:reserves} 
 time-calendar-14,Time & weather,Holidays & the calendar,3,2,"{1:Si} {2:no} {3:cayera} {4:en domingo}, {5:tendríamos} {6:un día libre}.","{1:If} {3:it did}{2:n't} {3:fall} {4:on a Sunday}, {5:we'd have} {6:a day off}.",
 time-calendar-15,Time & weather,Holidays & the calendar,3,2,"{1:Para cuando} {2:lleguen} {3:las vacaciones}, {4:ya} {5:habré terminado} {6:el proyecto}.","{1:By the time} {3:the holidays} {2:come}, {5:I'll} {4:already} {5:have finished} {6:the project}.",
 help-lost-01,Problems & emergencies,Lost & stolen,1,1,{1:No} {2:encuentro} {3:mi celular}.,{2:I can}{1:'t} {2:find} {3:my phone}.,Spanish just says 'I don't find'.
+help-lost-08,Problems & emergencies,Lost & stolen,1,1,{1:Mi hijo} {2:se perdió}.,{1:My son} {2:is lost}.,
+help-lost-09,Problems & emergencies,Lost & stolen,1,1,{1:Es} {2:una mochila} {3:azul}.,{1:It's} {2:a} {3:blue} {2:rucksack}.,
 help-lost-02,Problems & emergencies,Lost & stolen,1,2,¿{1:Dónde} {2:está} {3:la estación de policía} {4:más cercana}?,{1:Where}{2:'s} {3:the} {4:nearest} {3:police station}?,
+help-lost-10,Problems & emergencies,Lost & stolen,1,2,¿{1:Dónde} {2:está} {3:la oficina de objetos perdidos}?,{1:Where}{2:'s} {3:the lost property office}?,
+help-lost-11,Problems & emergencies,Lost & stolen,1,2,{1:Dentro} {2:hay} {3:mis llaves} {4:y} {5:la cartera}.,{1:Inside} {2:there are} {3:my keys} {4:and} {5:my wallet}.,
+help-lost-12,Problems & emergencies,Lost & stolen,1,2,{1:Trae} {2:una playera roja}.,{1:He's wearing} {2:a red T-shirt}.,
+help-lost-13,Problems & emergencies,Lost & stolen,1,2,{1:No} {2:sé} {3:dónde} {4:lo dejé}.,{2:I do}{1:n't} {2:know} {3:where} {4:I left it}.,
+help-lost-14,Problems & emergencies,Lost & stolen,1,3,{1:Tiene} {2:una funda} {3:con flores}.,{1:It has} {2:a} {3:flowery} {2:case}.,
+help-lost-15,Problems & emergencies,Lost & stolen,1,3,{1:Mi número} {2:está} {3:en la etiqueta}.,{1:My number} {2:is} {3:on the label}.,
 help-lost-03,Problems & emergencies,Lost & stolen,2,1,{1:Perdí} {2:la cartera}.,{1:I've lost} {2:my wallet}.,
 help-lost-04,Problems & emergencies,Lost & stolen,2,1,"{1:Lo dejé} {2:en el taxi}, {3:creo}.","{1:I left it} {2:in the taxi}, {3:I think}.",
+help-lost-16,Problems & emergencies,Lost & stolen,2,1,{1:La última vez} {2:la vi} {3:en el bar}.,{1:The last time} {2:I saw it} {3:was in the bar}.,
 help-lost-05,Problems & emergencies,Lost & stolen,2,2,{1:Me robaron} {2:la bolsa}.,{1:Someone's stolen} {2:my bag}.,Literally 'they robbed me the bag'.
+help-lost-17,Problems & emergencies,Lost & stolen,2,2,{1:Se me cayó} {2:del bolsillo}.,{1:It fell} {2:out of my pocket}.,
+help-lost-18,Problems & emergencies,Lost & stolen,2,2,¿{1:Encontró} {2:alguien} {3:un celular}?,{1:Has} {2:anyone} {1:found} {3:a phone}?,
+help-lost-19,Problems & emergencies,Lost & stolen,2,2,{1:Llámeme} {2:si} {3:aparece}.,{1:Call me} {2:if} {3:it turns up}.,
+help-lost-20,Problems & emergencies,Lost & stolen,2,3,{1:Ya} {2:bloqueé} {3:las tarjetas}.,{2:I've} {1:already} {2:blocked} {3:my cards}.,
+help-lost-21,Problems & emergencies,Lost & stolen,2,3,{1:Lo rastreé} {2:con la aplicación}.,{1:I tracked it} {2:with the app}.,
 help-lost-06,Problems & emergencies,Lost & stolen,3,2,"{1:Cuando} {2:me di cuenta}, {3:el ladrón} {4:ya} {5:había desaparecido}.","{1:By the time} {2:I realised}, {3:the thief} {5:had} {4:already} {5:disappeared}.",The pluperfect (había desaparecido): something that had already happened.
+help-lost-22,Problems & emergencies,Lost & stolen,3,2,"{1:Si} {2:alguien} {3:lo encuentra}, {4:dígale} que {5:me llame}.","{1:If} {2:anyone} {3:finds it}, {4:tell them} {5:to call me}.",
+help-lost-23,Problems & emergencies,Lost & stolen,3,2,{1:Espero} que {2:alguien} {3:lo haya entregado}.,{1:I hope} {2:someone} {3:has handed it in}.,
 help-lost-07,Problems & emergencies,Lost & stolen,3,3,{1:Necesito} {2:una copia} {3:de la denuncia} {4:para que} {5:el seguro} {6:me lo cubra}.,{1:I need} {2:a copy} {3:of the police report} {4:so that} {5:the insurance} {6:covers it}.,para que always takes the subjunctive.
+help-lost-24,Problems & emergencies,Lost & stolen,3,3,"{1:Si} {2:no} {3:me hubiera distraído}, {4:no} {5:lo habría perdido}.","{1:If} {3:I had}{2:n't} {3:got distracted}, {5:I would}{4:n't} {5:have lost it}.",
 help-help-01,Problems & emergencies,Asking for help,1,1,¡{1:Ayuda}!,{1:Help}!,
 help-help-02,Problems & emergencies,Asking for help,1,1,¿{1:Habla} {2:inglés}?,{1:Do you speak} {2:English}?,Habla with no tú is the polite usted form.
+help-help-08,Problems & emergencies,Asking for help,1,1,{1:Es} {2:urgente}.,{1:It's} {2:urgent}.,
+help-help-09,Problems & emergencies,Asking for help,1,1,{1:Necesito} {2:ayuda}.,{1:I need} {2:help}.,
+help-help-10,Problems & emergencies,Asking for help,1,1,"¿{1:Me puede ayudar}, {2:por favor}?","{1:Can you help me}, {2:please}?",
+help-help-11,Problems & emergencies,Asking for help,1,1,{1:No} {2:hablo} {3:bien} {4:español}.,{2:I do}{1:n't} {2:speak} {4:Spanish} {3:well}.,
+help-help-12,Problems & emergencies,Asking for help,1,2,{1:Mi amigo} {2:no} {3:respira}.,{1:My friend} {3:is}{2:n't} {3:breathing}.,
+help-help-13,Problems & emergencies,Asking for help,1,2,{1:Hay} {2:un incendio}.,{1:There's} {2:a fire}.,
+help-help-14,Problems & emergencies,Asking for help,1,2,{1:Hay} {2:una persona herida}.,{1:There's} {2:someone injured}.,
+help-help-15,Problems & emergencies,Asking for help,1,2,¿{1:Cuál es} {2:el número de emergencias}?,{1:What's} {2:the emergency number}?,
+help-help-16,Problems & emergencies,Asking for help,1,3,"{1:Estamos} {2:en la calle principal}, {3:esquina con} {4:la plaza}.","{1:We're} {2:on the high street}, {3:on the corner of} {4:the square}.",
 help-help-03,Problems & emergencies,Asking for help,2,1,{1:No} {2:entiendo}. ¿{3:Puede} {4:repetir}{5:lo}?,{2:I do}{1:n't} {2:understand}. {3:Can you} {4:repeat} {5:that}?,
 help-help-04,Problems & emergencies,Asking for help,2,1,{1:Llame} a {2:una ambulancia}.,{1:Call} {2:an ambulance}.,A polite (usted) command.
 help-help-05,Problems & emergencies,Asking for help,2,1,{1:Ha habido} {2:un accidente}.,{1:There's been} {2:an accident}.,ha habido = present perfect of hay.
+help-help-18,Problems & emergencies,Asking for help,2,1,"¡{1:Llamen} a {2:la policía}, {3:rápido}!","{1:Call} {2:the police}, {3:quick}!",
+help-help-17,Problems & emergencies,Asking for help,2,2,{1:Se desmayó}.,{1:She's fainted}.,
+help-help-19,Problems & emergencies,Asking for help,2,2,"{1:Apártense}, {2:por favor}.","{1:Stand back}, {2:please}.",
+help-help-20,Problems & emergencies,Asking for help,2,2,"{1:Escríbamelo}, {2:por favor}.","{1:Write it down for me}, {2:please}.",
+help-help-21,Problems & emergencies,Asking for help,2,3,{1:Me quedé encerrad[o|a]} {2:en el elevador}.,{1:I'm stuck} {2:in the lift}.,
+help-help-22,Problems & emergencies,Asking for help,2,3,{1:Se atragantó} {2:con la comida}.,{1:He's choking} {2:on his food}.,
+help-help-07,Problems & emergencies,Asking for help,3,1,¡{1:Que alguien} {2:me ayude}!,{1:Somebody} {2:help me}!,
 help-help-06,Problems & emergencies,Asking for help,3,2,"{1:Por favor}, {2:quédese} {3:conmigo} {4:hasta que} {5:llegue} {6:la policía}.",{1:Please} {2:stay} {3:with me} {4:until} {6:the police} {5:arrive}.,hasta que + subjunctive. conmigo = with me.
+help-help-23,Problems & emergencies,Asking for help,3,2,{1:No} {2:lo muevan} {3:hasta que} {4:llegue} {5:la ambulancia}.,{1:Don't} {2:move him} {3:until} {5:the ambulance} {4:arrives}.,
+help-help-24,Problems & emergencies,Asking for help,3,2,{1:Necesito} {2:a alguien} que {3:hable} {4:inglés}.,{1:I need} {2:someone} {3:who speaks} {4:English}.,
+help-help-25,Problems & emergencies,Asking for help,3,3,"{1:Si} {2:no} {3:hubiera llegado} {4:tan rápido}, {5:habría sido} {6:mucho peor}.","{1:If} {3:she had}{2:n't} {3:arrived} {4:so quickly}, {5:it would have been} {6:much worse}.",
 help-complaints-01,Problems & emergencies,Complaints,1,1,{1:Esto} {2:no} {3:funciona}.,{1:This} {3:does}{2:n't} {3:work}.,
 help-complaints-02,Problems & emergencies,Complaints,1,1,{1:No} {2:estoy} {3:content[o|a]} {4:con el servicio}.,{2:I'm} {1:not} {3:happy} {4:with the service}.,
 help-complaints-03,Problems & emergencies,Complaints,1,2,{1:Quiero} {2:hablar} {3:con el gerente}.,{1:I'd like} {2:to speak} {3:to the manager}.,

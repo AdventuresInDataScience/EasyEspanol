@@ -27,17 +27,20 @@ import com.example.easyespanol.data.AppSettings
 import com.example.easyespanol.data.CardFront
 import com.example.easyespanol.data.Dialect
 import com.example.easyespanol.data.PhraseRepository
+import com.example.easyespanol.data.Speaker
 import com.example.easyespanol.data.SpeakerGender
+import com.example.easyespanol.data.SpeechStatus
 import com.example.easyespanol.ui.common.AppCard
 import com.example.easyespanol.ui.common.AppScaffold
 import com.example.easyespanol.ui.common.PillShape
+import com.example.easyespanol.ui.common.SpeechProblemBanner
 import com.example.easyespanol.ui.common.TintButton
 import com.example.easyespanol.ui.theme.AppPalette
 import com.example.easyespanol.ui.theme.ThemeMode
 import com.example.easyespanol.ui.theme.brandFor
 
 @Composable
-fun SettingsScreen(navController: NavController, repo: PhraseRepository, settings: AppSettings) {
+fun SettingsScreen(navController: NavController, repo: PhraseRepository, settings: AppSettings, speaker: Speaker) {
     var confirmReset by remember { mutableStateOf(false) }
 
     AppScaffold(title = "Settings", onBack = { navController.navigateUp() }) { padding ->
@@ -84,6 +87,24 @@ fun SettingsScreen(navController: NavController, repo: PhraseRepository, setting
                         )
                     }
                     Switch(checked = settings.hideKnown, onCheckedChange = { settings.updateHideKnown(it) })
+                }
+            }
+
+            Section("Speech") {
+                val status = when (speaker.status) {
+                    SpeechStatus.STARTING -> "Starting up…"
+                    SpeechStatus.READY -> if (speaker.engineName.isBlank()) "Ready" else "Ready, using ${speaker.engineName}"
+                    SpeechStatus.NO_SPANISH_VOICE -> "No Spanish voice installed yet"
+                    SpeechStatus.NO_ENGINE -> "No speech engine found on this phone"
+                }
+                SettingLabel("Listen button", status)
+                Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                    TintButton("Test voice", { speaker.test(settings.dialect) }, MaterialTheme.colorScheme.primary, Modifier.weight(1f))
+                    TintButton("Install voice", { speaker.openVoiceSettings() }, MaterialTheme.colorScheme.tertiary, Modifier.weight(1f))
+                }
+                speaker.problem?.let { message ->
+                    Spacer(Modifier.height(12.dp))
+                    SpeechProblemBanner(message, { speaker.openVoiceSettings() }, { speaker.clearProblem() })
                 }
             }
 

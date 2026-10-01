@@ -308,6 +308,22 @@ fun percentText(known: Int, total: Int): String {
     return if (known > 0 && percent == 0) "<1%" else "$percent%"
 }
 
+/** Shown when speech couldn't play, with a way to fix the usual cause. */
+@Composable
+fun SpeechProblemBanner(message: String, onInstall: () -> Unit, onDismiss: () -> Unit) {
+    AppCard(modifier = Modifier.fillMaxWidth(), padding = 16.dp) {
+        Row(verticalAlignment = Alignment.Top) {
+            Text("🔇", modifier = Modifier.padding(end = 10.dp))
+            Text(message, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
+        }
+        Spacer(Modifier.height(12.dp))
+        Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            TintButton("Install voice", onInstall, MaterialTheme.colorScheme.primary, Modifier.weight(1f))
+            TintButton("Dismiss", onDismiss, MaterialTheme.colorScheme.onSurfaceVariant, Modifier.weight(1f))
+        }
+    }
+}
+
 // ── Progress ──────────────────────────────────────────────────────────────
 
 /** A circular progress ring. With animate = true it sweeps round when first shown. */

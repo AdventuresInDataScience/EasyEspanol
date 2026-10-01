@@ -12,6 +12,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.example.easyespanol.data.AppSettings
 import com.example.easyespanol.data.PhraseRepository
+import com.example.easyespanol.data.Speaker
 import com.example.easyespanol.ui.expressions.ExpressionsScreen
 import com.example.easyespanol.ui.home.HomeScreen
 import com.example.easyespanol.ui.settings.SettingsScreen
@@ -32,7 +33,7 @@ object Routes {
 }
 
 @Composable
-fun AppNavigation(navController: NavHostController, repo: PhraseRepository, settings: AppSettings) {
+fun AppNavigation(navController: NavHostController, repo: PhraseRepository, settings: AppSettings, speaker: Speaker) {
     // Screens slide in from the right as you go deeper, and back out to the right
     // as you return. The screen underneath drifts a little way for depth.
     val duration = 340
@@ -72,13 +73,13 @@ fun AppNavigation(navController: NavHostController, repo: PhraseRepository, sett
             route = Routes.STUDY,
             arguments = listOf(navArgument("sceneKey") { type = NavType.StringType }),
         ) { entry ->
-            StudyScreen(navController, repo, settings, entry.arguments?.getString("sceneKey").orEmpty())
+            StudyScreen(navController, repo, settings, speaker, entry.arguments?.getString("sceneKey").orEmpty())
         }
         composable(Routes.EXPRESSIONS) {
-            ExpressionsScreen(navController, repo, settings)
+            ExpressionsScreen(navController, repo, settings, speaker)
         }
         composable(Routes.SETTINGS) {
-            SettingsScreen(navController, repo, settings)
+            SettingsScreen(navController, repo, settings, speaker)
         }
     }
 }

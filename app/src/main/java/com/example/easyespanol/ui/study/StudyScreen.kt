@@ -30,7 +30,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.hapticfeedback.HapticFeedbackType
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -50,13 +49,14 @@ import com.example.easyespanol.ui.common.GradientButton
 import com.example.easyespanol.ui.common.MarkedText
 import com.example.easyespanol.ui.common.ProgressRing
 import com.example.easyespanol.ui.common.SolidButton
+import com.example.easyespanol.ui.common.SpeechProblemBanner
 import com.example.easyespanol.ui.common.Tag
 import com.example.easyespanol.ui.common.TintButton
 import com.example.easyespanol.ui.theme.LocalBrand
 import com.example.easyespanol.ui.theme.PhraseTextStyle
 
 @Composable
-fun StudyScreen(navController: NavController, repo: PhraseRepository, settings: AppSettings, sceneKey: String) {
+fun StudyScreen(navController: NavController, repo: PhraseRepository, settings: AppSettings, speaker: Speaker, sceneKey: String) {
     val scene = repo.scene(settings.dialect, sceneKey)
     if (scene == null) {
         AppScaffold(title = "Scene", onBack = { navController.navigateUp() }) { padding ->
@@ -69,9 +69,6 @@ fun StudyScreen(navController: NavController, repo: PhraseRepository, settings: 
 
     LaunchedEffect(sceneKey) { settings.updateLastScene(sceneKey) }
 
-    val context = LocalContext.current
-    val speaker = remember { Speaker(context.applicationContext) }
-    DisposableEffect(Unit) { onDispose { speaker.shutdown() } }
     val haptics = LocalHapticFeedback.current
 
     // Take the list once per visit so cards don't vanish mid-session when marked as known.
@@ -150,7 +147,6 @@ fun StudyScreen(navController: NavController, repo: PhraseRepository, settings: 
                     Controls(
                         canGoBack = position > 0,
                         isKnown = settings.isKnown(current.id),
-                        speechReady = speaker.ready,
                         onSpeak = { speaker.speak(Markup.plain(current.spanish, settings.gender), settings.dialect) },
                         onPrevious = { if (position > 0) index = position - 1 },
                         onNext = { index = position + 1 },
@@ -166,6 +162,13 @@ fun StudyScreen(navController: NavController, repo: PhraseRepository, settings: 
                             index = position + 1
                         },
                     )
+                    speaker.problem?.let { message ->
+                        SpeechProblemBanner(
+                            message = message,
+                            onInstall = { speaker.openVoiceSettings() },
+                            onDismiss = { speaker.clearProblem() },
+                        )
+                    }
                 }
             }
         }
@@ -241,7 +244,6 @@ private fun PhraseCard(phrase: Phrase, settings: AppSettings) {
 private fun Controls(
     canGoBack: Boolean,
     isKnown: Boolean,
-    speechReady: Boolean,
     onSpeak: () -> Unit,
     onPrevious: () -> Unit,
     onNext: () -> Unit,
@@ -257,7 +259,7 @@ private fun Controls(
         FilledTonalIconButton(onClick = onPrevious, enabled = canGoBack, modifier = Modifier.size(56.dp)) {
             Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Previous phrase")
         }
-        TintButton("🔊  Listen", onSpeak, MaterialTheme.colorScheme.primary, Modifier.weight(1f), enabled = speechReady)
+        TintButton("🔊  Listen", onSpeak, MaterialTheme.colorScheme.primary, Modifier.weight(1f))
         FilledTonalIconButton(onClick = onNext, modifier = Modifier.size(56.dp)) {
             Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = "Next phrase")
         }

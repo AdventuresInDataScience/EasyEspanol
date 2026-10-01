@@ -6,12 +6,9 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.DisposableEffect
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
@@ -23,17 +20,15 @@ import com.example.easyespanol.data.Speaker
 import com.example.easyespanol.ui.common.AppCard
 import com.example.easyespanol.ui.common.AppScaffold
 import com.example.easyespanol.ui.common.MarkedText
+import com.example.easyespanol.ui.common.SpeechProblemBanner
 import com.example.easyespanol.ui.common.Tag
 import com.example.easyespanol.ui.common.TintButton
 import com.example.easyespanol.ui.theme.LocalBrand
 import com.example.easyespanol.ui.theme.PhraseTextStyle
 
 @Composable
-fun ExpressionsScreen(navController: NavController, repo: PhraseRepository, settings: AppSettings) {
+fun ExpressionsScreen(navController: NavController, repo: PhraseRepository, settings: AppSettings, speaker: Speaker) {
     val groups = repo.expressions(settings.dialect).groupBy { it.group }
-    val context = LocalContext.current
-    val speaker = remember { Speaker(context.applicationContext) }
-    DisposableEffect(Unit) { onDispose { speaker.shutdown() } }
 
     AppScaffold(title = "Expressions", onBack = { navController.navigateUp() }) { padding ->
         LazyColumn(
@@ -52,12 +47,21 @@ fun ExpressionsScreen(navController: NavController, repo: PhraseRepository, sett
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }
+            speaker.problem?.let { message ->
+                item(key = "speech-problem") {
+                    SpeechProblemBanner(
+                        message = message,
+                        onInstall = { speaker.openVoiceSettings() },
+                        onDismiss = { speaker.clearProblem() },
+                    )
+                }
+            }
             groups.forEach { (group, expressions) ->
                 item(key = "group-$group") {
                     Text(group, style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(top = 12.dp))
                 }
                 items(expressions, key = { it.id }) { expression ->
-                    ExpressionCard(expression, settings, speaker.ready) {
+                    ExpressionCard(expression, settings) {
                         speaker.speak(Markup.plain(expression.spanish, settings.gender), settings.dialect)
                     }
                 }
@@ -67,7 +71,7 @@ fun ExpressionsScreen(navController: NavController, repo: PhraseRepository, sett
 }
 
 @Composable
-private fun ExpressionCard(expression: Expression, settings: AppSettings, speechReady: Boolean, onSpeak: () -> Unit) {
+private fun ExpressionCard(expression: Expression, settings: AppSettings, onSpeak: () -> Unit) {
     val brand = LocalBrand.current
     AppCard(modifier = Modifier.fillMaxWidth()) {
         Row(verticalAlignment = Alignment.Top) {
@@ -97,7 +101,7 @@ private fun ExpressionCard(expression: Expression, settings: AppSettings, speech
             Text(expression.note, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
         }
         Spacer(Modifier.height(12.dp))
-        TintButton("🔊  Listen", onSpeak, MaterialTheme.colorScheme.primary, enabled = speechReady)
+        TintButton("🔊  Listen", onSpeak, MaterialTheme.colorScheme.primary)
     }
 }
 

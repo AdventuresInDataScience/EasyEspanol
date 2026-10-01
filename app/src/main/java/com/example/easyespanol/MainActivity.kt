@@ -11,15 +11,20 @@ import androidx.compose.runtime.DisposableEffect
 import androidx.navigation.compose.rememberNavController
 import com.example.easyespanol.data.AppSettings
 import com.example.easyespanol.data.PhraseRepository
+import com.example.easyespanol.data.Speaker
 import com.example.easyespanol.navigation.AppNavigation
 import com.example.easyespanol.ui.theme.EasyEspanolTheme
 import com.example.easyespanol.ui.theme.ThemeMode
 
 class MainActivity : ComponentActivity() {
+    private lateinit var speaker: Speaker
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val settings = AppSettings(applicationContext)
         val repo = PhraseRepository(applicationContext)
+        // Started now so the voice is ready by the time the learner taps Listen.
+        speaker = Speaker(applicationContext)
 
         setContent {
             val dark = when (settings.themeMode) {
@@ -39,8 +44,13 @@ class MainActivity : ComponentActivity() {
                 onDispose { }
             }
             EasyEspanolTheme(palette = settings.palette, darkTheme = dark) {
-                AppNavigation(rememberNavController(), repo, settings)
+                AppNavigation(rememberNavController(), repo, settings, speaker)
             }
         }
+    }
+
+    override fun onDestroy() {
+        speaker.shutdown()
+        super.onDestroy()
     }
 }

@@ -13,8 +13,8 @@ app/
   build.gradle.kts           app id, version number, minimum Android version
   src/main/
     assets/
-      phrases_spain.csv        3,002 phrases, Castilian Spanish
-      phrases_latam.csv        the same 3,002 phrases, Mexican Spanish
+      phrases_spain.csv        3,553 phrases, Castilian Spanish
+      phrases_latam.csv        the same 3,553 phrases, Mexican Spanish
       expressions_spain.csv    34 colloquial expressions
       expressions_latam.csv    35 colloquial expressions
     java/com/example/easyespanol/
@@ -34,10 +34,10 @@ tools/
 
 - 22 topics and 216 scenes, from greetings and hotels to storytelling, the news, paperwork, residency and learning Spanish itself.
 - Every phrase has a grammar level and a vocabulary level (1–3 each), so the app can filter on both independently.
-  - Grammar: 1,310 phrases at level 1, 954 at level 2, 738 at level 3.
-  - Vocabulary: 915 at level 1, 1,344 at level 2, 743 at level 3.
-- 806 phrases differ between the Spain and Latin America files. The differences cover vocabulary (coche / carro), grammar (vosotros / ustedes, present perfect / preterite) and meaning traps.
-- 66 phrases change with the speaker's gender setting, marked inline as `cansad[o|a]`.
+  - Grammar: 1,609 phrases at level 1, 1,117 at level 2, 827 at level 3.
+  - Vocabulary: 1,042 at level 1, 1,595 at level 2, 916 at level 3.
+- 983 phrases differ between the Spain and Latin America files. The differences cover vocabulary (coche / carro), grammar (vosotros / ustedes, present perfect / preterite) and meaning traps.
+- 83 phrases change with the speaker's gender setting, marked inline as `cansad[o|a]`.
 - Both files share IDs, order, levels and English, so switching dialect keeps a learner's progress.
 
 ## Checking the data
